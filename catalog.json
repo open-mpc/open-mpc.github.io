@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-01T11:42:38Z",
+ "generated": "2026-11-01T11:50:43Z",
  "bar": {
   "stable-release": "publish a stable (non-beta) release",
   "screenshot": "add a screenshot of the plugin screen to the registry entry",
@@ -1944,7 +1944,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 1106,
+     "downloads": 1108,
      "tested": [
       {
        "device": "Akai MPC Live",
@@ -1969,7 +1969,7 @@
    "featured": false,
    "latest": "1.0.0",
    "latest_beta": null,
-   "downloads": 1106,
+   "downloads": 1108,
    "updated": "2026-10-03",
    "added": "2026-10-03"
   },
@@ -2048,7 +2048,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 1075,
+     "downloads": 1077,
      "tested": [
       {
        "device": "Akai MPC Live",
@@ -2073,7 +2073,7 @@
    "featured": false,
    "latest": "1.0.0",
    "latest_beta": null,
-   "downloads": 1075,
+   "downloads": 1077,
    "updated": "2026-10-03",
    "added": "2026-10-03"
   },
@@ -2152,7 +2152,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 1034,
+     "downloads": 1036,
      "tested": [
       {
        "device": "Akai MPC Live",
@@ -2177,7 +2177,7 @@
    "featured": false,
    "latest": "1.0.0",
    "latest_beta": null,
-   "downloads": 1034,
+   "downloads": 1036,
    "updated": "2026-10-03",
    "added": "2026-10-03"
   },
@@ -3462,7 +3462,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 1030,
+     "downloads": 1032,
      "tested": [
       {
        "device": "Akai MPC Live",
@@ -3487,7 +3487,7 @@
    "featured": false,
    "latest": "1.0.0",
    "latest_beta": null,
-   "downloads": 1030,
+   "downloads": 1032,
    "updated": "2026-10-03",
    "added": "2026-10-03"
   },
@@ -4509,7 +4509,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 883,
+     "downloads": 886,
      "tested": [
       {
        "device": "Akai MPC Live",
@@ -4534,7 +4534,7 @@
    "featured": false,
    "latest": "1.0.0",
    "latest_beta": null,
-   "downloads": 883,
+   "downloads": 886,
    "updated": "2026-10-05",
    "added": "2026-10-05"
   },
@@ -6096,7 +6096,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 457,
+     "downloads": 459,
      "tested": []
     },
     {
@@ -6395,7 +6395,7 @@
    "featured": false,
    "latest": "1.0.3",
    "latest_beta": "0.3.0",
-   "downloads": 2564,
+   "downloads": 2566,
    "updated": "2026-10-22",
    "added": "2026-10-01"
   },
@@ -6527,7 +6527,7 @@
      "notes": "- **ROM check in the installer app.** The plugin declares its files, so the installer app's **Your ROMs and files** step checks each one before copying it into `ROMS`: the 256 KB Microwave II image or its two 128 KB chip images, and Waldorf `.syx` sound banks.\n- No change to the sound or the skin.\n\nDownloads: `Clementine-XT-0.9.7-mpc-armv7.zip` for Gen1 MPC and Force, `Clementine-XT-0.9.7-mpc-aarch64.zip` for Gen2 (MPC OS 3.x). Your files in `ROMS` are kept on upgrade.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 23,
+     "downloads": 25,
      "tested": [
       {
        "device": "Akai Force",
@@ -7050,7 +7050,7 @@
    "featured": false,
    "latest": "0.9.7",
    "latest_beta": null,
-   "downloads": 3518,
+   "downloads": 3520,
    "updated": "2026-11-01",
    "added": "2026-10-02"
   },
@@ -7463,7 +7463,7 @@
       "portable/sd88me - VST - Crate Digger/cratedigger/bin/python3/lib/libtcl9tk9.0.so calls network (connect, getaddrinfo, recv, socket): flagged for manual review (the author can explain why)",
       "portable/sd88me - VST - Crate Digger/cratedigger/bin/python3/lib/python3.11/lib-dynload/_dbm.cpython-311-arm-linux-gnueabihf.so calls network (accept, bind, connect, getaddrinfo, listen, send, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 218,
+     "downloads": 220,
      "tested": [
       {
        "device": "MPC Live III (Gen2)",
@@ -9617,7 +9617,7 @@
    "featured": false,
    "latest": "1.3.0",
    "latest_beta": "1.1.9",
-   "downloads": 8144,
+   "downloads": 8146,
    "updated": "2026-10-28",
    "added": "2026-09-29"
   },
@@ -12300,7 +12300,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 252,
+     "downloads": 255,
      "tested": []
     }
    ],
@@ -12313,7 +12313,7 @@
    "featured": false,
    "latest": "0.1.0",
    "latest_beta": null,
-   "downloads": 252,
+   "downloads": 255,
    "updated": "2026-10-25",
    "added": "2026-10-25"
   },
@@ -12690,7 +12690,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 189,
+     "downloads": 190,
      "tested": []
     },
     {
@@ -12754,7 +12754,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 316,
+     "downloads": 317,
      "tested": [
       {
        "device": "MPC Live II",
@@ -12773,7 +12773,7 @@
    "featured": false,
    "latest": "1.2.1",
    "latest_beta": null,
-   "downloads": 1068,
+   "downloads": 1071,
    "updated": "2026-10-23",
    "added": "2026-10-10"
   },
@@ -14784,7 +14784,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 302,
+     "downloads": 303,
      "tested": []
     },
     {
@@ -14925,7 +14925,7 @@
    "featured": false,
    "latest": "1.0.2",
    "latest_beta": null,
-   "downloads": 1208,
+   "downloads": 1209,
    "updated": "2026-10-23",
    "added": "2026-10-09"
   },
@@ -19187,7 +19187,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 273,
+     "downloads": 276,
      "tested": []
     },
     {
@@ -19387,7 +19387,7 @@
    "featured": false,
    "latest": "0.1.3",
    "latest_beta": null,
-   "downloads": 897,
+   "downloads": 900,
    "updated": "2026-10-22",
    "added": "2026-10-15"
   },
@@ -19727,7 +19727,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 301,
+     "downloads": 302,
      "tested": []
     },
     {
@@ -20331,7 +20331,7 @@
    "featured": false,
    "latest": "0.6.1",
    "latest_beta": null,
-   "downloads": 2849,
+   "downloads": 2850,
    "updated": "2026-10-23",
    "added": "2026-10-11"
   },
@@ -20418,7 +20418,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 362,
+     "downloads": 365,
      "tested": [
       {
        "device": "Akai Force",
@@ -21026,7 +21026,7 @@
    "featured": false,
    "latest": "0.2.10",
    "latest_beta": "0.2.9",
-   "downloads": 2599,
+   "downloads": 2602,
    "updated": "2026-10-22",
    "added": "2026-10-13"
   },
@@ -21113,7 +21113,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 319,
+     "downloads": 322,
      "tested": [
       {
        "device": "Akai Force",
@@ -21331,7 +21331,7 @@
    "featured": false,
    "latest": "0.2.2",
    "latest_beta": "0.2.1",
-   "downloads": 1010,
+   "downloads": 1013,
    "updated": "2026-10-22",
    "added": "2026-10-13"
   },
@@ -21954,7 +21954,7 @@
      "notes": "- **OS file check in the installer app.** The plugin declares its files, so the installer app's **Your ROMs and files** step checks your Machinedrum UW OS 1.63 `.syx` (by its exact size and Elektron header) and saves it as `Elektron_SPS1-1UW_OS1.63.syx` whatever it is called on your computer. The 8 MB flash image and your kit dumps (`machinedrum/kits/`) can be added the same way. A kit dump or a Monomachine file is refused as the OS.\n- Effects: correct audio at MPC block sizes 32/64/96/192 (wrapper fix sd88me/mpc-vst-plugins#676).\n\nDownloads (Gen2, MPC OS 3.x): `Machinemodule-1.0.1-mpc-aarch64.zip` and `Machinemodule-Tap-1.0.1-mpc-aarch64.zip`. Nothing of Elektron's is in them.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 5,
+     "downloads": 7,
      "tested": []
     },
     {
@@ -22100,7 +22100,7 @@
    "featured": false,
    "latest": "1.0.1",
    "latest_beta": null,
-   "downloads": 155,
+   "downloads": 157,
    "updated": "2026-11-01",
    "added": "2026-10-27"
   },
@@ -22184,7 +22184,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 309,
+     "downloads": 311,
      "tested": []
     },
     {
@@ -22263,7 +22263,7 @@
    "featured": false,
    "latest": "1.1.1",
    "latest_beta": null,
-   "downloads": 1658,
+   "downloads": 1660,
    "updated": "2026-10-23",
    "added": "2026-10-09"
   },
@@ -22345,7 +22345,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 265,
+     "downloads": 267,
      "tested": []
     },
     {
@@ -22420,7 +22420,7 @@
    "featured": false,
    "latest": "0.1.2",
    "latest_beta": null,
-   "downloads": 341,
+   "downloads": 343,
    "updated": "2026-10-23",
    "added": "2026-10-23"
   },
@@ -22514,7 +22514,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/mmiroshnikov - VST - Maschine Group/maschine_group.so calls runs programs (popen); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 463,
+     "downloads": 465,
      "tested": []
     }
    ],
@@ -22527,7 +22527,7 @@
    "featured": false,
    "latest": "1.0.0",
    "latest_beta": null,
-   "downloads": 463,
+   "downloads": 465,
    "updated": "2026-10-13",
    "added": "2026-10-10"
   },
@@ -23227,7 +23227,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 460,
+     "downloads": 462,
      "tested": [
       {
        "device": "Akai Force",
@@ -23615,7 +23615,7 @@
    "featured": false,
    "latest": "1.0.5",
    "latest_beta": null,
-   "downloads": 3189,
+   "downloads": 3191,
    "updated": "2026-10-21",
    "added": "2026-10-01"
   },
@@ -23870,7 +23870,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 296,
+     "downloads": 298,
      "tested": []
     },
     {
@@ -24011,7 +24011,7 @@
    "featured": false,
    "latest": "1.2.1",
    "latest_beta": null,
-   "downloads": 1330,
+   "downloads": 1332,
    "updated": "2026-10-23",
    "added": "2026-10-09"
   },
@@ -24500,7 +24500,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 192,
+     "downloads": 194,
      "tested": []
     },
     {
@@ -24647,7 +24647,7 @@
    "featured": false,
    "latest": "1.1.1",
    "latest_beta": null,
-   "downloads": 785,
+   "downloads": 787,
    "updated": "2026-10-23",
    "added": "2026-10-10"
   },
@@ -24814,7 +24814,7 @@
      "notes": "- **ROM check in the installer app.** The plugin now declares its ROM files, so the installer app's **Your ROMs and files** step checks each file before copying it into `jv880-roms/roms/` (or `roms/expansions/` for SR-JV80 cards). The 256 KB `rom2` file is saved as `jv880_rom2.bin` whatever it is called; the other four files share sizes, so keep their names (`jv880_rom1.bin`, `jv880_nvram.bin`, `jv880_waverom1.bin`, `jv880_waverom2.bin`).\n- No change to the sound or the skin.\n\nDownloads: `JV-880-1.0.9-mpc-armv7.zip` for Gen1 MPC and Force, `JV-880-1.0.9-mpc-aarch64.zip` for Gen2 (MPC OS 3.x). Your ROMs in `jv880-roms/roms/` are kept on upgrade.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 27,
+     "downloads": 29,
      "tested": [
       {
        "device": "Akai Force",
@@ -25375,7 +25375,7 @@
    "featured": false,
    "latest": "1.0.9",
    "latest_beta": null,
-   "downloads": 5524,
+   "downloads": 5526,
    "updated": "2026-11-01",
    "added": "2026-09-29"
   },
@@ -29154,7 +29154,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 1257,
+     "downloads": 1259,
      "tested": [
       {
        "device": "Akai MPC One",
@@ -29247,7 +29247,7 @@
    "featured": false,
    "latest": "1.0.1",
    "latest_beta": null,
-   "downloads": 1939,
+   "downloads": 1941,
    "updated": "2026-10-05",
    "added": "2026-10-01"
   },
@@ -30384,7 +30384,7 @@
      "notes": "The MPC as a USB audio interface: its outputs and inputs as channels on the computer, next to its MIDI ports.\n\n## Changes in 1.1.0\n\n- **For devices where MPC builds no USB gadget in standalone mode** (an MPC One on HAKAI 3.9.1, #4; an MPC Live II on custom firmware, #1). After `own_wait` seconds (30) with no gadget at all, the addin builds its own, with only the audio function, so the computer sees a USB audio device but no MPC MIDI port. The addin gives the USB port back as soon as MPC enables a gadget of its own, and it also removes its gadget when MPC exits and at the next MPC start. `standalone_create=0` turns this off. Based on the patch and device findings in #4 by @shumiyao. This build has run on a Key 37 only, where MPC builds its gadget and the new code stays out of the way. It has not yet run on a device that needs it.\n- **On HAKAI**, `/usr/bin/az01-launch-MPC` sets `LD_PRELOAD` itself, so the installer's setting doesn't reach MPC and the installer warns about it. Until the shared installer handles that launcher, add the library to the launcher's `LD_PRELOAD` lines by hand (README, \"Limits\").\n- The installer is the current one from mpc-vst-plugins main.\n\n## Requirements\n\n- A Gen1 MPC OS standalone device (32-bit ARM: Force, MPC Live / Live II, One, X, Key 61 and Key 37). The installer refuses anything else.\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\n- Installing addins this way is unofficial: back up first, use at your own risk.\n\n## Install\n\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r MPC-USB-audio-addin-1.1.0 root@<device-ip>:/tmp/`\n2. Run it: `ssh root@<device-ip> sh /tmp/MPC-USB-audio-addin-1.1.0/install.sh`\n\nThe installer copies the addin into `/data/mpc-addins/usb-audio/`, adds `libmpc_usb_audio.so` to the `LD_PRELOAD` list of MPC's service\nand **restarts MPC** (save your project first). The list is extended, never replaced: other addins and the\nlibraries the firmware preloads stay. Where no writable file sets the list (the unit is on the read-only root), one\ndrop-in shared by every addin sets it, `/etc/systemd/system/<service>.service.d/90-mpc-addins.conf`. Re-run the\ninstaller after a firmware update. `-y` skips the question, `-n` leaves the restart to you.\n\nSettings are in `/data/mpc-addins/usb-audio/usbaudio.conf`; an upgrade keeps your edits.\n\nConnect the MPC to a computer: it shows up as a USB audio device next to its MIDI ports. Log: usbaudio.log in this folder.\n\nUninstalling and the file list are in `INSTALL.md` inside each zip.\n\n---\nBuilt by GitHub Actions from jacob-sabella/mpc-addin-usb-audio@aee67bd with mpc-vst-plugins@68da25a.\n\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 372,
+     "downloads": 373,
      "tested": [
       {
        "device": "MPC Key 37",
@@ -30720,7 +30720,7 @@
    "featured": false,
    "latest": "1.1.0",
    "latest_beta": "0.1.1",
-   "downloads": 2851,
+   "downloads": 2852,
    "updated": "2026-10-24",
    "added": "2026-10-03"
   },
@@ -31867,7 +31867,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 619,
+     "downloads": 621,
      "tested": []
     },
     {
@@ -31951,7 +31951,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 398,
+     "downloads": 400,
      "tested": []
     },
     {
@@ -32035,7 +32035,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 449,
+     "downloads": 451,
      "tested": []
     },
     {
@@ -32119,7 +32119,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 383,
+     "downloads": 385,
      "tested": []
     },
     {
@@ -32195,7 +32195,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 376,
+     "downloads": 378,
      "tested": []
     },
     {
@@ -32271,7 +32271,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 453,
+     "downloads": 455,
      "tested": []
     },
     {
@@ -32347,7 +32347,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 554,
+     "downloads": 556,
      "tested": []
     }
    ],
@@ -32360,7 +32360,7 @@
    "featured": false,
    "latest": "1.0.9",
    "latest_beta": null,
-   "downloads": 3232,
+   "downloads": 3246,
    "updated": "2026-10-10",
    "added": "2026-09-29"
   },
@@ -33139,7 +33139,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 262,
+     "downloads": 264,
      "tested": [
       {
        "device": "MPC Live II",
@@ -33213,7 +33213,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 431,
+     "downloads": 433,
      "tested": []
     }
    ],
@@ -33227,7 +33227,7 @@
    "featured": false,
    "latest": "0.4.4",
    "latest_beta": null,
-   "downloads": 1103,
+   "downloads": 1113,
    "updated": "2026-10-26",
    "added": "2026-10-09"
   },
@@ -35556,7 +35556,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 896,
+     "downloads": 898,
      "tested": [
       {
        "device": "Akai MPC X",
@@ -36025,7 +36025,7 @@
    "featured": false,
    "latest": "1.0.6",
    "latest_beta": null,
-   "downloads": 3470,
+   "downloads": 3472,
    "updated": "2026-10-04",
    "added": "2026-10-03"
   },
@@ -37557,7 +37557,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 282,
+     "downloads": 283,
      "tested": []
     },
     {
@@ -37704,7 +37704,7 @@
    "featured": false,
    "latest": "0.4.3",
    "latest_beta": null,
-   "downloads": 1284,
+   "downloads": 1285,
    "updated": "2026-10-22",
    "added": "2026-10-09"
   },
@@ -38439,7 +38439,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 177,
+     "downloads": 178,
      "tested": [
       {
        "device": "Akai MPC Live III (Gen2)",
@@ -38707,7 +38707,7 @@
    "featured": false,
    "latest": "0.2.1",
    "latest_beta": null,
-   "downloads": 692,
+   "downloads": 693,
    "updated": "2026-10-28",
    "added": "2026-10-21"
   },
