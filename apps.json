@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "apps": [
+    {
+      "id": "mpc-link",
+      "title": "MPC Link",
+      "summary": "Menu bar / tray app that puts folders from your computer into the MPC's browser over the network: load samples straight from the computer, save projects back to it. Connects over SSH, copies a static sshfs to the device and mounts the shared folders on a drive MPC already shows.",
+      "author": "Padbangers",
+      "screenshot": "https://raw.githubusercontent.com/padbangers/mpc-link/main/assets/catalog.png",
+      "license": "MIT",
+      "repo": "padbangers/mpc-link",
+      "release": "https://github.com/padbangers/mpc-link/releases/tag/v1.0.2",
+      "version": "1.0.2",
+      "platforms": [
+        "macos",
+        "windows"
+      ],
+      "needs": [
+        "Root SSH on the device (Hakai)"
+      ],
+      "tested": {
+        "device": "MPC X",
+        "os": "MPC OS 3.9.1"
+      },
+      "downloads": [
+        {
+          "platform": "macos",
+          "label": "macOS (zip)",
+          "url": "https://github.com/padbangers/mpc-link/releases/download/v1.0.2/MPC-Link-1.0.2-macOS.zip",
+          "sha256": "88911c8794fe312078c69e4673c9c6ccf8324c2395ad3cd9310786542fcc36d9"
+        },
+        {
+          "platform": "windows",
+          "label": "Windows (x64)",
+          "url": "https://github.com/padbangers/mpc-link/releases/download/v1.0.2/MPC-Link-1.0.2-windows-amd64.exe",
+          "sha256": "2527356337eba93e8c10089147dff8a18d340fd07dd4a31c96baeee9895d3bb1"
+        },
+        {
+          "platform": "windows",
+          "label": "Windows (ARM64)",
+          "url": "https://github.com/padbangers/mpc-link/releases/download/v1.0.2/MPC-Link-1.0.2-windows-arm64.exe",
+          "sha256": "16f5e418548b430a0ce632deafe787d35813b18a27572e140790e811bf611c0c"
+        }
+      ],
+      "assets": [
+        {
+          "platform": "macos",
+          "label": "macOS (zip)",
+          "pattern": "MPC-Link-*-macOS.zip"
+        },
+        {
+          "platform": "windows",
+          "label": "Windows (x64)",
+          "pattern": "MPC-Link-*-windows-amd64.exe"
+        },
+        {
+          "platform": "windows",
+          "label": "Windows (ARM64)",
+          "pattern": "MPC-Link-*-windows-arm64.exe"
+        }
+      ]
+    }
+  ]
+}
