@@ -1,1 +1,16 @@
-{}
+{
+ "pm-stick": {
+  "need": [
+   "autorun/autorun.json",
+   "autorun/autorun.check",
+   "autorun/open.sh",
+   "autorun/runtime/run.sh",
+   "autorun/runtime/payload.sha256",
+   ".mpc-g2-stick"
+  ],
+  "path": "dl/Plugin-Manager-G2-Stick-0.9.0.zip",
+  "sha256": "645a92e1beae3ebd0b9d9033ac8825607bdad5a81cc3075a1175d826f34dd7da",
+  "url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/g2-stick-v0.9.0/Plugin-Manager-G2-Stick-0.9.0.zip",
+  "version": "0.9.0"
+ }
+}

@@ -521,12 +521,12 @@ if (typeof module !== "undefined") module.exports = DriveWrite;
   }
   function installer(c, why) {
     var b = el("div", "gdl"), k = computer();
-    b.appendChild(link("Download the desktop installer app", REL + "/latest", "gbtn"));
+    b.appendChild(link("Download the desktop installer app", REL + "/tag/desktop-v1.1.2", "gbtn")   /* not /latest: that is whichever release came last */);
     var p = el("p", "gsub", why + " " + (k ? "For " + k[0] + ", get the file ending in " + k[1] + ". " : "") + "Unpack it and double-click mpc-installer. ");
     p.appendChild(link("How to start it", "#the-desktop-installer-app")); b.appendChild(p); c.appendChild(b);
   }
 
-  var EASY = {"url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/g2-stick-v0.9.0/Plugin-Manager-G2-Stick-0.9.0.zip", "sha256": "db05eb9c0bfe94e0f95b21b053e503d49be668595664916401e9b393f8bd02a7", "version": "0.9.0", "need": ["autorun/autorun.json", "autorun/autorun.check", "autorun/open.sh", "autorun/runtime/run.sh", "autorun/runtime/payload.sha256", ".mpc-g2-stick"]};
+  var EASY = {"url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/g2-stick-v0.9.0/Plugin-Manager-G2-Stick-0.9.0.zip", "sha256": "645a92e1beae3ebd0b9d9033ac8825607bdad5a81cc3075a1175d826f34dd7da", "version": "0.9.0", "need": ["autorun/autorun.json", "autorun/autorun.check", "autorun/open.sh", "autorun/runtime/run.sh", "autorun/runtime/payload.sha256", ".mpc-g2-stick"]};
   var DL = null;   /* dl/downloads.json: the files this site publishes (tools/site_downloads.py); none on a local preview */
   /* The write box: with a file on this site, one button (choose the drive; the page downloads and writes). Otherwise, or as a
      fallback, choose a zip you downloaded, then the drive. run(file, root, progress) resolves to the message to show. */
