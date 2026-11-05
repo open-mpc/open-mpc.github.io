@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-05T22:37:08Z",
+ "generated": "2026-11-05T22:47:43Z",
  "bar": {
   "stable-release": "publish a stable (non-beta) release",
   "screenshot": "add a screenshot of the plugin screen to the registry entry",
@@ -95,7 +95,7 @@
      "notes": "Drum machine voice set ported from athousanddetails' schwung-6W6, as an MPC/Force VST2 instrument.\n\n## Requirements\n\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\n  The installer refuses anything else. Newer models are untested.\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\n\n## Install (scripted)\n\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r 6W6-1.2.0 root@<device-ip>:/tmp/`\n2. Run it: `ssh root@<device-ip> sh /tmp/6W6-1.2.0/install.sh`\n\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/athousanddetails - VST - 6W6/` (the plugin, its skin\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\n\nThen add **6W6** to a track from the plugin browser (Instrument plugins). Its screen appears in the plugin view,\nand the Q-Links follow the page.\n\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\n\n---\nBuilt by GitHub Actions from sd88me/mpc-vst-TR-MPC@6918634 with mpc-vst-plugins@70c1623.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 108,
+     "downloads": 110,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -177,7 +177,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 456,
+     "downloads": 457,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -247,7 +247,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 873,
+     "downloads": 874,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -325,7 +325,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 572,
+     "downloads": 573,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -408,7 +408,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 456,
+     "downloads": 457,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -432,7 +432,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-02",
-   "downloads": 2465
+   "downloads": 2471
   },
   {
    "id": "tr-8w8",
@@ -518,7 +518,7 @@
      "notes": "Drum machine voice set ported from athousanddetails' schwung-8W8, as an MPC/Force VST2 instrument.\n\n## Requirements\n\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\n  The installer refuses anything else. Newer models are untested.\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\n\n## Install (scripted)\n\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r 8W8-1.2.0 root@<device-ip>:/tmp/`\n2. Run it: `ssh root@<device-ip> sh /tmp/8W8-1.2.0/install.sh`\n\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/athousanddetails - VST - 8W8/` (the plugin, its skin\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\n\nThen add **8W8** to a track from the plugin browser (Instrument plugins). Its screen appears in the plugin view,\nand the Q-Links follow the page.\n\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\n\n---\nBuilt by GitHub Actions from sd88me/mpc-vst-TR-MPC@6918634 with mpc-vst-plugins@70c1623.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 126,
+     "downloads": 128,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -600,7 +600,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 482,
+     "downloads": 483,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -670,7 +670,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 897,
+     "downloads": 898,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -748,7 +748,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 603,
+     "downloads": 604,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -831,7 +831,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 456,
+     "downloads": 457,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -855,7 +855,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-02",
-   "downloads": 2564
+   "downloads": 2570
   },
   {
    "id": "tr-9w9",
@@ -943,7 +943,7 @@
      "notes": "ER-99 style drum machine ported from athousanddetails' schwung-9W9, as an MPC/Force VST2 instrument.\n\n## Requirements\n\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\n  The installer refuses anything else. Newer models are untested.\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\n\n## Install (scripted)\n\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r 9W9-1.2.0 root@<device-ip>:/tmp/`\n2. Run it: `ssh root@<device-ip> sh /tmp/9W9-1.2.0/install.sh`\n\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/athousanddetails - VST - 9W9/` (the plugin, its skin\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\n\nThen add **9W9** to a track from the plugin browser (Instrument plugins). Its screen appears in the plugin view,\nand the Q-Links follow the page.\n\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\n\n---\nBuilt by GitHub Actions from sd88me/mpc-vst-TR-MPC@6918634 with mpc-vst-plugins@70c1623.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 116,
+     "downloads": 118,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -1027,7 +1027,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 466,
+     "downloads": 467,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -1099,7 +1099,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 881,
+     "downloads": 882,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -1179,7 +1179,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 582,
+     "downloads": 583,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -1264,7 +1264,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 455,
+     "downloads": 456,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -1288,7 +1288,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-02",
-   "downloads": 2500
+   "downloads": 2506
   },
   {
    "id": "acid",
@@ -6617,7 +6617,7 @@
      "notes": "Chord tool: pads, keys or chord buttons play scale, set or custom chords with voicing, strum, arp and harp modes, MIDI out to other tracks and a built-in preview synth.\n\n## Requirements\n\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\n  The installer refuses anything else. Newer models are untested.\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\n\n## Install (scripted)\n\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r Chordsmith-1.0.4 root@<device-ip>:/tmp/`\n2. Run it: `ssh root@<device-ip> sh /tmp/Chordsmith-1.0.4/install.sh`\n\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/jacob-sabella - VST - Chordsmith/` (the plugin, its skin\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\n\nThen add **Chordsmith** to a track from the plugin browser (Instrument plugins). Its screen appears in the plugin view,\nand the Q-Links follow the page.\n\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\n\n---\nBuilt by GitHub Actions from jacob-sabella/mpc-vst-chordsmith@6acdf0f with mpc-vst-plugins@8e266ce.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 31,
+     "downloads": 33,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -7000,7 +7000,7 @@
    "latest_beta": "0.3.0",
    "updated": "2026-11-04",
    "added": "2026-10-01",
-   "downloads": 2890
+   "downloads": 2892
   },
   {
    "id": "clementine-xt",
@@ -10475,7 +10475,7 @@
      "notes": "Drum machine voice set ported from athousanddetails' schwung-CW-78, as an MPC/Force VST2 instrument.\n\n## Requirements\n\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\n  The installer refuses anything else. Newer models are untested.\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\n\n## Install (scripted)\n\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r CW-78-1.2.0 root@<device-ip>:/tmp/`\n2. Run it: `ssh root@<device-ip> sh /tmp/CW-78-1.2.0/install.sh`\n\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/athousanddetails - VST - CW-78/` (the plugin, its skin\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\n\nThen add **CW-78** to a track from the plugin browser (Instrument plugins). Its screen appears in the plugin view,\nand the Q-Links follow the page.\n\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\n\n---\nBuilt by GitHub Actions from sd88me/mpc-vst-TR-MPC@6918634 with mpc-vst-plugins@70c1623.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 102,
+     "downloads": 104,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -10557,7 +10557,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 434,
+     "downloads": 435,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -10627,7 +10627,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 794,
+     "downloads": 795,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -10705,7 +10705,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 566,
+     "downloads": 567,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -10788,7 +10788,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 456,
+     "downloads": 457,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -10812,7 +10812,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-02",
-   "downloads": 2352
+   "downloads": 2358
   },
   {
    "id": "op1fx-cwo",
@@ -17388,7 +17388,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 452,
+     "downloads": 453,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -17606,7 +17606,7 @@
    "latest_beta": null,
    "updated": "2026-10-22",
    "added": "2026-10-22",
-   "downloads": 858
+   "downloads": 859
   },
   {
    "id": "ghost",
@@ -18561,7 +18561,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 1105,
+     "downloads": 1106,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -18578,7 +18578,7 @@
    "latest_beta": null,
    "updated": "2026-10-04",
    "added": "2026-10-05",
-   "downloads": 1105
+   "downloads": 1106
   },
   {
    "id": "hera",
@@ -23016,7 +23016,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 485,
+     "downloads": 488,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -23655,7 +23655,7 @@
    "latest_beta": "0.2.9",
    "updated": "2026-10-22",
    "added": "2026-10-13",
-   "downloads": 3096
+   "downloads": 3099
   },
   {
    "id": "lxrxxl-zynth",
@@ -24325,7 +24325,7 @@
      "warnings": [
       "portable/sd88me - VST - Machinemodule/machinedrum_one.so calls runs programs (posix_spawn); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 37,
+     "downloads": 38,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -24781,7 +24781,7 @@
    "latest_beta": null,
    "updated": "2026-11-04",
    "added": "2026-10-27",
-   "downloads": 429
+   "downloads": 430
   },
   {
    "id": "machinemodule-tap-gen2",
@@ -24862,7 +24862,7 @@
      "notes": "**Fix: pressing Stop twice no longer resets the voices.** MPC's plugin host sets the first parameter (T1 Machine) to its maximum and back on every Stop; if that jump got applied, track 1's SYN values and machine were reset. The engine now ignores that transient jump.\n\nSame download as before: nothing of Elektron's inside; put your own Elektron_SPS1-1UW_OS1.63.syx in the plugin's machinedrum/ folder.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 25,
+     "downloads": 26,
      "depends": [
       {
        "id": "machinemodule-gen2",
@@ -25222,7 +25222,7 @@
    "latest_beta": null,
    "updated": "2026-11-04",
    "added": "2026-10-27",
-   "downloads": 313
+   "downloads": 314
   },
   {
    "id": "braids",
@@ -27054,7 +27054,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 382,
+     "downloads": 383,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -27121,7 +27121,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 262,
+     "downloads": 263,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -27188,7 +27188,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 460,
+     "downloads": 461,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -27205,7 +27205,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1533
+   "downloads": 1537
   },
   {
    "id": "meta4mpcxxl",
@@ -28990,7 +28990,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/sd88me - VST - Model-72/model72.so calls network (bind, connect, getaddrinfo, listen, recv, recvfrom, send, sendto, socket); runs programs (execvp, fork, posix_spawnp); changes the system (chroot, setgid, setuid): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 488,
+     "downloads": 489,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -29156,7 +29156,7 @@
    "latest_beta": null,
    "updated": "2026-10-21",
    "added": "2026-10-15",
-   "downloads": 872
+   "downloads": 873
   },
   {
    "id": "monksynth",
@@ -34039,7 +34039,7 @@
      "warnings": [
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 32,
+     "downloads": 33,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -34104,7 +34104,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 337,
+     "downloads": 338,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -34175,7 +34175,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 244,
+     "downloads": 245,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -34240,7 +34240,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 242,
+     "downloads": 243,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -34305,7 +34305,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 233,
+     "downloads": 234,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -34322,7 +34322,7 @@
    "latest_beta": "0.5.0",
    "updated": "2026-11-03",
    "added": "2026-10-11",
-   "downloads": 1088,
+   "downloads": 1093,
    "shares_hooks": []
   },
   {
@@ -34903,7 +34903,7 @@
      "notes": "The MPC as a USB audio interface: its outputs and inputs as channels on the computer, next to its MIDI ports.\n\n## Requirements\n\n- A Gen1 MPC OS standalone device (32-bit ARM: Force, MPC Live / Live II, One, X, Key 61 and Key 37). The installer refuses anything else.\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\n- Installing addins this way is unofficial: back up first, use at your own risk.\n\n## Install\n\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r MPC-USB-audio-addin-1.1.1 root@<device-ip>:/tmp/`\n2. Run it: `ssh root@<device-ip> sh /tmp/MPC-USB-audio-addin-1.1.1/install.sh`\n\nThe installer copies the addin into `/data/mpc-addins/usb-audio/`, adds `libmpc_usb_audio.so` to the `LD_PRELOAD` list of MPC's service\nand **restarts MPC** (save your project first). The list is extended, never replaced: other addins and the\nlibraries the firmware preloads stay. Where no writable file sets the list (the unit is on the read-only root), one\ndrop-in shared by every addin sets it, `/etc/systemd/system/<service>.service.d/90-mpc-addins.conf`. Re-run the\ninstaller after a firmware update. `-y` skips the question, `-n` leaves the restart to you.\n\nSettings are in `/data/mpc-addins/usb-audio/usbaudio.conf`; an upgrade keeps your edits.\n\nConnect the MPC to a computer: it shows up as a USB audio device next to its MIDI ports. Log: usbaudio.log in this folder.\n\nUninstalling and the file list are in `INSTALL.md` inside each zip.\n\n---\nBuilt by GitHub Actions from jacob-sabella/mpc-addin-usb-audio@fa8f9cb with mpc-vst-plugins@8e266ce.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 29,
+     "downloads": 31,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -34965,7 +34965,7 @@
      "warnings": [
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 488,
+     "downloads": 489,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -35035,7 +35035,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 515,
+     "downloads": 516,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -35099,7 +35099,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 383,
+     "downloads": 384,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -35163,7 +35163,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 328,
+     "downloads": 329,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -35233,7 +35233,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 578,
+     "downloads": 579,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -35297,7 +35297,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 416,
+     "downloads": 417,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -35367,7 +35367,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 523,
+     "downloads": 524,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -35389,7 +35389,7 @@
    "latest_beta": "0.1.1",
    "updated": "2026-11-04",
    "added": "2026-10-03",
-   "downloads": 3260,
+   "downloads": 3269,
    "shares_hooks": []
   },
   {
@@ -36578,7 +36578,7 @@
      "warnings": [
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 27,
+     "downloads": 28,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -37173,7 +37173,7 @@
    "latest_beta": null,
    "updated": "2026-11-04",
    "added": "2026-09-29",
-   "downloads": 3604
+   "downloads": 3605
   },
   {
    "id": "op1fx-nitro",
@@ -37524,6 +37524,104 @@
    "updated": "2026-10-23",
    "added": "2026-10-10",
    "downloads": 1192
+  },
+  {
+   "id": "nova-audio",
+   "name": "Nova Audio",
+   "author": "3dthc",
+   "repo": "3dthc/mpc-addin-nova-audio",
+   "kind": "addin",
+   "license": "MIT",
+   "summary": "Lets a plugin play the MPC's audio inputs as its own sound, so a hardware synth becomes one ordinary MPC track: played, monitored, recorded, mixed and resampled on the plugin's own track, with no separate audio track and no Monitor switching. Written for Nova Editor but not MiniNova-specific; any plugin can read the tap.",
+   "style": "utility",
+   "tags": [
+    "audio-input",
+    "hardware-synth",
+    "mininova",
+    "ld-preload"
+   ],
+   "source_available": false,
+   "distribution": "release",
+   "versions": [
+    {
+     "version": "0.2.0",
+     "size": 17876,
+     "defer": true,
+     "sha256": "b8808fe080d6d094aac77cb90dd9d4f0649325fd4ea83fb323842b3d02f259d3",
+     "param_compat": 0,
+     "max_glibc": "2.4",
+     "cpu": null,
+     "requires": "",
+     "manifest": {
+      "schema": 1,
+      "id": "nova-audio",
+      "name": "Nova Audio (for Nova Editor)",
+      "version": "0.2.0",
+      "kind": "addin",
+      "layout": "addin",
+      "so": "libnova_audio.so",
+      "conf": null,
+      "files": [],
+      "user_data": [],
+      "arch": "armv7",
+      "max_glibc": "2.4",
+      "param_compat": 0,
+      "about": "Lets a plugin play the MPC's audio inputs as its own sound, so a hardware synth becomes one ordinary MPC track.",
+      "requires": "",
+      "source_repo": "3dthc/mpc-addin-nova-audio",
+      "license": "MIT",
+      "cpu": null
+     },
+     "hooks": [
+      "nova_audio_tap",
+      "snd_pcm_close",
+      "snd_pcm_hw_params",
+      "snd_pcm_open",
+      "snd_pcm_readi",
+      "snd_pcm_readn"
+     ],
+     "chains": true,
+     "assets": {
+      "armv7": {
+       "sha256": "b8808fe080d6d094aac77cb90dd9d4f0649325fd4ea83fb323842b3d02f259d3",
+       "size": 17876,
+       "url": "https://github.com/3dthc/mpc-addin-nova-audio/releases/download/nova-audio-v0.2.0/Nova-Audio-for-Nova-Editor-0.2.0-mpc-armv7.zip"
+      },
+      "aarch64": {
+       "sha256": "7b2f9140ba872286c4160cca102ee428a725ddd01fcd87e0d7699e63054bf8bc",
+       "size": 18704,
+       "url": "https://github.com/3dthc/mpc-addin-nova-audio/releases/download/nova-audio-v0.2.0/Nova-Audio-for-Nova-Editor-0.2.0-mpc-aarch64.zip"
+      }
+     },
+     "gen2": true,
+     "url": "https://github.com/3dthc/mpc-addin-nova-audio/releases/download/nova-audio-v0.2.0/Nova-Audio-for-Nova-Editor-0.2.0-mpc-armv7.zip",
+     "date": "2026-11-03",
+     "channel": "stable",
+     "notes": "Lets a plugin play the MPC's audio inputs as its own sound, so a hardware synth becomes one ordinary MPC\r\ntrack: played, monitored, recorded, mixed and resampled on the plugin's own track, with no separate audio\r\ntrack and no Monitor switching.\r\n\r\nTwo builds: `-mpc-armv7` for Gen1 devices and `-mpc-aarch64` for Gen2. Both are built for glibc 2.31, so\r\neither loads on MPC OS 2.x as well as 3.x. Install the one matching your device; the installer refuses a\r\nmismatch.\r\n\r\n**Tested on Gen1 (MPC Live II, MPC OS 3.9.1 and 3.10) only.** The Gen2 build and the 2.x targets compile\r\nand package but have not run on that hardware. This library is loaded into MPC's own process with hooks on\r\nits audio thread, so treat those as experimental and keep backups.\r\n\r\nInstall instructions are in `INSTALL.md` inside each zip, including the note for Hakai and other launchers\r\nthat set `LD_PRELOAD` themselves.\r\n\r\n---\r\nBuilt by GitHub Actions from 3dthc/mpc-addin-nova-audio@24d307f with mpc-vst-plugins@c6b4bb0.\r\n",
+     "yanked": false,
+     "warnings": [
+      "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
+     ],
+     "downloads": 1,
+     "depends": [],
+     "conflicts": [],
+     "tested": []
+    }
+   ],
+   "tier": "listed",
+   "verified_on": [],
+   "bar_missing": [
+    "screenshot",
+    "tested",
+    "tested-gen2"
+   ],
+   "featured": false,
+   "latest": "0.2.0",
+   "latest_beta": null,
+   "updated": "2026-11-03",
+   "added": "2026-11-03",
+   "downloads": 1,
+   "shares_hooks": []
   },
   {
    "id": "nova-editor",
@@ -38759,7 +38857,7 @@
      "notes": "## Omni Sampler 1.8.1\n\n### New\n- **Korg Wavestation**: EX waves, all-data dumps, multi-bank files, split cards and VS single-cycle waves.\n- **Wavetables**: Surge/Bitwig `.wt` and chunkless WAV wavetables (Serum, WaveEdit).\n- **Ensoniq SD-1 / VFX-SD**: SysEx programs, played from the instrument's wave ROMs.\n- **Gen2 support**: a new `aarch64` build for 64-bit MPCs (MPC Live III, MPC XL and kin). Thanks to @djru5h, who built it and confirmed it on his MPC XL (#7).\n\n### Fixed\n- **Q-Links on the automation screen**: on track edit \u2192 automation, Q-Links can now move Omni's parameters (rebuilt against the fixed mpc-vst-plugins wrapper, #6).\n- Korg M1 reader fixes; README and INFO pages updated.\n\n### Downloads\n| Zip | For |\n|---|---|\n| `Omni-Sampler-1.8.1-mpc-armv7.zip` | Gen1: MPC Live / Live II / One / X / Force |\n| `Omni-Sampler-1.8.1-mpc-aarch64.zip` | Gen2: MPC Live III / XL |\n\nInstall with the [MPC plugin installer](https://github.com/sd88me/mpc-vst-plugins), or unzip, copy the folder to the MPC and run `sh install.sh` as root. On Gen2, external drives are mounted `noexec`, so install to the internal drive (`install.sh -t /nvme/Synths`). The zip's `INSTALL.md` has the full steps. Requires a modded unit with root access, MPC OS 3.x.\n\n**SHA-256**\n```\ncb46a190f5d36f52f661210e4236683d5cbfee8e4f5642330baeec6968416d21  Omni-Sampler-1.8.1-mpc-armv7.zip\n78e4241207b25934c8c7a623df953e8b21ac6840b79ee36931edfbd022c58fad  Omni-Sampler-1.8.1-mpc-aarch64.zip\n```\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 95,
+     "downloads": 96,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -39153,7 +39251,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-07",
-   "downloads": 2852
+   "downloads": 2853
   },
   {
    "id": "plugin-manager-g2",
@@ -41049,7 +41147,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 980,
+     "downloads": 981,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -41540,7 +41638,7 @@
    "latest_beta": null,
    "updated": "2026-10-04",
    "added": "2026-10-03",
-   "downloads": 3818
+   "downloads": 3819
   },
   {
    "id": "percolator",
@@ -43662,7 +43760,7 @@
    "kind": "instrument",
    "license": "MIT",
    "summary": "Drum-break slicer: picks a random break from your own break folders (WAV or FLAC), chops it to 8 or 16 slices or by hits across the pads and matches it to the project tempo, by re-pitching or stretching. Shuffle the slices and save the groove as MIDI.",
-   "screenshot": "https://raw.githubusercontent.com/PotentialBreakfast/mpc-vst-potentialbreaks/0a21900bf9b95201f10e0b4106a5303e6ce3d60e/docs/images/potentialbreaks.png",
+   "screenshot": "https://raw.githubusercontent.com/PotentialBreakfast/mpc-vst-potentialbreaks/708f8f156ff4aae9ac35a56a27ca4bce1a81a76d/docs/images/potentialbreaks.png",
    "style": "sampler",
    "tags": [
     "breaks",
@@ -43899,6 +43997,178 @@
    "downloads": 36
   },
   {
+   "id": "potentialnoise",
+   "name": "PotentialNoise",
+   "author": "PotentialBreaks",
+   "repo": "PotentialBreakfast/mpc-vst-potentialnoise",
+   "kind": "instrument",
+   "license": "MIT",
+   "summary": "Calibrated pink noise reference for the pink-noise mixing method: one-tap RMS levels from -24 to -12 dB, mono or stereo, full or 40 Hz-16 kHz range, live RMS and peak reading and a level meter.",
+   "screenshot": "https://raw.githubusercontent.com/PotentialBreakfast/mpc-vst-potentialnoise/60512395e7a359614485d3029583f5e290984dda/docs/images/potentialnoise.png",
+   "style": "utility",
+   "tags": [
+    "pink-noise",
+    "mixing",
+    "reference",
+    "meter"
+   ],
+   "source_available": false,
+   "distribution": "release",
+   "versions": [
+    {
+     "version": "2.0.1",
+     "size": 195528,
+     "defer": true,
+     "sha256": "002188d1e267a57e1b877c1d92f00d78d17eba788726a18f066fc808baa7e400",
+     "param_compat": 2,
+     "max_glibc": "2.17",
+     "cpu": null,
+     "requires": "",
+     "manifest": {
+      "schema": 1,
+      "id": "potentialnoise",
+      "name": "PotentialNoise",
+      "version": "2.0.1",
+      "kind": "instrument",
+      "uid": "50624e7a",
+      "manufacturer": "PotentialBreaks",
+      "layout": "portable",
+      "so": "potentialnoise.so",
+      "skin": "PotentialBreaks - VST - PotentialNoise",
+      "folder": "portable/PotentialBreaks - VST - PotentialNoise",
+      "extras": [],
+      "user_data": [],
+      "user_files": [],
+      "arch": "armv7",
+      "max_glibc": "2.17",
+      "os_compat": [
+       "3.x"
+      ],
+      "param_compat": 2,
+      "about": "Calibrated pink noise reference for mixing: one-tap RMS levels, mono/stereo, full or limited range, live meter.",
+      "requires": "",
+      "source_repo": "PotentialBreakfast/mpc-vst-potentialnoise",
+      "license": "MIT",
+      "cpu": null
+     },
+     "os_compat": [
+      "3.x"
+     ],
+     "os_compat_why": [
+      "TUI:actions[] version 2 (2.15.1 uses 1)",
+      "TUI:data:Button version 2 (2.15.1 uses 1)",
+      "TUI:tabs[] version 3 (2.15.1 uses 1)",
+      "TUI:value version 4 (2.15.1 uses 1, 2)"
+     ],
+     "assets": {
+      "armv7": {
+       "sha256": "002188d1e267a57e1b877c1d92f00d78d17eba788726a18f066fc808baa7e400",
+       "size": 195528,
+       "url": "https://github.com/PotentialBreakfast/mpc-vst-potentialnoise/releases/download/v2.0.1/PotentialNoise-2.0.1-mpc-armv7.zip"
+      }
+     },
+     "url": "https://github.com/PotentialBreakfast/mpc-vst-potentialnoise/releases/download/v2.0.1/PotentialNoise-2.0.1-mpc-armv7.zip",
+     "date": "2026-11-05",
+     "channel": "stable",
+     "notes": "**PotentialNoise 2.0.1**: name tidy-up.\n\n- The title on the plugin's page now reads **PotentialNoise**, the same as in the MPC's plugin list (it was in all capitals). Sound and controls are unchanged.\n\nSaved projects keep working. **Download** `PotentialNoise-2.0.1-mpc-armv7.zip` below. It's for Gen1 (32-bit) MPCs on MPC OS 3.x and has been tested on an MPC One. Install it with the [Open MPC](https://open-mpc.github.io/) installer app, or follow `INSTALL.md` inside the zip. Save your project first, because installing restarts the MPC.\n",
+     "yanked": false,
+     "warnings": [],
+     "downloads": 1,
+     "depends": [],
+     "conflicts": [],
+     "tested": [
+      {
+       "device": "MPC One",
+       "firmware": "HAKAI 3.10",
+       "date": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "version": "2.0.0",
+     "size": 195337,
+     "defer": true,
+     "sha256": "0872d035dab60c70cf7bbb48ad74e2652f3495e1540d26cc454ab4887b82131c",
+     "param_compat": 2,
+     "max_glibc": "2.17",
+     "cpu": null,
+     "requires": "",
+     "manifest": {
+      "schema": 1,
+      "id": "potentialnoise",
+      "name": "PotentialNoise",
+      "version": "2.0.0",
+      "kind": "instrument",
+      "uid": "50624e7a",
+      "manufacturer": "PotentialBreaks",
+      "layout": "portable",
+      "so": "potentialnoise.so",
+      "skin": "PotentialBreaks - VST - PotentialNoise",
+      "folder": "portable/PotentialBreaks - VST - PotentialNoise",
+      "extras": [],
+      "user_data": [],
+      "user_files": [],
+      "arch": "armv7",
+      "max_glibc": "2.17",
+      "os_compat": [
+       "3.x"
+      ],
+      "param_compat": 2,
+      "about": "Calibrated pink noise reference for mixing: one-tap RMS levels, mono/stereo, full or limited range, live meter.",
+      "requires": "",
+      "source_repo": "PotentialBreakfast/mpc-vst-potentialnoise",
+      "license": "MIT",
+      "cpu": null
+     },
+     "os_compat": [
+      "3.x"
+     ],
+     "os_compat_why": [
+      "TUI:actions[] version 2 (2.15.1 uses 1)",
+      "TUI:data:Button version 2 (2.15.1 uses 1)",
+      "TUI:tabs[] version 3 (2.15.1 uses 1)",
+      "TUI:value version 4 (2.15.1 uses 1, 2)"
+     ],
+     "assets": {
+      "armv7": {
+       "sha256": "0872d035dab60c70cf7bbb48ad74e2652f3495e1540d26cc454ab4887b82131c",
+       "size": 195337,
+       "url": "https://github.com/PotentialBreakfast/mpc-vst-potentialnoise/releases/download/v2.0.0/PotentialNoise-2.0.0-mpc-armv7.zip"
+      }
+     },
+     "url": "https://github.com/PotentialBreakfast/mpc-vst-potentialnoise/releases/download/v2.0.0/PotentialNoise-2.0.0-mpc-armv7.zip",
+     "date": "2026-11-05",
+     "channel": "stable",
+     "notes": "**PotentialNoise 2.0.0**, the first public release (the renamed, re-styled Pink Noise).\n\nA calibrated pink noise reference for mixing: one-tap RMS levels, mono or stereo, full or limited range, and a live meter. See the [README](https://github.com/PotentialBreakfast/mpc-vst-potentialnoise#readme) for how to use it.\n\n**Download** `PotentialNoise-2.0.0-mpc-armv7.zip` below. It's for Gen1 (32-bit) MPCs on MPC OS 3.x and has been tested on an MPC One. Install it with the [Open MPC](https://open-mpc.github.io/) installer app, or follow `INSTALL.md` inside the zip. Save your project first, because installing restarts the MPC.\n\nIdeas, bugs and criticism are all welcome. [Open an issue](https://github.com/PotentialBreakfast/mpc-vst-potentialnoise/issues/new/choose).\n",
+     "yanked": false,
+     "warnings": [],
+     "downloads": 2,
+     "depends": [],
+     "conflicts": [],
+     "tested": [
+      {
+       "device": "MPC One",
+       "firmware": "HAKAI 3.10",
+       "date": "2026-11-05"
+      }
+     ]
+    }
+   ],
+   "tier": "verified",
+   "verified_on": [
+    "gen1"
+   ],
+   "bar_missing": [
+    "cpu-bench"
+   ],
+   "featured": false,
+   "latest": "2.0.1",
+   "latest_beta": null,
+   "updated": "2026-11-05",
+   "added": "2026-11-05",
+   "downloads": 3
+  },
+  {
    "id": "potentialpatina",
    "name": "PotentialPatina",
    "author": "PotentialBreaks",
@@ -43906,7 +44176,7 @@
    "kind": "effect",
    "license": "MIT",
    "summary": "Retro-colour insert effect: vinyl and tape noise, wow and flutter, tape/tube/cassette drive, bit and sample-rate crush, a tone tilt and a small room, with presets from subtle dust to old radio.",
-   "screenshot": "https://raw.githubusercontent.com/PotentialBreakfast/mpc-vst-potentialpatina/a64e56fb32abe9f25e7c6b2316a50676f3cd1b53/docs/images/potentialpatina.png",
+   "screenshot": "https://raw.githubusercontent.com/PotentialBreakfast/mpc-vst-potentialpatina/7e1f7be4526c33f6b88da8238943086a89ec977f/docs/images/potentialpatina.png",
    "style": "saturation",
    "tags": [
     "lo-fi",
@@ -44142,6 +44412,321 @@
    "updated": "2026-11-05",
    "added": "2026-11-05",
    "downloads": 30
+  },
+  {
+   "id": "potentialwax",
+   "name": "PotentialWax",
+   "author": "PotentialBreaks",
+   "repo": "PotentialBreakfast/mpc-vst-potentialwax",
+   "kind": "instrument",
+   "license": "MIT",
+   "summary": "Melodic sampler in the spirit of Serato Sample: picks or browses songs from your own folders (MP3, WAV or FLAC), detects tempo and key, sets 16 cue points (phrases, bars or hits) on the pads and matches them to your tempo and key, with time-stretch or vinyl-style pitching. Save the chops as WAVs.",
+   "screenshot": "https://raw.githubusercontent.com/PotentialBreakfast/mpc-vst-potentialwax/edbcaf4d8ca332e3cb05a0603aa63d4124d6c220/docs/images/potentialwax.png",
+   "style": "sampler",
+   "tags": [
+    "chop",
+    "melodic",
+    "sampler",
+    "time-stretch",
+    "key-detection"
+   ],
+   "source_available": false,
+   "distribution": "release",
+   "versions": [
+    {
+     "version": "1.2.1",
+     "size": 1994837,
+     "defer": true,
+     "sha256": "65fb7e9124b791276bb53dad80c3091b8a44e5fc5a6b2d584e11cf7938ec8347",
+     "param_compat": 1,
+     "max_glibc": "2.17",
+     "cpu": null,
+     "requires": "",
+     "manifest": {
+      "schema": 1,
+      "id": "potentialwax",
+      "name": "PotentialWax",
+      "version": "1.2.1",
+      "kind": "instrument",
+      "uid": "50625778",
+      "manufacturer": "PotentialBreaks",
+      "layout": "portable",
+      "so": "potentialwax.so",
+      "skin": "PotentialBreaks - VST - PotentialWax",
+      "folder": "portable/PotentialBreaks - VST - PotentialWax",
+      "extras": [],
+      "user_data": [],
+      "user_files": [],
+      "arch": "armv7",
+      "max_glibc": "2.17",
+      "os_compat": [
+       "3.x"
+      ],
+      "param_compat": 1,
+      "about": "Melodic sampler: pick or dig a song from your library, 16 cues found for you, matched to your tempo and key.",
+      "requires": "",
+      "source_repo": "PotentialBreakfast/mpc-vst-potentialwax",
+      "license": "MIT",
+      "cpu": null
+     },
+     "os_compat": [
+      "3.x"
+     ],
+     "os_compat_why": [
+      "TUI:actions[] version 2 (2.15.1 uses 1)",
+      "TUI:data:Button version 2 (2.15.1 uses 1)",
+      "TUI:data:Knob version 5 (2.15.1 uses 1, 2)",
+      "TUI:tabs[] version 3 (2.15.1 uses 1)",
+      "TUI:value version 4 (2.15.1 uses 1, 2)"
+     ],
+     "assets": {
+      "armv7": {
+       "sha256": "65fb7e9124b791276bb53dad80c3091b8a44e5fc5a6b2d584e11cf7938ec8347",
+       "size": 1994837,
+       "url": "https://github.com/PotentialBreakfast/mpc-vst-potentialwax/releases/download/v1.2.1/PotentialWax-1.2.1-mpc-armv7.zip"
+      }
+     },
+     "url": "https://github.com/PotentialBreakfast/mpc-vst-potentialwax/releases/download/v1.2.1/PotentialWax-1.2.1-mpc-armv7.zip",
+     "date": "2026-11-05",
+     "channel": "stable",
+     "notes": "**PotentialWax 1.2.1**: name tidy-up.\n\n- The title on the plugin's page now reads **PotentialWax**, the same as in the MPC's plugin list (it was in all capitals). Sound and controls are unchanged.\n\nSaved projects keep working. **Download** `PotentialWax-1.2.1-mpc-armv7.zip` below. It's for Gen1 (32-bit) MPCs on MPC OS 3.x and has been tested on an MPC One. Install it with the [Open MPC](https://open-mpc.github.io/) installer app, or follow `INSTALL.md` inside the zip. Save your project first, because installing restarts the MPC.\n",
+     "yanked": false,
+     "warnings": [],
+     "downloads": 1,
+     "depends": [],
+     "conflicts": [],
+     "tested": [
+      {
+       "device": "MPC One",
+       "firmware": "HAKAI 3.10",
+       "date": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "version": "1.2.0",
+     "size": 1994909,
+     "defer": true,
+     "sha256": "93d5cc134b2db97f40a1d35017fd3e3e97ca00d3f90d7f74a96ec2939b66a35f",
+     "param_compat": 1,
+     "max_glibc": "2.17",
+     "cpu": null,
+     "requires": "",
+     "manifest": {
+      "schema": 1,
+      "id": "potentialwax",
+      "name": "PotentialWax",
+      "version": "1.2.0",
+      "kind": "instrument",
+      "uid": "50625778",
+      "manufacturer": "PotentialBreaks",
+      "layout": "portable",
+      "so": "potentialwax.so",
+      "skin": "PotentialBreaks - VST - PotentialWax",
+      "folder": "portable/PotentialBreaks - VST - PotentialWax",
+      "extras": [],
+      "user_data": [],
+      "user_files": [],
+      "arch": "armv7",
+      "max_glibc": "2.17",
+      "os_compat": [
+       "3.x"
+      ],
+      "param_compat": 1,
+      "about": "Melodic sampler: pick or dig a song from your library, 16 cues found for you, matched to your tempo and key.",
+      "requires": "",
+      "source_repo": "PotentialBreakfast/mpc-vst-potentialwax",
+      "license": "MIT",
+      "cpu": null
+     },
+     "os_compat": [
+      "3.x"
+     ],
+     "os_compat_why": [
+      "TUI:actions[] version 2 (2.15.1 uses 1)",
+      "TUI:data:Button version 2 (2.15.1 uses 1)",
+      "TUI:data:Knob version 5 (2.15.1 uses 1, 2)",
+      "TUI:tabs[] version 3 (2.15.1 uses 1)",
+      "TUI:value version 4 (2.15.1 uses 1, 2)"
+     ],
+     "assets": {
+      "armv7": {
+       "sha256": "93d5cc134b2db97f40a1d35017fd3e3e97ca00d3f90d7f74a96ec2939b66a35f",
+       "size": 1994909,
+       "url": "https://github.com/PotentialBreakfast/mpc-vst-potentialwax/releases/download/v1.2.0/PotentialWax-1.2.0-mpc-armv7.zip"
+      }
+     },
+     "url": "https://github.com/PotentialBreakfast/mpc-vst-potentialwax/releases/download/v1.2.0/PotentialWax-1.2.0-mpc-armv7.zip",
+     "date": "2026-11-05",
+     "channel": "stable",
+     "notes": "**PotentialWax 1.2.0**: see your cues.\n\n- **New WAVE page:** the song's waveform with all 16 cue points. The selected pad's cue glows, and a white line follows playback. Playing a pad selects it.\n- **Zoom** to 16, 4 or 1 bar around the selected cue.\n- **Move any cue** by a bar, a beat, a 1/16 note or a tiny 5 ms step, then **PLAY PAD** to hear it. **SNAP TO HIT** and **RESET CUE** are there too.\n- Your project remembers the cues and the view.\n\nSaved projects keep working. **Download** `PotentialWax-1.2.0-mpc-armv7.zip` below. It's for Gen1 (32-bit) MPCs on MPC OS 3.x and has been tested on an MPC One. Install it with the [Open MPC](https://open-mpc.github.io/) installer app, or follow `INSTALL.md` inside the zip. Save your project first, because installing restarts the MPC.\n",
+     "yanked": false,
+     "warnings": [],
+     "downloads": 0,
+     "depends": [],
+     "conflicts": [],
+     "tested": [
+      {
+       "device": "MPC One",
+       "firmware": "HAKAI 3.10",
+       "date": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "version": "1.1.5",
+     "size": 1882746,
+     "defer": true,
+     "sha256": "7d9400483f6c2d9c06ac5aae79ff7737a8a78210fd5d4e0f73fc0d62dfb9feb5",
+     "param_compat": 1,
+     "max_glibc": "2.17",
+     "cpu": null,
+     "requires": "",
+     "manifest": {
+      "schema": 1,
+      "id": "potentialwax",
+      "name": "PotentialWax",
+      "version": "1.1.5",
+      "kind": "instrument",
+      "uid": "50625778",
+      "manufacturer": "PotentialBreaks",
+      "layout": "portable",
+      "so": "potentialwax.so",
+      "skin": "PotentialBreaks - VST - PotentialWax",
+      "folder": "portable/PotentialBreaks - VST - PotentialWax",
+      "extras": [],
+      "user_data": [],
+      "user_files": [],
+      "arch": "armv7",
+      "max_glibc": "2.17",
+      "os_compat": [
+       "3.x"
+      ],
+      "param_compat": 1,
+      "about": "Melodic sampler: pick or dig a song from your library, 16 cues found for you, matched to your tempo and key.",
+      "requires": "",
+      "source_repo": "PotentialBreakfast/mpc-vst-potentialwax",
+      "license": "MIT",
+      "cpu": null
+     },
+     "os_compat": [
+      "3.x"
+     ],
+     "os_compat_why": [
+      "TUI:actions[] version 2 (2.15.1 uses 1)",
+      "TUI:data:Button version 2 (2.15.1 uses 1)",
+      "TUI:data:Knob version 5 (2.15.1 uses 1, 2)",
+      "TUI:tabs[] version 3 (2.15.1 uses 1)",
+      "TUI:value version 4 (2.15.1 uses 1, 2)"
+     ],
+     "assets": {
+      "armv7": {
+       "sha256": "7d9400483f6c2d9c06ac5aae79ff7737a8a78210fd5d4e0f73fc0d62dfb9feb5",
+       "size": 1882746,
+       "url": "https://github.com/PotentialBreakfast/mpc-vst-potentialwax/releases/download/v1.1.5/PotentialWax-1.1.5-mpc-armv7.zip"
+      }
+     },
+     "url": "https://github.com/PotentialBreakfast/mpc-vst-potentialwax/releases/download/v1.1.5/PotentialWax-1.1.5-mpc-armv7.zip",
+     "date": "2026-11-05",
+     "channel": "stable",
+     "notes": "**PotentialWax 1.1.5**: chops that land on the beat.\n\n- **Cut loops are recognised.** A file that's a whole number of bars gets its exact tempo from its length, and its cues go on its beat grid (a pad per beat on a 4-bar loop). INFO shows \"LOOP 4 BARS\".\n- **Better tempo and cues on real samples:** the tempo and beat grid also listen to the hi-hats, and every cue snaps onto the actual hit nearby.\n- **New \u00f72 / \u00d72 buttons** in the MATCH panel for half-time and double-time samples. Matching, pad lengths and NUDGE follow them, and your project remembers the choice.\n- 1- and 2-bar loops now load (files from about 2 seconds).\n\nSaved projects keep working. **Download** `PotentialWax-1.1.5-mpc-armv7.zip` below. It's for Gen1 (32-bit) MPCs on MPC OS 3.x and has been tested on an MPC One. Install it with the [Open MPC](https://open-mpc.github.io/) installer app, or follow `INSTALL.md` inside the zip. Save your project first, because installing restarts the MPC.\n",
+     "yanked": false,
+     "warnings": [],
+     "downloads": 1,
+     "depends": [],
+     "conflicts": [],
+     "tested": [
+      {
+       "device": "MPC One",
+       "firmware": "HAKAI 3.10",
+       "date": "2026-11-05"
+      }
+     ]
+    },
+    {
+     "version": "1.1.2",
+     "size": 1869539,
+     "defer": true,
+     "sha256": "c014d992d13d89b1673b2154ecfe462b9ca1535dc8c56c9797823f5586a1154c",
+     "param_compat": 1,
+     "max_glibc": "2.17",
+     "cpu": null,
+     "requires": "",
+     "manifest": {
+      "schema": 1,
+      "id": "potentialwax",
+      "name": "PotentialWax",
+      "version": "1.1.2",
+      "kind": "instrument",
+      "uid": "50625778",
+      "manufacturer": "PotentialBreaks",
+      "layout": "portable",
+      "so": "potentialwax.so",
+      "skin": "PotentialBreaks - VST - PotentialWax",
+      "folder": "portable/PotentialBreaks - VST - PotentialWax",
+      "extras": [],
+      "user_data": [],
+      "user_files": [],
+      "arch": "armv7",
+      "max_glibc": "2.17",
+      "os_compat": [
+       "3.x"
+      ],
+      "param_compat": 1,
+      "about": "Melodic sampler: pick or dig a song from your library, 16 cues found for you, matched to your tempo and key.",
+      "requires": "",
+      "source_repo": "PotentialBreakfast/mpc-vst-potentialwax",
+      "license": "MIT",
+      "cpu": null
+     },
+     "os_compat": [
+      "3.x"
+     ],
+     "os_compat_why": [
+      "TUI:actions[] version 2 (2.15.1 uses 1)",
+      "TUI:data:Button version 2 (2.15.1 uses 1)",
+      "TUI:data:Knob version 5 (2.15.1 uses 1, 2)",
+      "TUI:tabs[] version 3 (2.15.1 uses 1)",
+      "TUI:value version 4 (2.15.1 uses 1, 2)"
+     ],
+     "assets": {
+      "armv7": {
+       "sha256": "c014d992d13d89b1673b2154ecfe462b9ca1535dc8c56c9797823f5586a1154c",
+       "size": 1869539,
+       "url": "https://github.com/PotentialBreakfast/mpc-vst-potentialwax/releases/download/v1.1.2/PotentialWax-1.1.2-mpc-armv7.zip"
+      }
+     },
+     "url": "https://github.com/PotentialBreakfast/mpc-vst-potentialwax/releases/download/v1.1.2/PotentialWax-1.1.2-mpc-armv7.zip",
+     "date": "2026-11-05",
+     "channel": "stable",
+     "notes": "**PotentialWax 1.1.2**, the first public release.\n\nA melodic sampler in the spirit of Serato Sample: pick or dig a song from your own library, and get 16 cue points, matched to your project's tempo and key. See the [README](https://github.com/PotentialBreakfast/mpc-vst-potentialwax#readme) for everything it does and its limitations.\n\n**Download** `PotentialWax-1.1.2-mpc-armv7.zip` below. It's for Gen1 (32-bit) MPCs on MPC OS 3.x and has been tested on an MPC One. Install it with the [Open MPC](https://open-mpc.github.io/) installer app, or follow `INSTALL.md` inside the zip. Save your project first, because installing restarts the MPC.\n\nIdeas, bugs and criticism are all welcome. [Open an issue](https://github.com/PotentialBreakfast/mpc-vst-potentialwax/issues/new/choose).\n",
+     "yanked": false,
+     "warnings": [],
+     "downloads": 2,
+     "depends": [],
+     "conflicts": [],
+     "tested": [
+      {
+       "device": "MPC One",
+       "firmware": "HAKAI 3.10",
+       "date": "2026-11-05"
+      }
+     ]
+    }
+   ],
+   "tier": "verified",
+   "verified_on": [
+    "gen1"
+   ],
+   "bar_missing": [
+    "cpu-bench"
+   ],
+   "featured": false,
+   "latest": "1.2.1",
+   "latest_beta": null,
+   "updated": "2026-11-05",
+   "added": "2026-11-05",
+   "downloads": 4
   },
   {
    "id": "prloguexxl",
@@ -46289,7 +46874,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 471,
+     "downloads": 472,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -46306,7 +46891,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1889
+   "downloads": 1890
   },
   {
    "id": "rings-fx",
@@ -46625,7 +47210,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 227,
+     "downloads": 228,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -46697,7 +47282,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 341,
+     "downloads": 342,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47001,7 +47586,7 @@
    "latest_beta": "1.1.1",
    "updated": "2026-10-29",
    "added": "2026-10-07",
-   "downloads": 2298
+   "downloads": 2300
   },
   {
    "id": "setbfree-organ",
@@ -47093,7 +47678,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 304,
+     "downloads": 305,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -47168,7 +47753,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 197,
+     "downloads": 198,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -47243,7 +47828,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 188,
+     "downloads": 189,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47312,7 +47897,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 170,
+     "downloads": 171,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47330,7 +47915,7 @@
    "latest_beta": null,
    "updated": "2026-10-24",
    "added": "2026-10-19",
-   "downloads": 1009
+   "downloads": 1014
   },
   {
    "id": "sfizz",
@@ -47425,7 +48010,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 258,
+     "downloads": 259,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47500,7 +48085,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 224,
+     "downloads": 225,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -47586,7 +48171,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 156,
+     "downloads": 157,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -47615,7 +48200,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-18",
-   "downloads": 638
+   "downloads": 641
   },
   {
    "id": "shapey-5-band-eq",
@@ -47696,7 +48281,7 @@
      "notes": "A 5-band parametric EQ you shape by touch, every band on its own lane, with a live analyzer.\r\n\r\n## Requirements\r\n\r\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\r\n  The installer refuses anything else. Newer models are untested.\r\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\r\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\r\n\r\n## Install (scripted)\r\n\r\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r Shapey-5-Band-EQ-1.0.1 root@<device-ip>:/tmp/`\r\n2. Run it: `ssh root@<device-ip> sh /tmp/Shapey-5-Band-EQ-1.0.1/install.sh`\r\n\r\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/3DTHC - VST - Shapey 5-Band EQ/` (the plugin, its skin\r\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\r\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\r\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\r\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\r\n\r\nThen add **Shapey 5-Band EQ** to a track from the plugin browser (Insert effects). Its screen appears in the plugin view,\r\nand the Q-Links follow the page.\r\n\r\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\r\n\r\n---\r\nBuilt by GitHub Actions from 3dthc/Shapey-MPC@832ebc4 with mpc-vst-plugins@8dd4c2f.\r\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 67,
+     "downloads": 68,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47761,7 +48346,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 214,
+     "downloads": 215,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -47785,7 +48370,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-26",
-   "downloads": 281
+   "downloads": 283
   },
   {
    "id": "shapey-eq",
@@ -47866,7 +48451,7 @@
      "notes": "An 8-band parametric EQ you shape by touch, with a live analyzer.\r\n\r\n## Requirements\r\n\r\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\r\n  The installer refuses anything else. Newer models are untested.\r\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\r\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\r\n\r\n## Install (scripted)\r\n\r\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r Shapey-EQ-1.6.2 root@<device-ip>:/tmp/`\r\n2. Run it: `ssh root@<device-ip> sh /tmp/Shapey-EQ-1.6.2/install.sh`\r\n\r\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/3DTHC - VST - Shapey EQ/` (the plugin, its skin\r\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\r\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\r\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\r\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\r\n\r\nThen add **Shapey EQ** to a track from the plugin browser (Insert effects). Its screen appears in the plugin view,\r\nand the Q-Links follow the page.\r\n\r\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\r\n\r\n---\r\nBuilt by GitHub Actions from 3dthc/Shapey-MPC@832ebc4 with mpc-vst-plugins@8dd4c2f.\r\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 72,
+     "downloads": 73,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47931,7 +48516,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 256,
+     "downloads": 257,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -47955,7 +48540,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-26",
-   "downloads": 328
+   "downloads": 330
   },
   {
    "id": "sonix",
@@ -48032,7 +48617,7 @@
      "notes": "A ROMpler with 128 presets and 45 instruments - pianos, keys, guitars, strings, brass, choirs, pads, synths, leads, plucks, bass and bells, from CC0 / CC BY recordings and original renders. Four layers, filter, LFO, chorus, delay, reverb, eleven colorways.\r\n\r\n## Requirements\r\n\r\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\r\n  The installer refuses anything else. Newer models are untested.\r\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\r\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\r\n\r\n## Install (scripted)\r\n\r\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r Sonix-0.3.12 root@<device-ip>:/tmp/`\r\n2. Run it: `ssh root@<device-ip> sh /tmp/Sonix-0.3.12/install.sh`\r\n\r\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/3dthc - VST - Sonix/` (the plugin, its skin\r\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\r\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\r\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\r\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\r\n\r\nThen add **Sonix** to a track from the plugin browser (Instrument plugins). Its screen appears in the plugin view,\r\nand the Q-Links follow the page.\r\n\r\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\r\n\r\n---\r\nBuilt by GitHub Actions from 3dthc/Sonix@c8b2b53 with mpc-vst-plugins@c6b4bb0.\r\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 84,
+     "downloads": 85,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -48174,7 +48759,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 283,
+     "downloads": 284,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -48261,7 +48846,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-16",
-   "downloads": 1110
+   "downloads": 1112
   },
   {
    "id": "op1fx-spring",
@@ -48451,7 +49036,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 318,
+     "downloads": 319,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -48521,7 +49106,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 317,
+     "downloads": 318,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -48591,7 +49176,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 252,
+     "downloads": 253,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -48655,7 +49240,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 218,
+     "downloads": 219,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -48719,7 +49304,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 271,
+     "downloads": 272,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -48743,7 +49328,7 @@
    "latest_beta": null,
    "updated": "2026-10-19",
    "added": "2026-10-12",
-   "downloads": 1376
+   "downloads": 1381
   },
   {
    "id": "stevequencer",
@@ -48827,7 +49412,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 254,
+     "downloads": 255,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -48894,7 +49479,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 140,
+     "downloads": 141,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -48961,7 +49546,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 157,
+     "downloads": 158,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49028,7 +49613,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 470,
+     "downloads": 471,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49045,7 +49630,7 @@
    "latest_beta": null,
    "updated": "2026-10-24",
    "added": "2026-10-10",
-   "downloads": 1021
+   "downloads": 1025
   },
   {
    "id": "stevequencer-16",
@@ -49130,7 +49715,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 238,
+     "downloads": 239,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49197,7 +49782,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 143,
+     "downloads": 144,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49264,7 +49849,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 154,
+     "downloads": 155,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49331,7 +49916,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 459,
+     "downloads": 460,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49348,7 +49933,7 @@
    "latest_beta": null,
    "updated": "2026-10-24",
    "added": "2026-10-10",
-   "downloads": 994
+   "downloads": 998
   },
   {
    "id": "stompbox",
@@ -49445,7 +50030,7 @@
      "notes": "A guitar rig as one insert effect: gate, compressor, wah, any number of pedals, amp, tone stack, power amp, cabinet, post FX, modulation, delay, reverb and EQ, from the guitarix project's DSP, with guitarix's 40 factory presets.\n\n## Requirements\n\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\n  The installer refuses anything else. Newer models are untested.\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\n\n## Install (scripted)\n\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r Stompbox-1.0.0 root@<device-ip>:/tmp/`\n2. Run it: `ssh root@<device-ip> sh /tmp/Stompbox-1.0.0/install.sh`\n\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/jacob-sabella - VST - Stompbox/` (the plugin, its skin\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\n\nThen add **Stompbox** to a track from the plugin browser (Insert effects). Its screen appears in the plugin view,\nand the Q-Links follow the page.\n\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\n\n---\nBuilt by GitHub Actions from jacob-sabella/mpc-vst-stompbox@945baf9 with mpc-vst-plugins@8e266ce.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 16,
+     "downloads": 17,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49524,7 +50109,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 150,
+     "downloads": 151,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -49547,7 +50132,7 @@
    "latest_beta": "0.0.1",
    "updated": "2026-11-04",
    "added": "2026-10-26",
-   "downloads": 166
+   "downloads": 168
   },
   {
    "id": "stream",
@@ -49641,7 +50226,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/johnny - VST - Stream/stream.so calls network (sendto, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 508,
+     "downloads": 509,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -49663,7 +50248,7 @@
    "latest_beta": null,
    "updated": "2026-10-03",
    "added": "2026-10-03",
-   "downloads": 508
+   "downloads": 509
   },
   {
    "id": "op1fx-string",
@@ -49867,7 +50452,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 398,
+     "downloads": 399,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -49953,7 +50538,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 558,
+     "downloads": 559,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -50039,7 +50624,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 331,
+     "downloads": 332,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50058,7 +50643,7 @@
    "latest_beta": null,
    "updated": "2026-10-21",
    "added": "2026-10-09",
-   "downloads": 1287
+   "downloads": 1290
   },
   {
    "id": "subwerk",
@@ -50143,7 +50728,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 186,
+     "downloads": 187,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50160,7 +50745,7 @@
    "latest_beta": null,
    "updated": "2026-10-29",
    "added": "2026-10-05",
-   "downloads": 186
+   "downloads": 187
   },
   {
    "id": "super-arp",
@@ -50244,7 +50829,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 334,
+     "downloads": 335,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50311,7 +50896,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 236,
+     "downloads": 237,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50378,7 +50963,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 478,
+     "downloads": 479,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50395,7 +50980,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-10",
-   "downloads": 1048
+   "downloads": 1051
   },
   {
    "id": "surgexxl",
@@ -50508,7 +51093,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/L'Cronx - VST - SurgeXXL/surgexxl.so calls network (accept, bind, connect, getaddrinfo, listen, recv, recvfrom, send, sendto, socket); runs programs (execv, execvp, fork, popen, system); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 436,
+     "downloads": 437,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -50607,7 +51192,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/L'Cronx - VST - SurgeXXL/surgexxl.so calls network (accept, bind, connect, getaddrinfo, listen, recv, recvfrom, send, sendto, socket); runs programs (execv, execvp, fork, popen, system); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 169,
+     "downloads": 170,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50717,7 +51302,7 @@
    "latest_beta": null,
    "updated": "2026-10-24",
    "added": "2026-10-13",
-   "downloads": 847
+   "downloads": 849
   },
   {
    "id": "tablor",
@@ -50803,7 +51388,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 320,
+     "downloads": 321,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50874,7 +51459,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 224,
+     "downloads": 225,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50945,7 +51530,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 461,
+     "downloads": 462,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50962,7 +51547,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-10",
-   "downloads": 1005
+   "downloads": 1008
   },
   {
    "id": "tinyfreaky",
@@ -51049,7 +51634,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 381,
+     "downloads": 382,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -51119,7 +51704,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 230,
+     "downloads": 231,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -51189,7 +51774,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 152,
+     "downloads": 153,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -51206,7 +51791,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-18",
-   "downloads": 763
+   "downloads": 766
   },
   {
    "id": "tr-mpc",
@@ -51303,7 +51888,7 @@
      "notes": "Modular 16-slot drum kit, any voice of 6W6, 8W8, CW-78 and 9W9 per slot, with one shared reverb, delay and master chain. Built on athousanddetails' Schwung drum machines.\n\n## Requirements\n\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\n  The installer refuses anything else. Newer models are untested.\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\n\n## Install (scripted)\n\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r TR-MPC-1.1.0 root@<device-ip>:/tmp/`\n2. Run it: `ssh root@<device-ip> sh /tmp/TR-MPC-1.1.0/install.sh`\n\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/sd88me - VST - TR-MPC/` (the plugin, its skin\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\n\nThen add **TR-MPC** to a track from the plugin browser (Instrument plugins). Its screen appears in the plugin view,\nand the Q-Links follow the page.\n\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\n\n---\nBuilt by GitHub Actions from sd88me/mpc-vst-TR-MPC@6918634 with mpc-vst-plugins@70c1623.\n\n\n\n**Note:** a new TR-MPC instance now starts with a mixed default kit (voices from all four drum machines). Saved projects keep their own slots.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 116,
+     "downloads": 117,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -51387,7 +51972,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 388,
+     "downloads": 389,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -51466,7 +52051,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 233,
+     "downloads": 234,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -51543,7 +52128,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 762,
+     "downloads": 763,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -51567,7 +52152,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-07",
-   "downloads": 1499
+   "downloads": 1503
   },
   {
    "id": "tr-mpc-tap-fx",
@@ -51651,7 +52236,7 @@
      "notes": "TR-MPC Tap FX - sends any TR-MPC slot, or its reverb or delay send, out on its own MPC track so MPC's mixer, submixes and effects can process it.\n\n## Requirements\n\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\n  The installer refuses anything else. Newer models are untested.\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\n\n## Install (scripted)\n\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r TR-MPC-Tap-FX-1.1.0 root@<device-ip>:/tmp/`\n2. Run it: `ssh root@<device-ip> sh /tmp/TR-MPC-Tap-FX-1.1.0/install.sh`\n\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/sd88me - VST - TR-MPC Tap FX/` (the plugin, its skin\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\n\nThen add **TR-MPC Tap FX** to a track from the plugin browser (Insert effects). Its screen appears in the plugin view,\nand the Q-Links follow the page.\n\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\n\n---\nBuilt by GitHub Actions from sd88me/mpc-vst-TR-MPC@6918634 with mpc-vst-plugins@70c1623.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 71,
+     "downloads": 72,
      "depends": [
       {
        "id": "tr-mpc",
@@ -51741,7 +52326,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 308,
+     "downloads": 309,
      "depends": [
       {
        "id": "tr-mpc",
@@ -51816,7 +52401,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 615,
+     "downloads": 616,
      "depends": [
       {
        "id": "tr-mpc",
@@ -51849,7 +52434,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-07",
-   "downloads": 994
+   "downloads": 997
   },
   {
    "id": "tributary",
@@ -51940,7 +52525,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 510,
+     "downloads": 511,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -52014,7 +52599,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 340,
+     "downloads": 341,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52032,7 +52617,7 @@
    "latest_beta": null,
    "updated": "2026-10-10",
    "added": "2026-10-09",
-   "downloads": 850
+   "downloads": 852
   },
   {
    "id": "tropix",
@@ -52119,7 +52704,7 @@
      "notes": "Island and afro sounds - 128 presets and 65 instruments for afrobeat, amapiano, kompa, soca, reggae and Hawaiian music. Two layers, glide, scoop, vibrato, filter, drive, chorus, delay, reverb, nine colorways.\r\n\r\n## Requirements\r\n\r\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\r\n  The installer refuses anything else. Newer models are untested.\r\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\r\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\r\n\r\n## Install (scripted)\r\n\r\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r Tropix-0.1.1 root@<device-ip>:/tmp/`\r\n2. Run it: `ssh root@<device-ip> sh /tmp/Tropix-0.1.1/install.sh`\r\n\r\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/3dthc - VST - Tropix/` (the plugin, its skin\r\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\r\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\r\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\r\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\r\n\r\nThen add **Tropix** to a track from the plugin browser (Instrument plugins). Its screen appears in the plugin view,\r\nand the Q-Links follow the page.\r\n\r\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\r\n\r\n---\r\nBuilt by GitHub Actions from 3dthc/Tropix@7fa17b9 with mpc-vst-plugins@8dd4c2f.\r\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 60,
+     "downloads": 61,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52186,7 +52771,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 233,
+     "downloads": 234,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -52210,7 +52795,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-27",
-   "downloads": 293
+   "downloads": 295
   },
   {
    "id": "tuner",
@@ -52305,7 +52890,7 @@
      "notes": "A chromatic tuner insert that draws its needle straight onto the MPC's screen.\n\n## Requirements\n\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\n  The installer refuses anything else. Newer models are untested.\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\n\n## Install (scripted)\n\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r Tuner-1.0.0 root@<device-ip>:/tmp/`\n2. Run it: `ssh root@<device-ip> sh /tmp/Tuner-1.0.0/install.sh`\n\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/jacob-sabella - VST - Tuner/` (the plugin, its skin\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\n\nThen add **Tuner** to a track from the plugin browser (Insert effects). Its screen appears in the plugin view,\nand the Q-Links follow the page.\n\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\n\n---\nBuilt by GitHub Actions from jacob-sabella/mpc-vst-tuner@3e07ae6 with mpc-vst-plugins@8e266ce.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 13,
+     "downloads": 14,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52384,7 +52969,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 114,
+     "downloads": 115,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -52407,7 +52992,7 @@
    "latest_beta": "0.0.1",
    "updated": "2026-11-04",
    "added": "2026-10-26",
-   "downloads": 127
+   "downloads": 129
   },
   {
    "id": "tuney",
@@ -52488,7 +53073,7 @@
      "notes": "Real-time vocal pitch correction with a touch keyboard, a pitch dial and natural-sounding transitions.\r\n\r\n## Requirements\r\n\r\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\r\n  The installer refuses anything else. Newer models are untested.\r\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\r\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\r\n\r\n## Install (scripted)\r\n\r\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r Tuney-1.4.3 root@<device-ip>:/tmp/`\r\n2. Run it: `ssh root@<device-ip> sh /tmp/Tuney-1.4.3/install.sh`\r\n\r\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/3DTHC - VST - Tuney/` (the plugin, its skin\r\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\r\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\r\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\r\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\r\n\r\nThen add **Tuney** to a track from the plugin browser (Insert effects). Its screen appears in the plugin view,\r\nand the Q-Links follow the page.\r\n\r\nFull instructions, including installing by hand, are in `INSTALL.md` inside the zip.\r\n\r\n---\r\nBuilt by GitHub Actions from 3dthc/Tuney-MPC@a4c4fba with mpc-vst-plugins@8dd4c2f.\r\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 50,
+     "downloads": 51,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52553,7 +53138,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 193,
+     "downloads": 194,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -52577,7 +53162,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-26",
-   "downloads": 243
+   "downloads": 245
   },
   {
    "id": "vader",
@@ -52681,7 +53266,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/L'Cronx - VST - VADER/vader.so calls network (bind, listen, recv, recvfrom, send, sendto, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 65,
+     "downloads": 66,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52765,7 +53350,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/L'Cronx - VST - VADER/vader.so calls network (bind, listen, recv, recvfrom, send, sendto, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 46,
+     "downloads": 47,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52848,7 +53433,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/L'Cronx - VST - VADER/vader.so calls network (bind, listen, recv, recvfrom, send, sendto, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 405,
+     "downloads": 406,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -52937,7 +53522,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/L'Cronx - VST - VADER/vader.so calls network (bind, listen, recv, recvfrom, send, sendto, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 92,
+     "downloads": 93,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -53012,7 +53597,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 83,
+     "downloads": 84,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53081,7 +53666,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 84,
+     "downloads": 85,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53150,7 +53735,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 80,
+     "downloads": 81,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53219,7 +53804,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 86,
+     "downloads": 87,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53288,7 +53873,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 80,
+     "downloads": 81,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53357,7 +53942,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 80,
+     "downloads": 81,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53375,7 +53960,7 @@
    "latest_beta": "0.9.0",
    "updated": "2026-10-30",
    "added": "2026-10-17",
-   "downloads": 1588
+   "downloads": 1604
   },
   {
    "id": "verglas",
@@ -53458,7 +54043,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 354,
+     "downloads": 355,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53525,7 +54110,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 250,
+     "downloads": 251,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53592,7 +54177,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 405,
+     "downloads": 406,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53659,7 +54244,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 383,
+     "downloads": 384,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53676,7 +54261,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-10",
-   "downloads": 1392
+   "downloads": 1396
   },
   {
    "id": "vibe-fx",
@@ -53759,7 +54344,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 306,
+     "downloads": 307,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53823,7 +54408,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 788,
+     "downloads": 789,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -53846,7 +54431,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-04",
-   "downloads": 1094
+   "downloads": 1096
   },
   {
    "id": "op1fx-voltage",
@@ -54038,7 +54623,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 395,
+     "downloads": 396,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54105,7 +54690,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 274,
+     "downloads": 275,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54172,7 +54757,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 551,
+     "downloads": 552,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54189,7 +54774,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1220
+   "downloads": 1223
   },
   {
    "id": "xenia",
@@ -54319,7 +54904,7 @@
      "notes": "**Lower CPU on Gen2 (MPC Live III).** The emulator now runs on the Live III's fast cores (Cortex-A76) instead of drifting onto the slow ones (Cortex-A55), with the DSP, 68k and emulator threads each on a core of their own. Measured on a Live III with 8 voices held: about 58% of a core, was 110%.\n\nNothing else changed. No ROMs included, as before.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 50,
+     "downloads": 51,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54433,7 +55018,7 @@
      "notes": "- **Your ROM is kept on upgrade.** Before, installing a new version deleted `xenia/roms/`; it is now kept like the rest of your files.\n- **ROM check in the installer app.** The plugin declares its ROM files, so the installer app's **Your ROMs and files** step checks each file before copying it into `xenia/roms/`: the 256 kB image (it starts with `C0 DE`), its two 128 kB halves, or an OS update `.mid`.\n- A Microwave II ROM works too (the same chip layout); the docs now say so.\n\nDownload: `Xenia-0.1.1-mpc-aarch64.zip` for Gen2 MPCs (MPC OS 3.x). No ROM is included.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 60,
+     "downloads": 61,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54502,7 +55087,7 @@
      "warnings": [
       "install.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 147,
+     "downloads": 148,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -54526,7 +55111,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-27",
-   "downloads": 257
+   "downloads": 260
   },
   {
    "id": "piclidean-mpc",
