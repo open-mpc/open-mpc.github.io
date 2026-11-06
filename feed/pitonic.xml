@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>πToniC: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/pitonic</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<entry><title>πToniC 1.0.0</title><id>tag:mpc-vst-catalog,2026:pitonic@1.0.0</id><updated>2026-11-06T00:00:00Z</updated><link href="https://github.com/timomacquis/piToniC-MPC/releases/download/v1.0.0/piToniC-1.0.0-Patternarium-BEST150-mpc-armv7.zip"/><author><name>Timo</name></author><summary># πToniC 1.0.0 Eight-voice percussion synthesis with native MPC sequencing, touch controls and shared stereo effects. - Oscillator morphing, filtered noise, amplitude and pitch envelopes, sine/random pitch modulation. - Per-voice drive, EQ, velocity response, pan and choke groups. - A/B comparison, ALTER and RAND VOICE. - Shared reverb and synchronised/free delay, with two sends per voice. - Five touch pages, contextual Q-Links and azure trigger activity. - 150 converted Patternarium BEST kits i</summary></entry>
+</feed>
