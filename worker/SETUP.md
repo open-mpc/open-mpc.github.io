@@ -7,11 +7,16 @@ their consoles change, so treat button names as approximate. **None of this has 
 Order: 0 (terminal) > 1 (Cloudflare) > 2 (Discord) > 3 (Google) > 3b (GitHub) > 4 (secrets) > 5 (tell Claude the address) > 6 (try it).
 Steps 2 and 3 need the Worker address from step 1, so do 1 first.
 
+## Making a change (since 2026-11-06)
+This folder lives in the site repo `open-mpc/open-mpc.github.io` (clone: `~/open-mpc.github.io`). The catalog workflow pushes the site here
+too, but leaves `worker/` alone. To change the Worker: `git pull`, edit, `npm test`, `npx wrangler deploy`, then commit and `git push`
+(if the push is refused because the catalog just pushed, `git pull --rebase` and push again). Run `npm install` once after cloning.
+
 ## 0. Where to type the commands
 All commands are typed in the **WSL terminal** (the same Linux terminal Claude Code runs in), in this folder:
 
 ```
-cd ~/openmpc-signals
+cd ~/open-mpc.github.io/worker
 ```
 
 - Node and npm are already installed there (`node -v` prints v22, `npm -v` prints 9). **You do not need to run `npm install`
@@ -24,7 +29,7 @@ cd ~/openmpc-signals
 
 ## 1. Cloudflare (free plan is enough at our size)
 1. Go to https://dash.cloudflare.com/sign-up and create an account (no domain and no card needed). Verify the email.
-2. In the terminal: `cd ~/openmpc-signals`, then `npx wrangler login`.
+2. In the terminal: `cd ~/open-mpc.github.io/worker`, then `npx wrangler login`.
    It prints a long link and tries to open your browser. If no browser opens, copy the link into one by hand. Click **Allow**.
    The terminal then says "Successfully logged in". (Check with `npx wrangler whoami`.)
 3. Create the database: `npx wrangler d1 create signals`.
@@ -71,7 +76,7 @@ cd ~/openmpc-signals
 5. Add them as the secrets `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET` (section 4). The Worker asks GitHub for the `user:email` permission.
 
 ## 4. Secrets (never commit these, never paste them in chat)
-In the terminal, in `~/openmpc-signals`. Each command asks you to paste the value, then press Enter (nothing is shown while you paste):
+In the terminal, in `~/open-mpc.github.io/worker`. Each command asks you to paste the value, then press Enter (nothing is shown while you paste):
 
 ```
 npx wrangler secret put AUTH_SECRET            # paste the output of:  openssl rand -base64 48   (run that on its own line first)
