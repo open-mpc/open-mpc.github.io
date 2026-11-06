@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Helm: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/helm</id>
+<updated>2026-10-04T00:00:00Z</updated>
+<entry><title>Helm 1.0.0</title><id>tag:mpc-vst-catalog,2026:helm@1.0.0</id><updated>2026-10-04T00:00:00Z</updated><link href="https://github.com/Lewinator56/mpc-vst-helm/releases/download/1.0.0/Helm-1.0.0-mpc-armv7.zip"/><author><name>Lewinator56</name></author><summary>Initial release. Please submit bugs in the issue section.</summary></entry>
+</feed>

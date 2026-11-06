@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>MS20XXL: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/ms20xxl</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<entry><title>MS20XXL 0.1.2</title><id>tag:mpc-vst-catalog,2026:ms20xxl@0.1.2</id><updated>2026-10-27T00:00:00Z</updated><link href="https://github.com/sunskiefer/MS20XXL/releases/download/v0.1.2/MS20XXL-0.1.2-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>MS20XXL for Force / MPC OS by L'Cronx. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer.</summary></entry>
+<entry><title>MS20XXL 0.1.1</title><id>tag:mpc-vst-catalog,2026:ms20xxl@0.1.1</id><updated>2026-10-25T00:00:00Z</updated><link href="https://github.com/sunskiefer/MS20XXL/releases/download/v0.1.1/MS20XXL-0.1.1-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>MS20XXL for Force / MPC OS by L'Cronx. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer.</summary></entry>
+<entry><title>MS20XXL 0.1.0</title><id>tag:mpc-vst-catalog,2026:ms20xxl@0.1.0</id><updated>2026-10-24T00:00:00Z</updated><link href="https://github.com/sunskiefer/MS20XXL/releases/download/v0.1.0/MS20XXL-0.1.0-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>MS20XXL for Force / MPC OS by L'Cronx. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer.</summary></entry>
+</feed>

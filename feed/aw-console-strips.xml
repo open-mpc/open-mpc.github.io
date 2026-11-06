@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Airwindows Collection: Console Strips: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/aw-console-strips</id>
+<updated>2026-10-29T00:00:00Z</updated>
+<entry><title>Airwindows Collection: Console Strips 0.1.0</title><id>tag:mpc-vst-catalog,2026:aw-console-strips@0.1.0</id><updated>2026-10-29T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-airwindows/releases/download/v0.1.0/AW-Console-Strips-0.1.0-mpc-armv7.zip"/><author><name>sd88me</name></author><summary># Airwindows for MPC and Force 0.1.0 The first eleven collections of Chris Johnson's Airwindows effects as native MPC OS plugins. One plugin per Airwindows category; each holds every effect in that category, with its own panel, Q-Link badges and a MANUAL tab. See the README for the approach. | Plugin | Models | |---|---| | AW Tape | 12 | | AW Distortion | 15 | | AW Saturation | 20 | | AW Dynamics | 35 | | AW Filter | 54 | | AW Reverb | 42 | | AW Ambience (includes Echojam) | 26 | | AW Consoles |</summary></entry>
+</feed>

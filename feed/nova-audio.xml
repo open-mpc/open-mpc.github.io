@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Nova Audio: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/nova-audio</id>
+<updated>2026-11-03T00:00:00Z</updated>
+<entry><title>Nova Audio 0.2.0</title><id>tag:mpc-vst-catalog,2026:nova-audio@0.2.0</id><updated>2026-11-03T00:00:00Z</updated><link href="https://github.com/3dthc/mpc-addin-nova-audio/releases/download/nova-audio-v0.2.0/Nova-Audio-for-Nova-Editor-0.2.0-mpc-armv7.zip"/><author><name>3dthc</name></author><summary>Lets a plugin play the MPC's audio inputs as its own sound, so a hardware synth becomes one ordinary MPC track: played, monitored, recorded, mixed and resampled on the plugin's own track, with no separate audio track and no Monitor switching. Two builds: `-mpc-armv7` for Gen1 devices and `-mpc-aarch64` for Gen2. Both are built for glibc 2.31, so either loads on MPC OS 2.x as well as 3.x. Install the one matching your device; the installer refuses a mismatch. **Tested on Gen1 (MPC Live II, MPC OS</summary></entry>
+</feed>

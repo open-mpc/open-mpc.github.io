@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>EffectWerk: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/effectwerk</id>
+<updated>2026-10-29T00:00:00Z</updated>
+<entry><title>EffectWerk 0.0.5</title><id>tag:mpc-vst-catalog,2026:effectwerk@0.0.5</id><updated>2026-10-29T00:00:00Z</updated><link href="https://github.com/Devko/EffectWerk/releases/download/v0.0.5/EffectWerk-0.0.5-mpc-armv7.zip"/><author><name>Devko</name></author><summary>**EffectForce is now EffectWerk: a new name, the same effect rack.** &lt;!-- werk-rename: keep --&gt; "Force" is the name of Akai's device, so it no longer belongs in this plugin's name. The sound stays the same, apart from the Delay fix below. - MPC's plugin list shows **EffectWerk**, and the plugin lives in `/sdcard/Synths/Devko - VST - EffectWerk`. - Your presets, favorites and recents move over by themselves: the installer carries them out of the old `Devko - VST - EffectForce` folder and removes </summary></entry>
+</feed>

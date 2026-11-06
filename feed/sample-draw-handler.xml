@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>MPC Sample Draw Handler: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/sample-draw-handler</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<entry><title>MPC Sample Draw Handler 0.6.0 (beta)</title><id>tag:mpc-vst-catalog,2026:sample-draw-handler@0.6.0</id><updated>2026-11-06T00:00:00Z</updated><link href="https://github.com/jacob-sabella/mpc-addin-sample-draw-handler/releases/download/sample-draw-handler-addin-v0.6.0/MPC-Sample-draw-handler-addin-0.6.0-mpc-aarch64.zip"/><author><name>jacob-sabella</name></author><summary>Owns the MPC Sample's screen for plugins that draw on it: the last plugin to ask gets the whole screen until it gives it back. ## Requirements - A Gen2 MPC OS standalone device (aarch64: Live III, One G2, Key(s) G2). The installer refuses anything else. - **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit. - Installing addins this way is unofficial: back up first, use at your own risk. ## Install 1. Unzip, then copy the whole folder to the device, </summary></entry>
+</feed>

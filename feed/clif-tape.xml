@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Clif Tape: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/clif-tape</id>
+<updated>2026-10-29T00:00:00Z</updated>
+<entry><title>Clif Tape 0.2.0</title><id>tag:mpc-vst-catalog,2026:clif-tape@0.2.0</id><updated>2026-10-29T00:00:00Z</updated><link href="https://github.com/MagicStino/Clif-Tape/releases/download/v0.2.0/Clif-Tape-0.2.0-mpc-armv7.zip"/><author><name>MagicStino</name></author><summary>Clif Tape 0.2.0 — stereo tape colour and texture for Windows, macOS, Linux and Force / MPC. Ready-built VST3 downloads for Windows x64, Mac Intel + Apple Silicon, and Linux x86-64. The desktop editions share the cliff artwork, white knobs, four pages, 15 presets and 18 automatable parameters. No compiling required. Tape EQ profiles, saturation, Wow and Flutter, Crackle, Spread, independent Noise and Mechanical textures, plus Digital filtering and DEGRADE. Silence Gate fades Crackle, Noise and Me</summary></entry>
+</feed>

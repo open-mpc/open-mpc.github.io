@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>HexChord 73: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/hexachord-73</id>
+<updated>2026-10-27T00:00:00Z</updated>
+<entry><title>HexChord 73 1.0.0</title><id>tag:mpc-vst-catalog,2026:hexachord-73@1.0.0</id><updated>2026-10-27T00:00:00Z</updated><link href="https://github.com/Eurikon/mpc-vst-plugins/releases/download/hexachord-73-v1.0.0/HexChord-73-1.0.0-mpc-armv7.zip"/><author><name>Eurikon</name></author><summary>HexChord 73: stereo chord synthesizer with four engines, eight chords and four voicings. Tested on MPC Live 2 Retro / Gen1 / MPC OS 3.9.1 and 3.10. CPU: **WARN** — start with one or two instances and check the project CPU meter. [Installation and controls](https://github.com/Eurikon/mpc-vst-plugins/blob/main/Instruments/HexaChord-73/README.md).</summary></entry>
+</feed>

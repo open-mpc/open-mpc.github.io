@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>PrLogueXXL: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/prloguexxl</id>
+<updated>2026-10-23T00:00:00Z</updated>
+<entry><title>PrLogueXXL 0.1.1</title><id>tag:mpc-vst-catalog,2026:prloguexxl@0.1.1</id><updated>2026-10-23T00:00:00Z</updated><link href="https://github.com/sunskiefer/PrLogueXXL/releases/download/v0.1.1/PrLogueXXL-0.1.1-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>PrLogueXXL for Force / MPC OS by L'Cronx. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer.</summary></entry>
+<entry><title>PrLogueXXL 0.1.0</title><id>tag:mpc-vst-catalog,2026:prloguexxl@0.1.0</id><updated>2026-10-23T00:00:00Z</updated><link href="https://github.com/sunskiefer/PrLogueXXL/releases/download/v0.1.0/PrLogueXXL-0.1.0-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>PrLogueXXL for Force / MPC OS by L'Cronx. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer.</summary></entry>
+</feed>

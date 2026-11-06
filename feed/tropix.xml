@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Tropix: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/tropix</id>
+<updated>2026-11-03T00:00:00Z</updated>
+<entry><title>Tropix 0.1.1</title><id>tag:mpc-vst-catalog,2026:tropix@0.1.1</id><updated>2026-11-03T00:00:00Z</updated><link href="https://github.com/3dthc/Tropix/releases/download/v0.1.1/Tropix-0.1.1-mpc-armv7.zip"/><author><name>3dthc</name></author><summary>Island and afro sounds - 128 presets and 65 instruments for afrobeat, amapiano, kompa, soca, reggae and Hawaiian music. Two layers, glide, scoop, vibrato, filter, drive, chorus, delay, reverb, nine colorways. ## Requirements - A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61). The installer refuses anything else. Newer models are untested. - **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded </summary></entry>
+<entry><title>Tropix 0.1.0</title><id>tag:mpc-vst-catalog,2026:tropix@0.1.0</id><updated>2026-10-27T00:00:00Z</updated><link href="https://github.com/3dthc/Tropix/releases/download/v0.1.0/Tropix-0.1.0-mpc-armv7.zip"/><author><name>3dthc</name></author><summary>First release of **Tropix**, an island and afro ROMpler for Akai MPC standalone devices (native ARM VST2, MPC OS 3.x). Tested on an MPC Live II, MPC OS 3.9.1. - **128 presets**, browsed by genre (afrobeat, amapiano, kompa, soca, reggae, Hawaiian) and type (keys, guitars, horns, steel pan, mallets, bass, percussion, synths &amp; FX); also in MPC's own PRESET list - **65 instruments** from redistributable recordings (CC0, CC BY 3.0, University of Iowa MIS) and original synthesis: steel pans, amapiano </summary></entry>
+</feed>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>OP Style Collection: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/c/bombest-op1fx</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<entry><title>OP Style Collection 0.4.1: 18 plugins updated</title><id>tag:mpc-vst-catalog,2026:c/bombest-op1fx@2026-11-01</id><updated>2026-11-01T00:00:00Z</updated><link href="https://github.com/Bombest-Audio/op1-fx/releases"/><author><name>Bombest</name></author><summary>Cluster 0.4.1, Cwo 0.4.1, DBox 0.4.1, Delay 0.4.1, Digital 0.4.1, DNA 0.4.1, DrWave 0.4.1, DSynth 0.4.1, Fm 0.4.1, Grid 0.4.1, Nitro 0.4.1, Phase 0.4.1, Phone 0.4.1, Pulse 0.4.1, Punch 0.4.1, Spring 0.4.1, String 0.4.1, Voltage 0.4.1</summary></entry>
+</feed>

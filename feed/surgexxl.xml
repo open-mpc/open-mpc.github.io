@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>SurgeXXL: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/surgexxl</id>
+<updated>2026-10-24T00:00:00Z</updated>
+<entry><title>SurgeXXL 0.2.0</title><id>tag:mpc-vst-catalog,2026:surgexxl@0.2.0</id><updated>2026-10-24T00:00:00Z</updated><link href="https://github.com/sunskiefer/SurgeXXL/releases/download/v0.2.0/SurgeXXL-0.2.0-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>**SurgeXXL 0.2.0** — Surge XT 1.3.4's synth engine as a native MPC OS instrument for the Force (MPC OS 3.x). &gt; **This is the fix for "SurgeXXL loads nothing / crashes MPC".** Every earlier version (0.1.0-0.1.3) failed at the very first step on a Force: MPC runs plugins with no `HOME` variable, Surge asked for it while starting, and no instance could be made (the crash log said `create: exception The environment variable HOME is unset or empty`). Fixed, and every offline test now runs without HOM</summary></entry>
+</feed>

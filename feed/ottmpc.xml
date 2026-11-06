@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>OTTmpc: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/ottmpc</id>
+<updated>2026-10-21T00:00:00Z</updated>
+<entry><title>OTTmpc 1.0.1</title><id>tag:mpc-vst-catalog,2026:ottmpc@1.0.1</id><updated>2026-10-21T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-OTT/releases/download/ottmpc-vst-v1.0.1/OTTmpc-1.0.1-mpc-armv7.zip"/><author><name>sd88me</name></author><summary>Rebuilt against the updated mpc-vst-plugins wrapper: **Q-Links now move parameters on track edit → automation** (a plain host write no longer makes MPC rebuild its parameter screen; sd88me/mpc-vst-plugins#486). No other changes. `*-mpc-armv7.zip` is for Gen1 MPCs and the Force; `*-mpc-aarch64.zip` is the Gen2 build (MPC OS 3.x), tested offline only. Settings and your own files in the plugin's data folders are kept on upgrade.</summary></entry>
+<entry><title>OTTmpc 1.0.0</title><id>tag:mpc-vst-catalog,2026:ottmpc@1.0.0</id><updated>2026-10-07T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-OTT/releases/download/ottmpc-vst-v1.0.0/OTTmpc-1.0.0-mpc-armv7.zip"/><author><name>sd88me</name></author><summary># OTTmpc 1.0.0 Vital's OTT multiband up/down compressor ([vitOTTx](https://github.com/Sakhnovkrg/vitOTTx)'s DSP) as an **insert effect** for MPC OS standalone devices, with an OTT-style touchscreen skin, live per-band input/output meters with dB numbers, 12 Q-Link controls and 10 presets in MPC's PRESET menu. ![OTTmpc on a Force](https://raw.githubusercontent.com/sd88me/mpc-vst-OTT/claude/friendly-wozniak-m9ak1l/docs/screenshot.png) - Controls: Depth, Time, In Gain, Out Gain, Upward, Downward, M</summary></entry>
+</feed>

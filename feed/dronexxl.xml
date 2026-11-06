@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>DroneXXL: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/dronexxl</id>
+<updated>2026-10-25T00:00:00Z</updated>
+<entry><title>DroneXXL 0.1.0</title><id>tag:mpc-vst-catalog,2026:dronexxl@0.1.0</id><updated>2026-10-25T00:00:00Z</updated><link href="https://github.com/sunskiefer/DroneXXL/releases/download/v0.1.0/DroneXXL-0.1.0-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>DroneXXL 0.1.0 - drone and experimental synth for the Akai Force / MPC (VST2), after the Solar 42, built on Neil Baumberger's AmbientModules (GPL-3.0-or-later). 15-module rack, tap-to-patch cables, 8 macros, XY pad, randomizer, brickwall limiter (ceiling default -3 dBFS, never above -1 dB). Presets: Pulsar, Solar 42, Cinematic Performance, Meditations on Death. Testing status: tested on an Akai Force, MPC OS 3.1.9, by the author. No CPU benchmark yet. Needs MPC OS 3.x (not 2.x). Root shell acces</summary></entry>
+</feed>

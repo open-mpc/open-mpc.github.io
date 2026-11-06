@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Model-72: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/model-72</id>
+<updated>2026-10-21T00:00:00Z</updated>
+<entry><title>Model-72 1.0.1</title><id>tag:mpc-vst-catalog,2026:model-72@1.0.1</id><updated>2026-10-21T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-model72/releases/download/model72-v1.0.1/Model-72-1.0.1-mpc-armv7.zip"/><author><name>sd88me</name></author><summary>Rebuilt against the updated mpc-vst-plugins wrapper: **Q-Links now move parameters on track edit → automation** (a plain host write no longer makes MPC rebuild its parameter screen; sd88me/mpc-vst-plugins#486). No other changes. `*-mpc-armv7.zip` is for Gen1 MPCs and the Force; `*-mpc-aarch64.zip` is the Gen2 build (MPC OS 3.x), tested offline only. Settings and your own files in the plugin's data folders are kept on upgrade.</summary></entry>
+<entry><title>Model-72 1.0.0</title><id>tag:mpc-vst-catalog,2026:model-72@1.0.0</id><updated>2026-10-15T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-model72/releases/download/model72-v1.0.0/Model-72-1.0.0-mpc-armv7.zip"/><author><name>sd88me</name></author><summary># Model-72 1.0.0 A port of [CA-72](https://github.com/idlefoundry/ca-72) (Idle Foundry), the circuit-modelled 1970s monosynth, to Akai MPC OS standalone: a native plugin with a skin drawn for the MPC's screen. Unofficial; not affiliated with Idle Foundry or Moog Music. Free software, GPL-3.0-or-later; the source for this release is this tag. - **QUALITY LO**: CA-72's light voice, MONO / POLY (2-10) / UNISON, ENTROPY, stereo, DRIVE, AUTO GAIN. About 1.3-2.7 % of a Force core a voice. - **QUALITY </summary></entry>
+</feed>

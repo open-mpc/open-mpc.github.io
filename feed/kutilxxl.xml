@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>KutilXXL: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/kutilxxl</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<entry><title>KutilXXL 0.2.1</title><id>tag:mpc-vst-catalog,2026:kutilxxl@0.2.1</id><updated>2026-11-01T00:00:00Z</updated><link href="https://github.com/sunskiefer/BUSTEDXXL/releases/download/v0.2.1/KutilXXL-0.2.1-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>KutilXXL for Force / MPC OS by L'Cronx: a groovebox of Bastl-style modules patched with touch cables. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer. Tested offline only; not yet tested on a Force.</summary></entry>
+<entry><title>KutilXXL 0.1.1</title><id>tag:mpc-vst-catalog,2026:kutilxxl@0.1.1</id><updated>2026-10-30T00:00:00Z</updated><link href="https://github.com/sunskiefer/BUSTEDXXL/releases/download/v0.1.1/KutilXXL-0.1.1-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>KutilXXL for Force / MPC OS by L'Cronx: a groovebox of Bastl-style modules patched with touch cables. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer. Tested offline only; not yet tested on a Force.</summary></entry>
+<entry><title>KutilXXL 0.1.0</title><id>tag:mpc-vst-catalog,2026:kutilxxl@0.1.0</id><updated>2026-10-30T00:00:00Z</updated><link href="https://github.com/sunskiefer/BUSTEDXXL/releases/download/v0.1.0/KutilXXL-0.1.0-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>KutilXXL for Force / MPC OS by L'Cronx: a groovebox of Bastl-style modules patched with touch cables. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer. Tested offline only; not yet tested on a Force.</summary></entry>
+</feed>

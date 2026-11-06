@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Vibe FX: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/vibe-fx</id>
+<updated>2026-10-23T00:00:00Z</updated>
+<entry><title>Vibe FX 1.0.0</title><id>tag:mpc-vst-catalog,2026:vibe-fx@1.0.0</id><updated>2026-10-23T00:00:00Z</updated><link href="https://github.com/nachtaktiv303/mpc-vst-vibe-fx/releases/download/vibe-fx-vst-v1.0.0/Vibe-FX-1.0.0-mpc-armv7.zip"/><author><name>nachtaktiv303</name></author><summary>First stable release. Same build as 0.9.1 (the fixed-wrapper rebuild — physical Q-Links move plugin parameters on the track **automation** screen), promoted to 1.0.0 after running well on-device. - Drive, chorus, FDN reverb and tape delay in one native MPC OS insert effect, touchscreen skin and Q-Links. - Built on the fixed mpc-vst-plugins wrapper (sd88me #486–489); ships `params.lock`.</summary></entry>
+<entry><title>Vibe FX 0.9.0</title><id>tag:mpc-vst-catalog,2026:vibe-fx@0.9.0</id><updated>2026-10-04T00:00:00Z</updated><link href="https://github.com/nachtaktiv303/mpc-vst-vibe-fx/releases/download/vibe-fx-vst-v0.9.0/Vibe-FX-0.9.0-mpc-armv7.zip"/><author><name>nachtaktiv303</name></author><summary>A native **Akai MPC OS insert effect** — drive, chorus, reverb and tape delay in one slot, with a touchscreen skin and Q-Links. VST2 for MPC OS (armv7). **Signal chain:** `IN → DRIVE → CHORUS → (dry) ─┬─ REVERB × send ─┐ └─ DELAY × send ─┴─ OUT` - **Drive** — tape-style saturation front end - **Chorus** — Juno-style stereo BBD chorus (rate / depth / mix) - **Reverb** — FDN hall (decay, damping, high-pass, pre-delay) on its own send - **Tape delay** — free or tempo-synced (dotted divisions), bipo</summary></entry>
+</feed>

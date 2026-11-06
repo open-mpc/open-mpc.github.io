@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Maschine Group: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/maschine-group</id>
+<updated>2026-10-13T00:00:00Z</updated>
+<entry><title>Maschine Group 1.0.0</title><id>tag:mpc-vst-catalog,2026:maschine-group@1.0.0</id><updated>2026-10-13T00:00:00Z</updated><link href="https://github.com/mmiroshnikov/mpc-maschine-group/releases/download/maschine-group-v1.0.0/Maschine-Group-1.0.0-mpc-armv7.zip"/><author><name>mmiroshnikov</name></author><summary>Opens a Native Instruments Maschine 2 drum group (.mxgrp) and plays its pads and stored patterns. ## Requirements - A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61). The installer refuses anything else. Newer models are untested. - **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit. - Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your ow</summary></entry>
+</feed>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Glass Spheres: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/glass-spheres</id>
+<updated>2026-10-04T00:00:00Z</updated>
+<entry><title>Glass Spheres 1.0.0</title><id>tag:mpc-vst-catalog,2026:glass-spheres@1.0.0</id><updated>2026-10-04T00:00:00Z</updated><link href="https://github.com/padbangers/glass-spheres/releases/download/glass-spheres-v1.0.0/Glass-Spheres-1.0.0-mpc-armv7.zip"/><author><name>Padbangers</name></author><summary>A random sampler after Mutable Instruments Marbles (random gates, melodies and deja vu loops) that plays other tracks over MIDI or analog gear over the MPC X's CV jacks, with two envelopes, two LFOs and a modulation matrix. **SHA-256** `Glass-Spheres-1.0.0-mpc-armv7.zip`: `c09d22a5347e4c9324c9e8bf3ace1fb79f56a237fc851554a3040e536effff9c` ## Requirements - A first-generation MPC OS standalone device (32-bit ARM: MPC Live / Live II, One, X, Key 61, Force). The installer refuses anything else. CV o</summary></entry>
+</feed>

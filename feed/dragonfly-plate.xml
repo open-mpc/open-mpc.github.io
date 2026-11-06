@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Dragonfly Plate: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/dragonfly-plate</id>
+<updated>2026-10-29T00:00:00Z</updated>
+<entry><title>Dragonfly Plate 1.3.0</title><id>tag:mpc-vst-catalog,2026:dragonfly-plate@1.3.0</id><updated>2026-10-29T00:00:00Z</updated><link href="https://github.com/gmorb/mpc-vst-dragonfly-plate/releases/download/v1.3.0/Plate-1.3.0-mpc-armv7.zip"/><author><name>gmorb</name></author><summary>Dragonfly Plate 1.3.0 for MPC OS. **Gen2 (64-bit) builds**, and the reverb now built exactly as upstream builds it. | Device | Download | |---|---| | Gen1 (32-bit): Force, MPC Live, Live II, One, X, Key 61 | `Plate-1.3.0-mpc-armv7.zip` | | Gen2 (64-bit): MPC Live III, One G2, Key G2 | `Plate-1.3.0-mpc-aarch64.zip` | - New: a Gen2 (aarch64) build. Same plugin id, parameters, presets and page as Gen1, so projects move between generations. - Sound: the DSP is compiled with upstream's own flags (`-O</summary></entry>
+<entry><title>Dragonfly Plate 1.2.0</title><id>tag:mpc-vst-catalog,2026:dragonfly-plate@1.2.0</id><updated>2026-10-02T00:00:00Z</updated><link href="https://github.com/gmorb/mpc-vst-dragonfly-plate/releases/download/v1.2.0/Plate-1.2.0-mpc-armv7.zip"/><author><name>gmorb</name></author><summary>Plate reverb plugin for MPC OS Gen1. Asset: Plate-1.2.0-mpc-armv7.zip Built with mpc-vst-plugins release.py and passing catalog_check.py.</summary></entry>
+</feed>

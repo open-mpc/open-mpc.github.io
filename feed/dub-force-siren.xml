@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Dub Force Siren: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/dub-force-siren</id>
+<updated>2026-10-26T00:00:00Z</updated>
+<entry><title>Dub Force Siren 2.1.0</title><id>tag:mpc-vst-catalog,2026:dub-force-siren@2.1.0</id><updated>2026-10-26T00:00:00Z</updated><link href="https://github.com/no3z/mpc-dubsiren/releases/download/v2.1.0/Dub-Force-Siren-2.1.0-mpc-armv7.zip"/><author><name>no3z</name></author><summary>Dub Force Siren 2.1.0 fixes physical Q-Links on Track Edit → Automation and unstable WAVE/LFO SHAPE selection. All twelve factory sounds are now available in the native top-bar PRESET selector. The duplicate PATCH panel is removed, Q-Link 15 is unassigned and OUTPUT remains on 16. PITCH now spans 10 Hz–8 kHz logarithmically; with full LFO depth the siren sweep reaches 16 kHz. Existing normalized PITCH automation changes scale: review it before reusing old projects. Factory sounds and physical-Hz</summary></entry>
+<entry><title>Dub Force Siren 2.0.0</title><id>tag:mpc-vst-catalog,2026:dub-force-siren@2.0.0</id><updated>2026-10-07T00:00:00Z</updated><link href="https://github.com/no3z/mpc-dubsiren/releases/download/v2.0.0/Dub-Force-Siren-2.0.0-mpc-armv7.zip"/><author><name>no3z</name></author><summary>Native ARM dub siren with tape echo for Akai Force / MPC OS. One page mirroring two banks of eight Q-Links: siren and zap modes, LFO, filter, ping-pong echo, twelve presets. Unzip on the device and run install.sh as root; see INSTALL.md inside the ZIP. Projects from 1.0.x reopen with their state migrated; 1.0.x automation does not carry over.</summary></entry>
+</feed>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Airwindows Singles: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/c/mpc-airwindows</id>
+<updated>2026-10-05T00:00:00Z</updated>
+<entry><title>Airwindows Mackity 1.0.0</title><id>tag:mpc-vst-catalog,2026:airwindows-mackity@1.0.0</id><updated>2026-10-05T00:00:00Z</updated><link href="https://github.com/mmiroshnikov/mpc-airwindows/releases/download/v1.1.0/Mackity-1.0.0-mpc-armv7.zip"/><author><name>mmiroshnikov</name></author><summary>Mackie-style console distortion: drive it with the input trim, tame it with the output pad.</summary></entry>
+<entry><title>Airwindows Singles 1.0.0: 21 plugins updated</title><id>tag:mpc-vst-catalog,2026:c/mpc-airwindows@2026-10-03</id><updated>2026-10-03T00:00:00Z</updated><link href="https://github.com/mmiroshnikov/mpc-airwindows/releases"/><author><name>mmiroshnikov</name></author><summary>Airwindows Air3 1.0.0, Airwindows ButterComp2 1.0.0, Airwindows Chamber2 1.0.0, Airwindows ChorusEnsemble 1.0.0, Airwindows Console7Channel 1.0.0, Airwindows Density2 1.0.0, Airwindows Galactic 1.0.0, Airwindows Galactic2 1.0.0, Airwindows Galactic3 1.0.0, Airwindows GalacticVibe 1.0.0, Airwindows Infinity2 1.0.0, Airwindows kAlienSpaceship 1.0.0, Airwindows kCathedral5 1.0.0, Airwindows kCosmos 1.0.0, Airwindows MatrixVerb 1.0.0, Airwindows PitchDelay 1.0.0, Airwindows TapeDelay2 1.0.0, Airwindows ToVinyl4 1.0.0, Airwindows Verbity2 1.0.0, Airwindows ZAcidLowpass 1.0.0, Airwindows ZLowpass2 1.0.0</summary></entry>
+</feed>

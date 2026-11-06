@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Pulse: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/op1fx-pulse</id>
+<updated>2026-11-01T00:00:00Z</updated>
+<entry><title>Pulse 0.4.1</title><id>tag:mpc-vst-catalog,2026:op1fx-pulse@0.4.1</id><updated>2026-11-01T00:00:00Z</updated><link href="https://github.com/Bombest-Audio/op1-fx/releases/download/v0.4.1/Pulse-0.4.1-mpc-armv7.zip"/><author><name>Bombest</name></author><summary>Repackaged for the Open MPC plugin catalog. The plugin binaries are the same ones from 0.4.0. What changed is the packaging: catalog ids now start with `op1fx-` (for example `op1fx-delay`), the installer matches the current mpc-vst-plugins template, and the repo carries MPC screenshots and a `tested.json`. Tested on an MPC Live III (Gen2), MPC OS 3.9.1. The armv7 zips (Gen1, Force, MPC One) are built but not tested on hardware yet. Download `OP1-Suite-0.4.1-mpc-aarch64.zip` to install all twenty</summary></entry>
+</feed>

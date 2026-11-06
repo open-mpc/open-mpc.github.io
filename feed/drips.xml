@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Drips: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/drips</id>
+<updated>2026-10-13T00:00:00Z</updated>
+<entry><title>Drips 1.0.0</title><id>tag:mpc-vst-catalog,2026:drips@1.0.0</id><updated>2026-10-13T00:00:00Z</updated><link href="https://github.com/padbangers/drips/releases/download/drips-v1.0.0/Drips-1.0.0-mpc-armv7.zip"/><author><name>Padbangers</name></author><summary>**Drips 1.0.0** — a granular texture synthesizer for Akai MPC standalone devices, as an insert effect, built on Émilie Gillet's open-source Beads DSP. - Records the track into a 4–32 s buffer and replays it as up to 30 grains; four recording qualities (Bright Digital, Cold Digital, Sunny Tape, Scorched Cassette), each at its own sample rate. - Delay and beat slicer (SIZE fully clockwise), tempo-synced to the MPC. - Seed latched, gated, or clocked by MIDI notes or the MPC tempo; optional MIDI spl</summary></entry>
+</feed>

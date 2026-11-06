@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Airwindows Collections: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/c/airwindows-collection</id>
+<updated>2026-10-29T00:00:00Z</updated>
+<entry><title>Airwindows Collections 0.1.0: 11 plugins updated</title><id>tag:mpc-vst-catalog,2026:c/airwindows-collection@2026-10-29</id><updated>2026-10-29T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-airwindows/releases"/><author><name>sd88me</name></author><summary>Airwindows Collection: Ambience 0.1.0, Airwindows Collection: Console Strips 0.1.0, Airwindows Collection: Consoles 0.1.0, Airwindows Collection: Distortion 0.1.0, Airwindows Collection: Dynamics 0.1.0, Airwindows Collection: Effects 0.1.0, Airwindows Collection: Filter 0.1.0, Airwindows Collection: Reverb 0.1.0, Airwindows Collection: Saturation 0.1.0, Airwindows Collection: Tape 0.1.0, Airwindows Collection: Utility 0.1.0</summary></entry>
+</feed>

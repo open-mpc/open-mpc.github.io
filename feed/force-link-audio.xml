@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Force Link Audio: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/force-link-audio</id>
+<updated>2026-10-14T00:00:00Z</updated>
+<entry><title>Force Link Audio 1.1.0</title><id>tag:mpc-vst-catalog,2026:force-link-audio@1.1.0</id><updated>2026-10-14T00:00:00Z</updated><link href="https://github.com/macdigi/force-link-audio/releases/download/v1.1.0/Force-Link-Audio-1.1.0-mpc-armv7.zip"/><author><name>Mac Digi / Rare Data</name></author><summary>## Force Link Audio 1.1.0 — OpenMPC add-in Publish the Force's stereo main mix as a Link Audio channel while keeping the Force standalone. By Mac Digi / Rare Data, originally built for the COMPA project. This release adds the OpenMPC catalog package and shared installer. The audio tap stays small; the Link Audio publisher remains a separate process and now exits when its MPC parent exits. The build targets armhf/glibc 2.31; other MPC hardware is unverified. **Network audio is off by default.** R</summary></entry>
+</feed>

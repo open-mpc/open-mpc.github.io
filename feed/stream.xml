@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Stream: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/stream</id>
+<updated>2026-10-03T00:00:00Z</updated>
+<entry><title>Stream 1.0.0</title><id>tag:mpc-vst-catalog,2026:stream@1.0.0</id><updated>2026-10-03T00:00:00Z</updated><link href="https://github.com/stampman3000-jpg/mpc-stream/releases/download/v1.0.0/Stream-1.0.0-mpc-armv7.zip"/><author><name>johnny</name></author><summary>Stream 1.0.0 is an MPC effect. This zip was built with `tools/build_port.sh` and `tools/release.py` from [sd88me/mpc-vst-plugins](https://github.com/sd88me/mpc-vst-plugins), then checked with `tools/catalog_check.py --catalog`. `stream.so` is a 32-bit ARM hard-float plugin (uid `Strm`). The highest glibc symbol it needs is 2.17. Catalog id `stream`, license MIT. This build was not installed on a device from here. There is no CPU bench in the zip. ## Requirements - A first-generation MPC OS stand</summary></entry>
+</feed>

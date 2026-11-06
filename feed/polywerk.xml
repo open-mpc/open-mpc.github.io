@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>PolyWerk: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/polywerk</id>
+<updated>2026-10-29T00:00:00Z</updated>
+<entry><title>PolyWerk 0.0.6</title><id>tag:mpc-vst-catalog,2026:polywerk@0.0.6</id><updated>2026-10-29T00:00:00Z</updated><link href="https://github.com/Devko/PolyWerk/releases/download/v0.0.6/PolyWerk-0.0.6-mpc-armv7.zip"/><author><name>Devko</name></author><summary>## What's Changed * Fourth performance pass, review fixes, Stop releases notes by @Devko in https://github.com/Devko/PolyWerk/pull/2 **Full Changelog**: https://github.com/Devko/PolyWerk/compare/v0.0.5...v0.0.6</summary></entry>
+</feed>

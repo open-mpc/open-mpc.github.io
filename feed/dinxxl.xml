@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>DINXXL: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/dinxxl</id>
+<updated>2026-10-29T00:00:00Z</updated>
+<entry><title>DINXXL 1.0.0</title><id>tag:mpc-vst-catalog,2026:dinxxl@1.0.0</id><updated>2026-10-29T00:00:00Z</updated><link href="https://github.com/sunskiefer/DINXXL/releases/download/v1.0.0/DINXXL-1.0.0-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>BlastBeats (Twisted Electrons) v7.1 firmware, unmodified, as an Akai Force / MPC OS 3.x plugin by L'Cronx, with the BlastBeats factory card inside. Install: unzip and follow INSTALL.md (the installer restarts MPC). Rough edges expected; send card/dinxxl.log with bug reports. GPL-3.0-or-later for L'Cronx code; BlastBeats firmware (c) Twisted Electrons, see NOTICE and README.</summary></entry>
+</feed>

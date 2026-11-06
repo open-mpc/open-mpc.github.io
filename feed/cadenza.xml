@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Cadenza: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/cadenza</id>
+<updated>2026-10-29T00:00:00Z</updated>
+<entry><title>Cadenza 0.25.0</title><id>tag:mpc-vst-catalog,2026:cadenza@0.25.0</id><updated>2026-10-29T00:00:00Z</updated><link href="https://github.com/Shrekage2024/cadenza-force/releases/download/v0.25.0/Cadenza-0.25.0-mpc-armv7.zip"/><author><name>Shrekage</name></author><summary>Cadenza 0.25.0 for the Akai Force (MPC OS 3.x). Chord-driven generative MIDI sequencer: pick a key and scale, shape chords, bass and melody with a few knobs per page. Install: unzip and run `install.sh` on the device as root (see INSTALL.md inside the zip), or install it through the mpc-vst-plugins catalog once listed there. Bench (Gen1 device, Cortex-A17): p99 39.9%, worst block 55.5%.</summary></entry>
+</feed>

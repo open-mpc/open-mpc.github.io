@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>SubWerk: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/subwerk</id>
+<updated>2026-10-29T00:00:00Z</updated>
+<entry><title>SubWerk 0.0.10</title><id>tag:mpc-vst-catalog,2026:subwerk@0.0.10</id><updated>2026-10-29T00:00:00Z</updated><link href="https://github.com/Devko/SubWerk/releases/download/v0.0.10/SubWerk-0.0.10-mpc-armv7.zip"/><author><name>Devko</name></author><summary>**SubForce is now SubWerk: a new name, the same synth.** &lt;!-- werk-rename: keep --&gt; "Force" is the name of Akai's device, so it no longer belongs in this plugin's name. Nothing about the sound changes. - MPC's plugin list shows **SubWerk**, and the plugin lives in `/sdcard/Synths/Devko - VST - SubWerk`. - Your presets, favorites and recents move over by themselves: the installer carries them out of the old `Devko - VST - SubForce` folder and removes it, and the first start renames `/media/AkaiFo</summary></entry>
+</feed>

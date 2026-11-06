@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>PS3100XXL: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/ps3100xxl</id>
+<updated>2026-10-23T00:00:00Z</updated>
+<entry><title>PS3100XXL 0.1.5</title><id>tag:mpc-vst-catalog,2026:ps3100xxl@0.1.5</id><updated>2026-10-23T00:00:00Z</updated><link href="https://github.com/sunskiefer/PS3100XXL/releases/download/v0.1.5/PS3100XXL-0.1.5-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>PS3100XXL for Force / MPC OS by L'Cronx. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer.</summary></entry>
+<entry><title>PS3100XXL 0.1.4</title><id>tag:mpc-vst-catalog,2026:ps3100xxl@0.1.4</id><updated>2026-10-23T00:00:00Z</updated><link href="https://github.com/sunskiefer/PS3100XXL/releases/download/v0.1.4/PS3100XXL-0.1.4-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>PS3100XXL for Force / MPC OS by L'Cronx. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer.</summary></entry>
+<entry><title>PS3100XXL 0.1.3</title><id>tag:mpc-vst-catalog,2026:ps3100xxl@0.1.3</id><updated>2026-10-23T00:00:00Z</updated><link href="https://github.com/sunskiefer/PS3100XXL/releases/download/v0.1.3/PS3100XXL-0.1.3-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>PS3100XXL for Force / MPC OS by L'Cronx. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer.</summary></entry>
+<entry><title>PS3100XXL 0.1.2</title><id>tag:mpc-vst-catalog,2026:ps3100xxl@0.1.2</id><updated>2026-10-23T00:00:00Z</updated><link href="https://github.com/sunskiefer/PS3100XXL/releases/download/v0.1.2/PS3100XXL-0.1.2-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>PS3100XXL for Force / MPC OS by L'Cronx. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer.</summary></entry>
+</feed>
