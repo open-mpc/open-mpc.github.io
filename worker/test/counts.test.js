@@ -80,6 +80,16 @@ test('other methods and paths are refused', async () => {
   assert.equal((await mf.dispatchFetch('http://x/api/counts', { method: 'OPTIONS' })).status, 204)
 })
 
+test('reports from an MPC Sample are counted separately (the catalog\'s MPC Sample view needs them)', async () => {
+  await user('s1'); await user('s2')
+  const on = (id, u, device) => db.prepare('INSERT INTO working_reports (id, user_id, plugin_id, version, device, os) VALUES (?, ?, ?, ?, ?, ?)').bind(id, u, 'smp-test', '1.0.0', device, '1.3.0').run()
+  await on('s-a', 's1', 'MPC Sample'); await on('s-b', 's1', 'mpc sample'); await on('s-c', 's2', 'MPC Live II')
+  const { body } = await get()
+  assert.equal(body.counts['smp-test'].working, 2)
+  assert.equal(body.counts['smp-test'].sample, 1)          // one person, however they spelled it
+  assert.equal(body.counts['acid-303'].sample, undefined)  // only present when someone reported on a Sample
+})
+
 test('count queries use the indexes (no full scan of the reports table)', async () => {
   for (const sql of ['SELECT plugin_id, COUNT(DISTINCT user_id) FROM working_reports WHERE hidden = 0 GROUP BY plugin_id', 'SELECT plugin_id, COUNT(*) FROM likes GROUP BY plugin_id']) {
     const plan = (await db.prepare('EXPLAIN QUERY PLAN ' + sql).all()).results.map(r => r.detail).join(' | ')

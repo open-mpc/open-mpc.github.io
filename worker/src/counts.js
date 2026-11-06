@@ -1,7 +1,7 @@
 // Aggregate counts for every plugin, in three grouped queries (one D1 batch). Hidden reports and hidden users never count, and a
 // person counts once per plugin however many reports they filed (docs/COMMUNITY_SIGNALS.md).
 export async function readCounts(db) {
-  const [all, byVersion, likes] = await db.batch([
+  const [all, byVersion, likes, sample] = await db.batch([
     db.prepare(`SELECT r.plugin_id AS id, COUNT(DISTINCT r.user_id) AS n
                 FROM working_reports r JOIN "user" u ON u.id = r.user_id
                 WHERE r.hidden = 0 AND u.hidden = 0 GROUP BY r.plugin_id`),
@@ -11,12 +11,17 @@ export async function readCounts(db) {
     db.prepare(`SELECT l.plugin_id AS id, COUNT(*) AS n
                 FROM likes l JOIN "user" u ON u.id = l.user_id
                 WHERE u.hidden = 0 GROUP BY l.plugin_id`),
+    // people who reported it working on an MPC Sample: the catalog's MPC Sample view lists a plugin only with evidence like this
+    db.prepare(`SELECT r.plugin_id AS id, COUNT(DISTINCT r.user_id) AS n
+                FROM working_reports r JOIN "user" u ON u.id = r.user_id
+                WHERE r.hidden = 0 AND u.hidden = 0 AND lower(r.device) LIKE '%mpc sample%' GROUP BY r.plugin_id`),
   ])
   const out = {}
   const slot = id => { if (!out[id]) out[id] = { working: 0, likes: 0, versions: {} }; return out[id] }
   for (const r of all.results) slot(r.id).working = r.n
   for (const r of byVersion.results) slot(r.id).versions[r.version] = r.n
   for (const r of likes.results) slot(r.id).likes = r.n
+  for (const r of sample.results) slot(r.id).sample = r.n   // only present when someone reported it on a Sample
   return out
 }
 
