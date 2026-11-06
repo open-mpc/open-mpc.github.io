@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-06T10:54:15Z",
+ "generated": "2026-11-06T11:04:41Z",
  "bar": {
   "stable-release": "publish a stable (non-beta) release",
   "screenshot": "add a screenshot of the plugin screen to the registry entry",
@@ -99,7 +99,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 125,
+     "downloads": 129,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -182,7 +182,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 465,
+     "downloads": 468,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -252,7 +252,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 882,
+     "downloads": 885,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -330,7 +330,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 581,
+     "downloads": 584,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -413,7 +413,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 465,
+     "downloads": 468,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -437,7 +437,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-02",
-   "downloads": 2518
+   "downloads": 2534
   },
   {
    "id": "tr-8w8",
@@ -526,7 +526,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 143,
+     "downloads": 147,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -609,7 +609,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 491,
+     "downloads": 494,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -679,7 +679,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 906,
+     "downloads": 909,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -757,7 +757,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 612,
+     "downloads": 615,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -840,7 +840,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 465,
+     "downloads": 468,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -864,7 +864,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-02",
-   "downloads": 2617
+   "downloads": 2633
   },
   {
    "id": "tr-9w9",
@@ -955,7 +955,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 133,
+     "downloads": 137,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -1040,7 +1040,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 475,
+     "downloads": 478,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -1112,7 +1112,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 890,
+     "downloads": 893,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -1192,7 +1192,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 591,
+     "downloads": 594,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -1277,7 +1277,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 464,
+     "downloads": 467,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -1301,7 +1301,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-02",
-   "downloads": 2553
+   "downloads": 2569
   },
   {
    "id": "acid",
@@ -7906,7 +7906,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 103,
+     "downloads": 106,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -7931,7 +7931,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 127
+   "downloads": 131
   },
   {
    "id": "crate-digger",
@@ -10527,7 +10527,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 118,
+     "downloads": 122,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -10610,7 +10610,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 443,
+     "downloads": 446,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -10680,7 +10680,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 803,
+     "downloads": 806,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -10758,7 +10758,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 575,
+     "downloads": 578,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -10841,7 +10841,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 465,
+     "downloads": 468,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -10865,7 +10865,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-02",
-   "downloads": 2404
+   "downloads": 2420
   },
   {
    "id": "op1fx-cwo",
@@ -10953,7 +10953,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 81,
+     "downloads": 82,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -10978,7 +10978,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 105
+   "downloads": 107
   },
   {
    "id": "daemon",
@@ -11511,7 +11511,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 93,
+     "downloads": 96,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -11536,7 +11536,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 117
+   "downloads": 121
   },
   {
    "id": "op1fx-delay",
@@ -11624,7 +11624,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 81,
+     "downloads": 82,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -11649,7 +11649,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 105
+   "downloads": 107
   },
   {
    "id": "denis",
@@ -12590,7 +12590,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 88,
+     "downloads": 91,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -12615,7 +12615,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 112
+   "downloads": 116
   },
   {
    "id": "dinxxl",
@@ -12806,7 +12806,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 102,
+     "downloads": 105,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -12831,7 +12831,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 126
+   "downloads": 130
   },
   {
    "id": "dragonfly-early-reflections",
@@ -14246,7 +14246,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 97,
+     "downloads": 99,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -14271,7 +14271,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 121
+   "downloads": 124
   },
   {
    "id": "op1fx-dsynth",
@@ -14359,7 +14359,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 94,
+     "downloads": 96,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -14384,7 +14384,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 118
+   "downloads": 121
   },
   {
    "id": "rampage",
@@ -14470,7 +14470,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 296,
+     "downloads": 298,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -14537,7 +14537,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 237,
+     "downloads": 239,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -14604,7 +14604,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 364,
+     "downloads": 366,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -14627,7 +14627,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-10",
-   "downloads": 1281
+   "downloads": 1289
   },
   {
    "id": "dub-force-siren",
@@ -16947,7 +16947,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 100,
+     "downloads": 102,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -16972,7 +16972,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 124
+   "downloads": 127
   },
   {
    "id": "force-link-audio",
@@ -17177,7 +17177,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 109,
+     "downloads": 111,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -17406,7 +17406,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-16",
-   "downloads": 1218
+   "downloads": 1220
   },
   {
    "id": "gaiaxxl",
@@ -18013,7 +18013,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 75,
+     "downloads": 76,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -18038,7 +18038,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 99
+   "downloads": 101
   },
   {
    "id": "groove-bank",
@@ -18770,7 +18770,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 551,
+     "downloads": 553,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -19069,7 +19069,7 @@
    "latest_beta": null,
    "updated": "2026-10-24",
    "added": "2026-10-08",
-   "downloads": 2277
+   "downloads": 2279
   },
   {
    "id": "hexachord-73",
@@ -20124,7 +20124,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 383,
+     "downloads": 385,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -20240,7 +20240,7 @@
    "latest_beta": null,
    "updated": "2026-10-28",
    "added": "2026-10-22",
-   "downloads": 764
+   "downloads": 766
   },
   {
    "id": "keyscope",
@@ -27207,7 +27207,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 396,
+     "downloads": 398,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -27274,7 +27274,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 271,
+     "downloads": 273,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -27341,7 +27341,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 469,
+     "downloads": 471,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -27358,7 +27358,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1574
+   "downloads": 1582
   },
   {
    "id": "meta4mpcxxl",
@@ -28186,7 +28186,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 277,
+     "downloads": 279,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -28777,7 +28777,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-09-29",
-   "downloads": 6252
+   "downloads": 6254
   },
   {
    "id": "elements",
@@ -33318,7 +33318,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/LarryDaimond - VST - MPC Multihead Echo/mpc_multihead_echo.so calls network (accept, bind, listen, recv, send, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 92,
+     "downloads": 93,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -33341,7 +33341,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-31",
-   "downloads": 157
+   "downloads": 158
   },
   {
    "id": "mpc-plaits",
@@ -33618,7 +33618,7 @@
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it",
       "mpc_remote_addin.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 44,
+     "downloads": 47,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -33692,7 +33692,7 @@
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it",
       "mpc_remote_addin.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 433,
+     "downloads": 436,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -33766,7 +33766,7 @@
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it",
       "mpc_remote_addin.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 547,
+     "downloads": 550,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -33840,7 +33840,7 @@
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it",
       "mpc_remote_addin.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 391,
+     "downloads": 394,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -33914,7 +33914,7 @@
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it",
       "mpc_remote_addin.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 499,
+     "downloads": 502,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -33988,7 +33988,7 @@
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it",
       "mpc_remote_addin.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 535,
+     "downloads": 538,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -34068,7 +34068,7 @@
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it",
       "mpc_remote_addin.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 471,
+     "downloads": 474,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -34142,7 +34142,7 @@
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it",
       "mpc_remote_addin.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 467,
+     "downloads": 470,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -34158,7 +34158,7 @@
    "latest_beta": "0.2.2",
    "updated": "2026-11-04",
    "added": "2026-10-03",
-   "downloads": 3387,
+   "downloads": 3411,
    "shares_hooks": []
   },
   {
@@ -34248,7 +34248,7 @@
      "warnings": [
       "mpc_sample_draw_handler.so calls network (bind, listen, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 10,
+     "downloads": 11,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -34264,7 +34264,7 @@
    "latest_beta": "0.6.0",
    "updated": "2026-11-06",
    "added": "2026-11-06",
-   "downloads": 10,
+   "downloads": 11,
    "shares_hooks": []
   },
   {
@@ -34365,7 +34365,7 @@
       "mpc_sample_rack.so calls runs programs (execlp, fork); loads code at runtime (dlopen): flagged for manual review (the author can explain why)",
       "sample-rack-apply calls runs programs (execlp, fork); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 10,
+     "downloads": 11,
      "depends": [
       {
        "id": "sample-draw-handler",
@@ -34394,7 +34394,7 @@
    "latest_beta": "0.2.0",
    "updated": "2026-11-06",
    "added": "2026-11-06",
-   "downloads": 10,
+   "downloads": 11,
    "shares_hooks": []
   },
   {
@@ -34481,7 +34481,7 @@
      "warnings": [
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 44,
+     "downloads": 46,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -34546,7 +34546,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 346,
+     "downloads": 348,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -34617,7 +34617,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 253,
+     "downloads": 255,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -34682,7 +34682,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 251,
+     "downloads": 253,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -34747,7 +34747,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 242,
+     "downloads": 244,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -34764,7 +34764,7 @@
    "latest_beta": "0.5.0",
    "updated": "2026-11-03",
    "added": "2026-10-11",
-   "downloads": 1136,
+   "downloads": 1146,
    "shares_hooks": []
   },
   {
@@ -34860,7 +34860,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/LarryDaimond - VST - MPC Tape Echo/mpc_tape_echo.so calls network (accept, bind, listen, recv, send, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 81,
+     "downloads": 82,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -35275,7 +35275,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-26",
-   "downloads": 576
+   "downloads": 577
   },
   {
    "id": "usb-audio",
@@ -35353,7 +35353,7 @@
      "warnings": [
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 50,
+     "downloads": 53,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -35415,7 +35415,7 @@
      "warnings": [
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 497,
+     "downloads": 500,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -35485,7 +35485,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 524,
+     "downloads": 527,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -35549,7 +35549,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 392,
+     "downloads": 395,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -35613,7 +35613,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 337,
+     "downloads": 340,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -35683,7 +35683,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 587,
+     "downloads": 590,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -35747,7 +35747,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 425,
+     "downloads": 428,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -35817,7 +35817,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 532,
+     "downloads": 535,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -35839,7 +35839,7 @@
    "latest_beta": "0.1.1",
    "updated": "2026-11-04",
    "added": "2026-10-03",
-   "downloads": 3344,
+   "downloads": 3368,
    "shares_hooks": []
   },
   {
@@ -35926,7 +35926,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 352,
+     "downloads": 354,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -36085,7 +36085,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1163
+   "downloads": 1165
   },
   {
    "id": "mr-hyde",
@@ -36235,7 +36235,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 272,
+     "downloads": 274,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -36302,7 +36302,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 588,
+     "downloads": 590,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -36386,7 +36386,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1659
+   "downloads": 1663
   },
   {
    "id": "ms20xxl",
@@ -36472,7 +36472,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 365,
+     "downloads": 367,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -36538,7 +36538,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 202,
+     "downloads": 204,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -36627,7 +36627,7 @@
    "latest_beta": null,
    "updated": "2026-10-27",
    "added": "2026-10-24",
-   "downloads": 703
+   "downloads": 707
   },
   {
    "id": "mutable-vibe",
@@ -36711,7 +36711,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 478,
+     "downloads": 481,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -36779,7 +36779,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 829,
+     "downloads": 832,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -36844,7 +36844,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 659,
+     "downloads": 662,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -36932,7 +36932,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-03",
-   "downloads": 2438
+   "downloads": 2447
   },
   {
    "id": "nam",
@@ -37031,7 +37031,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 46,
+     "downloads": 49,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -37112,7 +37112,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 705,
+     "downloads": 708,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -37286,7 +37286,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 503,
+     "downloads": 506,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -37373,7 +37373,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 436,
+     "downloads": 439,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -37627,7 +37627,7 @@
    "latest_beta": null,
    "updated": "2026-11-04",
    "added": "2026-09-29",
-   "downloads": 3686
+   "downloads": 3698
   },
   {
    "id": "op1fx-nitro",
@@ -37715,7 +37715,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 75,
+     "downloads": 76,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -37740,7 +37740,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 99
+   "downloads": 101
   },
   {
    "id": "noisemaker",
@@ -37825,7 +37825,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 396,
+     "downloads": 398,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -37894,7 +37894,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 252,
+     "downloads": 254,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -37963,7 +37963,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 576,
+     "downloads": 578,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -37980,7 +37980,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-10",
-   "downloads": 1224
+   "downloads": 1230
   },
   {
    "id": "nova-audio",
@@ -38059,7 +38059,7 @@
      "warnings": [
       "addin-lib.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 13,
+     "downloads": 14,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -38077,7 +38077,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-11-03",
-   "downloads": 13,
+   "downloads": 14,
    "shares_hooks": []
   },
   {
@@ -38165,7 +38165,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 12,
+     "downloads": 13,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -38190,7 +38190,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-11-03",
-   "downloads": 12
+   "downloads": 13
   },
   {
    "id": "nusaw",
@@ -38273,7 +38273,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 393,
+     "downloads": 395,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -38340,7 +38340,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 581,
+     "downloads": 583,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -38407,7 +38407,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 369,
+     "downloads": 371,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -38424,7 +38424,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1343
+   "downloads": 1349
   },
   {
    "id": "obxd",
@@ -38511,7 +38511,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 544,
+     "downloads": 546,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -38582,7 +38582,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 299,
+     "downloads": 301,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -38653,7 +38653,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 725,
+     "downloads": 727,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -38670,7 +38670,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1568
+   "downloads": 1574
   },
   {
    "id": "obxdmpc",
@@ -38758,7 +38758,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 135,
+     "downloads": 138,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -38828,7 +38828,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 384,
+     "downloads": 386,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -38905,7 +38905,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 476,
+     "downloads": 478,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -38923,7 +38923,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-09",
-   "downloads": 1540
+   "downloads": 1549
   },
   {
    "id": "odin2",
@@ -39001,7 +39001,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 93,
+     "downloads": 96,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -39067,7 +39067,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 367,
+     "downloads": 369,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -39140,7 +39140,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 405,
+     "downloads": 407,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -39207,7 +39207,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 207,
+     "downloads": 209,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -39225,7 +39225,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-16",
-   "downloads": 1444
+   "downloads": 1453
   },
   {
    "id": "omni-sampler",
@@ -39328,7 +39328,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 114,
+     "downloads": 118,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -39406,7 +39406,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 695,
+     "downloads": 698,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -39484,7 +39484,7 @@
       "needs GLIBC 2.36: listed as MPC OS 3.x only (MPC OS 2.x has about 2.32; build with arm32v7/gcc:11-bullseye to reach it)",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 726,
+     "downloads": 729,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -39562,7 +39562,7 @@
       "needs GLIBC 2.36: listed as MPC OS 3.x only (MPC OS 2.x has about 2.32; build with arm32v7/gcc:11-bullseye to reach it)",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 496,
+     "downloads": 499,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -39634,7 +39634,7 @@
       "needs GLIBC 2.36: listed as MPC OS 3.x only (MPC OS 2.x has about 2.32; build with arm32v7/gcc:11-bullseye to reach it)",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 416,
+     "downloads": 419,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -39706,7 +39706,7 @@
       "needs GLIBC 2.36: listed as MPC OS 3.x only (MPC OS 2.x has about 2.32; build with arm32v7/gcc:11-bullseye to reach it)",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 469,
+     "downloads": 472,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -39723,7 +39723,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-07",
-   "downloads": 2916
+   "downloads": 2935
   },
   {
    "id": "plugin-manager-g2",
@@ -39831,7 +39831,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/OpenMPC - VST - Plugin Manager G2/openmpc_pm_g2.so calls runs programs (posix_spawnp); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 379,
+     "downloads": 380,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -39921,7 +39921,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/OpenMPC - VST - Plugin Manager G2/openmpc_pm_g2.so calls runs programs (posix_spawnp); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 121,
+     "downloads": 122,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -40011,7 +40011,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/OpenMPC - VST - Plugin Manager G2/openmpc_pm_g2.so calls runs programs (posix_spawnp); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 69,
+     "downloads": 70,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -40101,7 +40101,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/OpenMPC - VST - Plugin Manager G2/openmpc_pm_g2.so calls runs programs (posix_spawnp); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 122,
+     "downloads": 123,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -40191,7 +40191,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/OpenMPC - VST - Plugin Manager G2/openmpc_pm_g2.so calls runs programs (posix_spawnp); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 134,
+     "downloads": 135,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -40292,7 +40292,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/OpenMPC - VST - Plugin Manager G2/openmpc_pm_g2.so calls runs programs (posix_spawnp); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 111,
+     "downloads": 112,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -40321,7 +40321,7 @@
    "latest_beta": null,
    "updated": "2026-10-31",
    "added": "2026-10-28",
-   "downloads": 958
+   "downloads": 965
   },
   {
    "id": "open303",
@@ -40404,7 +40404,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 527,
+     "downloads": 530,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -40471,7 +40471,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 317,
+     "downloads": 320,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -40538,7 +40538,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 520,
+     "downloads": 523,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -40561,7 +40561,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-08",
-   "downloads": 2079
+   "downloads": 2091
   },
   {
    "id": "osirus",
@@ -40709,7 +40709,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 80,
+     "downloads": 81,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -40841,7 +40841,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 80,
+     "downloads": 81,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -40973,7 +40973,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 59,
+     "downloads": 60,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -41046,7 +41046,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 124,
+     "downloads": 125,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -41122,7 +41122,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 80,
+     "downloads": 81,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -41198,7 +41198,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 74,
+     "downloads": 75,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -41268,7 +41268,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 199,
+     "downloads": 200,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -41344,7 +41344,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 88,
+     "downloads": 89,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -41368,7 +41368,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-25",
-   "downloads": 784
+   "downloads": 792
   },
   {
    "id": "ottmpc",
@@ -41455,7 +41455,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 458,
+     "downloads": 461,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -41535,7 +41535,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 730,
+     "downloads": 733,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -41560,7 +41560,7 @@
    "latest_beta": null,
    "updated": "2026-10-21",
    "added": "2026-10-07",
-   "downloads": 1188
+   "downloads": 1194
   },
   {
    "id": "overcast",
@@ -41652,7 +41652,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 993,
+     "downloads": 996,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -41730,7 +41730,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 508,
+     "downloads": 511,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -41808,7 +41808,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 459,
+     "downloads": 462,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -41886,7 +41886,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 468,
+     "downloads": 471,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -41964,7 +41964,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 515,
+     "downloads": 518,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -42042,7 +42042,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 472,
+     "downloads": 475,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -42121,7 +42121,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 470,
+     "downloads": 473,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -42143,7 +42143,7 @@
    "latest_beta": null,
    "updated": "2026-10-04",
    "added": "2026-10-03",
-   "downloads": 3885
+   "downloads": 3906
   },
   {
    "id": "percolator",
@@ -42229,7 +42229,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 389,
+     "downloads": 391,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -42298,7 +42298,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 473,
+     "downloads": 475,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -42373,7 +42373,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 283,
+     "downloads": 285,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -42448,7 +42448,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 399,
+     "downloads": 401,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -42517,7 +42517,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 310,
+     "downloads": 312,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -42586,7 +42586,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 310,
+     "downloads": 312,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -42655,7 +42655,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 311,
+     "downloads": 313,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -42672,7 +42672,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-10",
-   "downloads": 2475
+   "downloads": 2489
   },
   {
    "id": "percolator-out",
@@ -42753,7 +42753,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 276,
+     "downloads": 278,
      "depends": [
       {
        "id": "percolator",
@@ -42832,7 +42832,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 378,
+     "downloads": 380,
      "depends": [
       {
        "id": "percolator",
@@ -42917,7 +42917,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 263,
+     "downloads": 265,
      "depends": [
       {
        "id": "percolator",
@@ -42953,7 +42953,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-12",
-   "downloads": 917
+   "downloads": 923
   },
   {
    "id": "op1fx-phase",
@@ -43040,7 +43040,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 96,
+     "downloads": 97,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -43065,7 +43065,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 120
+   "downloads": 122
   },
   {
    "id": "op1fx-phone",
@@ -43153,7 +43153,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 76,
+     "downloads": 77,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -43178,7 +43178,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 100
+   "downloads": 102
   },
   {
    "id": "phyxxl",
@@ -43264,7 +43264,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 254,
+     "downloads": 255,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -43330,7 +43330,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 81,
+     "downloads": 82,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -43396,7 +43396,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 81,
+     "downloads": 82,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -43528,7 +43528,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 83,
+     "downloads": 84,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -43594,7 +43594,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 82,
+     "downloads": 83,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -43660,7 +43660,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 82,
+     "downloads": 83,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -43677,7 +43677,7 @@
    "latest_beta": null,
    "updated": "2026-10-25",
    "added": "2026-10-25",
-   "downloads": 745
+   "downloads": 751
   },
   {
    "id": "pixel-walkers",
@@ -43761,7 +43761,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 282,
+     "downloads": 284,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -43828,7 +43828,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 233,
+     "downloads": 235,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -43895,7 +43895,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 456,
+     "downloads": 458,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -43912,7 +43912,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-10",
-   "downloads": 971
+   "downloads": 977
   },
   {
    "id": "plateauxxl",
@@ -43998,7 +43998,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 380,
+     "downloads": 382,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -44065,7 +44065,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 293,
+     "downloads": 295,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -44132,7 +44132,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 509,
+     "downloads": 511,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -44155,7 +44155,7 @@
    "latest_beta": null,
    "updated": "2026-10-22",
    "added": "2026-10-09",
-   "downloads": 1526
+   "downloads": 1534
   },
   {
    "id": "polywerk",
@@ -44244,7 +44244,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 217,
+     "downloads": 218,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -44261,7 +44261,7 @@
    "latest_beta": null,
    "updated": "2026-10-29",
    "added": "2026-10-05",
-   "downloads": 217
+   "downloads": 218
   },
   {
    "id": "potentialbreaks",
@@ -44344,7 +44344,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 27,
+     "downloads": 28,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -44417,7 +44417,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 11,
+     "downloads": 12,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -44490,7 +44490,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 45,
+     "downloads": 46,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -44514,7 +44514,7 @@
    "latest_beta": null,
    "updated": "2026-11-05",
    "added": "2026-11-05",
-   "downloads": 83
+   "downloads": 86
   },
   {
    "id": "potentialnoise",
@@ -44596,7 +44596,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 19,
+     "downloads": 20,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -44668,7 +44668,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 9,
+     "downloads": 10,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -44692,7 +44692,7 @@
    "latest_beta": null,
    "updated": "2026-11-05",
    "added": "2026-11-05",
-   "downloads": 28
+   "downloads": 30
   },
   {
    "id": "potentialpatina",
@@ -44776,7 +44776,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 26,
+     "downloads": 27,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -44849,7 +44849,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 11,
+     "downloads": 12,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -44922,7 +44922,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 38,
+     "downloads": 39,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -44946,7 +44946,7 @@
    "latest_beta": null,
    "updated": "2026-11-05",
    "added": "2026-11-05",
-   "downloads": 75
+   "downloads": 78
   },
   {
    "id": "potentialwax",
@@ -45030,7 +45030,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 25,
+     "downloads": 26,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -45103,7 +45103,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 7,
+     "downloads": 8,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -45176,7 +45176,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 8,
+     "downloads": 9,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -45249,7 +45249,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 9,
+     "downloads": 10,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -45273,7 +45273,7 @@
    "latest_beta": null,
    "updated": "2026-11-05",
    "added": "2026-11-05",
-   "downloads": 49
+   "downloads": 53
   },
   {
    "id": "prloguexxl",
@@ -45359,7 +45359,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 402,
+     "downloads": 404,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -45431,7 +45431,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 112,
+     "downloads": 114,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -45449,7 +45449,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-23",
-   "downloads": 514
+   "downloads": 518
   },
   {
    "id": "profit-08",
@@ -45539,7 +45539,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 571,
+     "downloads": 574,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -45627,7 +45627,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 454,
+     "downloads": 457,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -45715,7 +45715,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 438,
+     "downloads": 441,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -45808,7 +45808,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 568,
+     "downloads": 571,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -45827,7 +45827,7 @@
    "latest_beta": null,
    "updated": "2026-10-21",
    "added": "2026-10-08",
-   "downloads": 2031
+   "downloads": 2043
   },
   {
    "id": "profit-5",
@@ -45925,7 +45925,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 319,
+     "downloads": 322,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -46013,7 +46013,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 316,
+     "downloads": 318,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -46099,7 +46099,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 150,
+     "downloads": 152,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -46185,7 +46185,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 178,
+     "downloads": 180,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -46209,7 +46209,7 @@
    "latest_beta": null,
    "updated": "2026-10-28",
    "added": "2026-10-21",
-   "downloads": 963
+   "downloads": 972
   },
   {
    "id": "ps3100xxl",
@@ -46294,7 +46294,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 335,
+     "downloads": 336,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -46366,7 +46366,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 88,
+     "downloads": 89,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -46432,7 +46432,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 89,
+     "downloads": 90,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -46498,7 +46498,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 90,
+     "downloads": 91,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -46516,7 +46516,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-23",
-   "downloads": 602
+   "downloads": 606
   },
   {
    "id": "op1fx-pulse",
@@ -46604,7 +46604,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 89,
+     "downloads": 90,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -46629,7 +46629,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 113
+   "downloads": 115
   },
   {
    "id": "pulytek",
@@ -46713,7 +46713,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 390,
+     "downloads": 392,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -46780,7 +46780,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 485,
+     "downloads": 487,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -46847,7 +46847,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 262,
+     "downloads": 264,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -46864,7 +46864,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-10",
-   "downloads": 2194
+   "downloads": 2208
   },
   {
    "id": "op1fx-punch",
@@ -46952,7 +46952,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 80,
+     "downloads": 81,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -46977,7 +46977,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 104
+   "downloads": 106
   },
   {
    "id": "raffosynth",
@@ -47060,7 +47060,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 393,
+     "downloads": 395,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47127,7 +47127,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 272,
+     "downloads": 274,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47194,7 +47194,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 452,
+     "downloads": 454,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -47217,7 +47217,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1932
+   "downloads": 1942
   },
   {
    "id": "rings",
@@ -47299,7 +47299,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 395,
+     "downloads": 397,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47366,7 +47366,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 279,
+     "downloads": 281,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47433,7 +47433,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 480,
+     "downloads": 482,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47450,7 +47450,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1936
+   "downloads": 1946
   },
   {
    "id": "rings-fx",
@@ -47532,7 +47532,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 346,
+     "downloads": 348,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47599,7 +47599,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 269,
+     "downloads": 271,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47666,7 +47666,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 438,
+     "downloads": 440,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47683,7 +47683,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1827
+   "downloads": 1837
   },
   {
    "id": "rmxxxl",
@@ -47769,7 +47769,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 243,
+     "downloads": 246,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -47841,7 +47841,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 350,
+     "downloads": 353,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47908,7 +47908,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 347,
+     "downloads": 350,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -47975,7 +47975,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 587,
+     "downloads": 590,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -48048,7 +48048,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 405,
+     "downloads": 408,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -48121,7 +48121,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 427,
+     "downloads": 430,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -48145,7 +48145,7 @@
    "latest_beta": "1.1.1",
    "updated": "2026-10-29",
    "added": "2026-10-07",
-   "downloads": 2359
+   "downloads": 2377
   },
   {
    "id": "setbfree-organ",
@@ -48238,7 +48238,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 317,
+     "downloads": 320,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -48314,7 +48314,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 206,
+     "downloads": 208,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -48390,7 +48390,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 197,
+     "downloads": 199,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -48460,7 +48460,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 179,
+     "downloads": 181,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -48478,7 +48478,7 @@
    "latest_beta": null,
    "updated": "2026-10-24",
    "added": "2026-10-19",
-   "downloads": 1058
+   "downloads": 1069
   },
   {
    "id": "sfizz",
@@ -48574,7 +48574,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 270,
+     "downloads": 272,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -48650,7 +48650,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 233,
+     "downloads": 235,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -48737,7 +48737,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 165,
+     "downloads": 167,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -48766,7 +48766,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-18",
-   "downloads": 668
+   "downloads": 674
   },
   {
    "id": "shapey-5-band-eq",
@@ -48850,7 +48850,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 83,
+     "downloads": 84,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -48916,7 +48916,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 223,
+     "downloads": 224,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -48940,7 +48940,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-26",
-   "downloads": 306
+   "downloads": 308
   },
   {
    "id": "shapey-eq",
@@ -49024,7 +49024,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 88,
+     "downloads": 89,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49090,7 +49090,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 265,
+     "downloads": 266,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -49114,7 +49114,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-26",
-   "downloads": 353
+   "downloads": 355
   },
   {
    "id": "sonix",
@@ -49194,7 +49194,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 105,
+     "downloads": 108,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49262,7 +49262,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 323,
+     "downloads": 325,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -49337,7 +49337,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 292,
+     "downloads": 294,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49406,7 +49406,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 263,
+     "downloads": 265,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49424,7 +49424,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-16",
-   "downloads": 1166
+   "downloads": 1177
   },
   {
    "id": "op1fx-spring",
@@ -49511,7 +49511,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 79,
+     "downloads": 80,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -49536,7 +49536,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 103
+   "downloads": 105
   },
   {
    "id": "steprunner-8",
@@ -49617,7 +49617,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 330,
+     "downloads": 332,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -49687,7 +49687,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 326,
+     "downloads": 328,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -49757,7 +49757,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 261,
+     "downloads": 263,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49821,7 +49821,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 227,
+     "downloads": 229,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -49885,7 +49885,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 280,
+     "downloads": 282,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -49909,7 +49909,7 @@
    "latest_beta": null,
    "updated": "2026-10-19",
    "added": "2026-10-12",
-   "downloads": 1424
+   "downloads": 1434
   },
   {
    "id": "stevequencer",
@@ -49993,7 +49993,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 263,
+     "downloads": 265,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50060,7 +50060,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 149,
+     "downloads": 151,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50127,7 +50127,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 166,
+     "downloads": 168,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50194,7 +50194,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 479,
+     "downloads": 481,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50211,7 +50211,7 @@
    "latest_beta": null,
    "updated": "2026-10-24",
    "added": "2026-10-10",
-   "downloads": 1057
+   "downloads": 1065
   },
   {
    "id": "stevequencer-16",
@@ -50296,7 +50296,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 247,
+     "downloads": 249,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50363,7 +50363,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 152,
+     "downloads": 154,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50430,7 +50430,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 163,
+     "downloads": 165,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50497,7 +50497,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 468,
+     "downloads": 470,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50514,7 +50514,7 @@
    "latest_beta": null,
    "updated": "2026-10-24",
    "added": "2026-10-10",
-   "downloads": 1030
+   "downloads": 1038
   },
   {
    "id": "stompbox",
@@ -50614,7 +50614,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 28,
+     "downloads": 29,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50694,7 +50694,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 159,
+     "downloads": 160,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -50717,7 +50717,7 @@
    "latest_beta": "0.0.1",
    "updated": "2026-11-04",
    "added": "2026-10-26",
-   "downloads": 187
+   "downloads": 189
   },
   {
    "id": "stream",
@@ -50812,7 +50812,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/johnny - VST - Stream/stream.so calls network (sendto, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 517,
+     "downloads": 520,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -50834,7 +50834,7 @@
    "latest_beta": null,
    "updated": "2026-10-03",
    "added": "2026-10-03",
-   "downloads": 517
+   "downloads": 520
   },
   {
    "id": "op1fx-string",
@@ -50922,7 +50922,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 98,
+     "downloads": 99,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -50947,7 +50947,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 122
+   "downloads": 124
   },
   {
    "id": "sturm-tp",
@@ -51042,7 +51042,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 409,
+     "downloads": 411,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -51128,7 +51128,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 567,
+     "downloads": 569,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -51214,7 +51214,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 340,
+     "downloads": 342,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -51233,7 +51233,7 @@
    "latest_beta": null,
    "updated": "2026-10-21",
    "added": "2026-10-09",
-   "downloads": 1316
+   "downloads": 1322
   },
   {
    "id": "subwerk",
@@ -51318,7 +51318,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 196,
+     "downloads": 197,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -51335,7 +51335,7 @@
    "latest_beta": null,
    "updated": "2026-10-29",
    "added": "2026-10-05",
-   "downloads": 196
+   "downloads": 197
   },
   {
    "id": "super-arp",
@@ -51419,7 +51419,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 345,
+     "downloads": 347,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -51486,7 +51486,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 245,
+     "downloads": 247,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -51553,7 +51553,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 487,
+     "downloads": 489,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -51570,7 +51570,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-10",
-   "downloads": 1077
+   "downloads": 1083
   },
   {
    "id": "surgexxl",
@@ -51683,7 +51683,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/L'Cronx - VST - SurgeXXL/surgexxl.so calls network (accept, bind, connect, getaddrinfo, listen, recv, recvfrom, send, sendto, socket); runs programs (execv, execvp, fork, popen, system); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 453,
+     "downloads": 455,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -51782,7 +51782,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/L'Cronx - VST - SurgeXXL/surgexxl.so calls network (accept, bind, connect, getaddrinfo, listen, recv, recvfrom, send, sendto, socket); runs programs (execv, execvp, fork, popen, system); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 178,
+     "downloads": 180,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -51875,7 +51875,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/ANDREALPHEUS - VST - SurgeXXL/surgexxl.so calls network (accept, bind, connect, getaddrinfo, listen, recv, recvfrom, send, sendto, socket); runs programs (execv, execvp, fork, popen, system); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 251,
+     "downloads": 253,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -51893,7 +51893,7 @@
    "latest_beta": null,
    "updated": "2026-10-24",
    "added": "2026-10-13",
-   "downloads": 882
+   "downloads": 888
   },
   {
    "id": "tablor",
@@ -51979,7 +51979,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 331,
+     "downloads": 333,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52050,7 +52050,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 233,
+     "downloads": 235,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52121,7 +52121,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 470,
+     "downloads": 472,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52138,7 +52138,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-10",
-   "downloads": 1034
+   "downloads": 1040
   },
   {
    "id": "tinyfreaky",
@@ -52226,7 +52226,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 391,
+     "downloads": 393,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52297,7 +52297,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 239,
+     "downloads": 241,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52368,7 +52368,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 161,
+     "downloads": 163,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52385,7 +52385,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-18",
-   "downloads": 791
+   "downloads": 797
   },
   {
    "id": "tr-mpc",
@@ -52485,7 +52485,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 129,
+     "downloads": 133,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -52570,7 +52570,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 397,
+     "downloads": 400,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -52650,7 +52650,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 242,
+     "downloads": 245,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -52727,7 +52727,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 771,
+     "downloads": 774,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -52751,7 +52751,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-07",
-   "downloads": 1539
+   "downloads": 1552
   },
   {
    "id": "tr-mpc-tap-fx",
@@ -52838,7 +52838,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 82,
+     "downloads": 85,
      "depends": [
       {
        "id": "tr-mpc",
@@ -52929,7 +52929,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 317,
+     "downloads": 320,
      "depends": [
       {
        "id": "tr-mpc",
@@ -53004,7 +53004,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 624,
+     "downloads": 627,
      "depends": [
       {
        "id": "tr-mpc",
@@ -53037,7 +53037,7 @@
    "latest_beta": null,
    "updated": "2026-11-02",
    "added": "2026-10-07",
-   "downloads": 1023
+   "downloads": 1032
   },
   {
    "id": "tributary",
@@ -53129,7 +53129,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 519,
+     "downloads": 521,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -53203,7 +53203,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 349,
+     "downloads": 351,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53221,7 +53221,7 @@
    "latest_beta": null,
    "updated": "2026-10-10",
    "added": "2026-10-09",
-   "downloads": 868
+   "downloads": 872
   },
   {
    "id": "tropix",
@@ -53311,7 +53311,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 3,
+     "downloads": 4,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -53387,7 +53387,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 73,
+     "downloads": 74,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -53461,7 +53461,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 242,
+     "downloads": 243,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -53486,7 +53486,7 @@
    "latest_beta": null,
    "updated": "2026-11-06",
    "added": "2026-10-27",
-   "downloads": 318
+   "downloads": 321
   },
   {
    "id": "tuner",
@@ -53584,7 +53584,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 25,
+     "downloads": 26,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53664,7 +53664,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 123,
+     "downloads": 124,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -53687,7 +53687,7 @@
    "latest_beta": "0.0.1",
    "updated": "2026-11-04",
    "added": "2026-10-26",
-   "downloads": 148
+   "downloads": 150
   },
   {
    "id": "tuney",
@@ -53771,7 +53771,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 66,
+     "downloads": 67,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53837,7 +53837,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 202,
+     "downloads": 203,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -53861,7 +53861,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-26",
-   "downloads": 268
+   "downloads": 270
   },
   {
    "id": "vader",
@@ -53965,7 +53965,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/L'Cronx - VST - VADER/vader.so calls network (bind, listen, recv, recvfrom, send, sendto, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 76,
+     "downloads": 77,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54049,7 +54049,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/L'Cronx - VST - VADER/vader.so calls network (bind, listen, recv, recvfrom, send, sendto, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 55,
+     "downloads": 56,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54132,7 +54132,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/L'Cronx - VST - VADER/vader.so calls network (bind, listen, recv, recvfrom, send, sendto, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 421,
+     "downloads": 422,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -54221,7 +54221,7 @@
       "plugin_list.awk differs from this repo's current copy: review it",
       "portable/L'Cronx - VST - VADER/vader.so calls network (bind, listen, recv, recvfrom, send, sendto, socket): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 101,
+     "downloads": 102,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -54296,7 +54296,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 92,
+     "downloads": 93,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54365,7 +54365,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 93,
+     "downloads": 94,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54434,7 +54434,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 89,
+     "downloads": 90,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54503,7 +54503,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 95,
+     "downloads": 96,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54572,7 +54572,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 89,
+     "downloads": 90,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54641,7 +54641,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 89,
+     "downloads": 90,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54659,7 +54659,7 @@
    "latest_beta": "0.9.0",
    "updated": "2026-10-30",
    "added": "2026-10-17",
-   "downloads": 1741
+   "downloads": 1757
   },
   {
    "id": "verglas",
@@ -54742,7 +54742,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 365,
+     "downloads": 367,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54809,7 +54809,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 259,
+     "downloads": 261,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54876,7 +54876,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 414,
+     "downloads": 416,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54943,7 +54943,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 392,
+     "downloads": 394,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -54960,7 +54960,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-10",
-   "downloads": 1430
+   "downloads": 1438
   },
   {
    "id": "vibe-fx",
@@ -55044,7 +55044,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 318,
+     "downloads": 321,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -55108,7 +55108,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 797,
+     "downloads": 800,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -55131,7 +55131,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-04",
-   "downloads": 1115
+   "downloads": 1121
   },
   {
    "id": "op1fx-voltage",
@@ -55218,7 +55218,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 85,
+     "downloads": 86,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -55243,7 +55243,7 @@
    "latest_beta": null,
    "updated": "2026-11-01",
    "added": "2026-11-01",
-   "downloads": 109
+   "downloads": 111
   },
   {
    "id": "wurl",
@@ -55326,7 +55326,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 408,
+     "downloads": 410,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -55393,7 +55393,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 283,
+     "downloads": 285,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -55460,7 +55460,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 560,
+     "downloads": 562,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -55477,7 +55477,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1251
+   "downloads": 1257
   },
   {
    "id": "xenia",
@@ -55610,7 +55610,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 61,
+     "downloads": 62,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -55727,7 +55727,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 69,
+     "downloads": 70,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -55797,7 +55797,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 156,
+     "downloads": 157,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -55821,7 +55821,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-27",
-   "downloads": 286
+   "downloads": 289
   },
   {
    "id": "piclidean-mpc",
@@ -55912,7 +55912,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 20,
+     "downloads": 21,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -55979,7 +55979,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 102,
+     "downloads": 103,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -55997,7 +55997,7 @@
    "latest_beta": null,
    "updated": "2026-11-05",
    "added": "2026-10-31",
-   "downloads": 122
+   "downloads": 124
   }
  ],
  "collections": [
@@ -56064,7 +56064,7 @@
    "verified_on": [
     "gen2"
    ],
-   "downloads": 2024,
+   "downloads": 2071,
    "updated": "2026-11-01",
    "added": "2026-11-01"
   },
