@@ -2,6 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>MonoSlide: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/monoslide</id>
-<updated>2026-10-27T00:00:00Z</updated>
+<updated>2026-11-06T00:00:00Z</updated>
+<entry><title>MonoSlide 1.0.4</title><id>tag:mpc-vst-catalog,2026:monoslide@1.0.4</id><updated>2026-11-06T00:00:00Z</updated><link href="https://github.com/Eurikon/mpc-vst-plugins/releases/download/monoslide-v1.0.4/MonoSlide-1.0.4-mpc-armv7.zip"/><author><name>Eurikon</name></author><summary>Updated the MPC wrapper, display refresh and installation scripts. Verified on MPC Live II Retro / OS 3.10: native controls and automation, preset/project recall, installation, removal and reinstallation. CPU benchmark: PASS — p99 10.6%, maximum block 16.0%.</summary></entry>
 <entry><title>MonoSlide 1.0.3</title><id>tag:mpc-vst-catalog,2026:monoslide@1.0.3</id><updated>2026-10-27T00:00:00Z</updated><link href="https://github.com/Eurikon/mpc-vst-plugins/releases/download/monoslide-v1.0.3/MonoSlide-1.0.3-mpc-armv7.zip"/><author><name>Eurikon</name></author><summary>Reduces redundant filter calculations: measured idle CPU fell from 8.7% to 7.5% of one core, about 14% less. Audio output matches the previous engine exactly across 27 regression cases; controls and project compatibility are unchanged. Tested on MPC Live 2 Retro / AKAI MPC OS 3.9.1. [Installation instructions](https://github.com/Eurikon/mpc-vst-plugins/tree/main/Instruments/Monoslide#installation).</summary></entry>
 </feed>
