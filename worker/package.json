@@ -1,0 +1,21 @@
+{
+  "name": "openmpc-signals",
+  "private": true,
+  "type": "module",
+  "description": "Community signals for the OpenMPC plugin catalog: reported-working counts and likes (draft, step 2).",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "dev": "wrangler dev --local",
+    "migrate:local": "wrangler d1 migrations apply signals --local"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "miniflare": "^4.0.0",
+    "wrangler": "^4.0.0"
+  },
+  "dependencies": {
+    "better-auth": "^1.7.17",
+    "kysely": "^0.29.8",
+    "kysely-d1": "^0.4.0"
+  }
+}

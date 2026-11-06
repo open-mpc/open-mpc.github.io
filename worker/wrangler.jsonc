@@ -1,0 +1,17 @@
+{
+  "name": "openmpc-signals",
+  "main": "src/index.js",
+  "compatibility_date": "2026-08-01",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    // Comma-separated page origins allowed to call write endpoints (step 3). Reads are public.
+    "ALLOWED_ORIGINS": "https://open-mpc.github.io,https://sd88me.github.io",
+    // Where this Worker is served (printed by `wrangler deploy`); the OAuth redirect URLs are BASE_URL + /api/auth/callback/<provider>.
+    "BASE_URL": "https://openmpc-signals.open-mpc.workers.dev",
+    "CATALOG_URL": "https://open-mpc.github.io/catalog.json"
+  },
+  "d1_databases": [
+    // database_id is filled in when the real database is created (maintainer's Cloudflare account); local dev needs none.
+    { "binding": "DB", "database_name": "signals", "database_id": "9c4cc176-17a4-4292-934a-c230ae08fe87", "migrations_dir": "migrations" }
+  ]
+}
