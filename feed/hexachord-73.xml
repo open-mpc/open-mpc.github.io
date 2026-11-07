@@ -2,6 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>HexChord 73: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/hexachord-73</id>
-<updated>2026-10-27T00:00:00Z</updated>
+<updated>2026-11-06T00:00:00Z</updated>
+<entry><title>HexChord 73 1.0.1</title><id>tag:mpc-vst-catalog,2026:hexachord-73@1.0.1</id><updated>2026-11-06T00:00:00Z</updated><link href="https://github.com/Eurikon/mpc-vst-plugins/releases/download/hexachord-73-v1.0.1/HexChord-73-1.0.1-mpc-armv7.zip"/><author><name>Eurikon</name></author><summary>Updated the MPC wrapper, display refresh and installation scripts. Q-Links in Screen mode now follow the PERFORM, SYNTH and CHORD pages. Verified on MPC Live II Retro / OS 3.10: native controls and automation, preset/project recall, installation, removal and user-file preservation. CPU benchmark: WARN — p99 22.5%, maximum block 23.0%. CPU verdict WARN: start with one or two instances and check the MPC project CPU meter.</summary></entry>
 <entry><title>HexChord 73 1.0.0</title><id>tag:mpc-vst-catalog,2026:hexachord-73@1.0.0</id><updated>2026-10-27T00:00:00Z</updated><link href="https://github.com/Eurikon/mpc-vst-plugins/releases/download/hexachord-73-v1.0.0/HexChord-73-1.0.0-mpc-armv7.zip"/><author><name>Eurikon</name></author><summary>HexChord 73: stereo chord synthesizer with four engines, eight chords and four voicings. Tested on MPC Live 2 Retro / Gen1 / MPC OS 3.9.1 and 3.10. CPU: **WARN** — start with one or two instances and check the project CPU meter. [Installation and controls](https://github.com/Eurikon/mpc-vst-plugins/blob/main/Instruments/HexaChord-73/README.md).</summary></entry>
 </feed>
