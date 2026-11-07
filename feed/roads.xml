@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Roads: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/roads</id>
+<updated>2026-11-06T00:00:00Z</updated>
+<entry><title>Roads 1.2.2</title><id>tag:mpc-vst-catalog,2026:roads@1.2.2</id><updated>2026-11-06T00:00:00Z</updated><link href="https://github.com/quirkey/mpc-plugins/releases/download/roads-v1.2.2/Roads-1.2.2-mpc-armv7.zip"/><author><name>Aaron Quint</name></author><summary>An electric piano (tine, reed and clav characters) with tremolo / auto-pan, chorus, an envelope filter and EQ. A native MPC OS plugin (instrument) with its own MPC screen skin, loaded by MPC's built-in plugin host. ## Requirements - A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61). The installer refuses anything else. Newer models are untested. - **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a m</summary></entry>
+</feed>
