@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Retrolooper One (Force): releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/retrolooper-force</id>
+<updated>2026-11-07T00:00:00Z</updated>
+<entry><title>Retrolooper One (Force) 0.2.10</title><id>tag:mpc-vst-catalog,2026:retrolooper-force@0.2.10</id><updated>2026-11-07T00:00:00Z</updated><link href="https://github.com/asearan/Retrolooper-One-MPC-Force/releases/download/force-v0.2.10/RetroLooper-One-Force-0.2.10-mpc-armv7.zip"/><author><name>Retroloop USA / IAMTHEBAND LLC</name></author><summary>## Install the effect and Controls together Use the [combined Force ZIP](https://github.com/asearan/Retrolooper-One-MPC-Force/releases/download/force-v0.2.10/Retrolooper-Complete-Force-0.2.10.zip) for the tested Akai Force 3.10 host with root SSH access. It installs Retrolooper One 0.2.10 and experimental Controls 0.2.10 in one run. 1. Save your Akai project and unzip the download on your computer. 2. On Mac, open **Install on Mac.command**. From Terminal on Mac or Linux, you can also run `sh in</summary></entry>
+</feed>
