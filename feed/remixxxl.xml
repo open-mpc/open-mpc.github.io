@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>reMixXXL: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/remixxxl</id>
+<updated>2026-11-08T00:00:00Z</updated>
+<entry><title>reMixXXL 0.1.22</title><id>tag:mpc-vst-catalog,2026:remixxxl@0.1.22</id><updated>2026-11-08T00:00:00Z</updated><link href="https://github.com/sunskiefer/reMixXXL/releases/download/v0.1.22/reMixXXL-0.1.22-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>reMixXXL 0.1.22 - tested on the Akai Force (MPC OS 3.9.1). Endless jog wheels (big and both small) that only turn when scratched or adjusted, WHEEL page right-hand art, and the VINYL / CDJ button switches the vinyl mode. Includes 0.1.16-0.1.21. Install: download reMixXXL-0.1.22-mpc-armv7.zip from the repo root (https://github.com/sunskiefer/reMixXXL/blob/main/reMixXXL-0.1.22-mpc-armv7.zip), unzip, run install.sh. Changes: see CHANGELOG.md.</summary></entry>
+<entry><title>reMixXXL 0.1.12</title><id>tag:mpc-vst-catalog,2026:remixxxl@0.1.12</id><updated>2026-11-04T00:00:00Z</updated><link href="https://github.com/sunskiefer/reMixXXL/releases/download/v0.1.12/reMixXXL-0.1.12-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>reMixXXL 0.1.12 for the Akai Force (MPC OS 3.x, ARMv7). Four Mixxx-style DJ decks. Tested by the author on a Force (MPC OS 3.9.1). New in 0.1.12: the touch boxes match the new WHEEL layout, so a tap on track search, search, beat jump, slip or reverse hits only its own button. New in 0.1.11: the WHEEL page is rebuilt from the author's own art, every control where the author placed it: loop, 4/8, track search, search, cue, play, beat jump, direction, VINYL/CDJ, sync, key sync, tempo range, master </summary></entry>
+</feed>
