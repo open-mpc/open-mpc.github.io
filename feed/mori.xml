@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>MORI: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/mori</id>
+<updated>2026-11-08T00:00:00Z</updated>
+<entry><title>MORI 0.3.1</title><id>tag:mpc-vst-catalog,2026:mori@0.3.1</id><updated>2026-11-08T00:00:00Z</updated><link href="https://github.com/sunskiefer/MORI/releases/download/v0.3.1/MORI-0.3.1-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>First public release of MORI, a love letter to MEMENTO | Enjoy-Lab (own circuitry programmed by logic; not their code, not a clone, not a port). Tested on Akai Force. Five pages: PLAY, DELAY + REVERB, TEXTURE, FRAGMENT, ROUTING. DUB loop, tempo delay, multi-head and grain texture, reverb with shimmer, bipolar filter, master FX, 14-way routing matrix. Install: unzip and follow INSTALL.md, or run install.sh on the device (MPC OS 3.x, armv7 Force/MPC). User guide: docs/USER_GUIDE.md. PolyForm Nonco</summary></entry>
+</feed>
