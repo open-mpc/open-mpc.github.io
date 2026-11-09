@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>LUFest: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/lufest</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<entry><title>LUFest 0.1.1</title><id>tag:mpc-vst-catalog,2026:lufest@0.1.1</id><updated>2026-11-09T00:00:00Z</updated><link href="https://github.com/sunskiefer/LUFest/releases/download/v0.1.1/LUFest-0.1.1-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>LUFest 0.1.1 - first release (test build). Loudness meter effect for the master on Akai Force / MPC OS 3.x. Install: unzip, copy to the Force, run install.sh as root (INSTALL.md inside). Not verified: loudness numbers not yet checked against a reference; not yet run on a Force; master tap point (before/after fader) unknown - see docs/USER-GUIDE.md. Own code: PolyForm Noncommercial 1.0.0. Third-party notices in NOTICE.md.</summary></entry>
+</feed>
