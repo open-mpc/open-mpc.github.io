@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>CTRL MixBus: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/ctrl-mixbus</id>
+<updated>2026-11-09T00:00:00Z</updated>
+<entry><title>CTRL MixBus 2.0.0</title><id>tag:mpc-vst-catalog,2026:ctrl-mixbus@2.0.0</id><updated>2026-11-09T00:00:00Z</updated><link href="https://github.com/tonyalonsotech/CTRL-MixBus/releases/download/v2.0.0/CTRL-MixBus-2.0.0-mpc-armv7.zip"/><author><name>tonyalonsotech</name></author><summary>CTRL Mixbus is a professional stereo mixing and processing effect designed to streamline your workflow across three focused pages. Take control of input gain, stereo width, equalization, precision filtering, dynamic gating, and loudness maximization. Featuring a versatile three-band DJ EQ with selectable EQ and Isolator modes, adjustable low-pass and high-pass filters with resonance and curve shaping, bass width control, stereo manipulation, phase inversion, and independent processing stages, CT</summary></entry>
+</feed>
