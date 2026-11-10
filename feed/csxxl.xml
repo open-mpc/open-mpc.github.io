@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>CSXXL: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/csxxl</id>
+<updated>2026-11-10T00:00:00Z</updated>
+<entry><title>CSXXL 1.0.12</title><id>tag:mpc-vst-catalog,2026:csxxl@1.0.12</id><updated>2026-11-10T00:00:00Z</updated><link href="https://github.com/sunskiefer/CSXXL/releases/download/v1.0.12/CSXXL-1.0.12-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>## CSXXL 1.0.12 A two-layer (A/B), 8-voice, polyphonic synthesizer for the Akai Force and MPC OS, in the spirit of the Yamaha CS-80. A completely new build, not a port: the voices are written from Deckard's Dream voice notes and self-built schematics, emulated in code. Slider-only panel, free, not for sale. ### What is in it - 12 panel pages, picked from an overview of tiles (OVERVIEW and &lt; &gt; in the header) - Per layer: selectable waves incl. white noise, 2-pole HP and LP with mix, sine/sub, CS-</summary></entry>
+</feed>
