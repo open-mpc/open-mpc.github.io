@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Welle: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/welle</id>
+<updated>2026-11-11T00:00:00Z</updated>
+<entry><title>Welle 0.2.0</title><id>tag:mpc-vst-catalog,2026:welle@0.2.0</id><updated>2026-11-11T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-welle/releases/download/v0.2.0/Welle-0.2.0-mpc-aarch64.zip"/><author><name>sd88me</name></author><summary>Welle 0.2.0: a Waldorf Wave emulation running the Wave OS, as an MPC instrument plugin for 64-bit MPCs (MPC Live III and other aarch64 models). **Install** - With the OpenMPC Plugin Manager: install Welle, then upload your Wave OS 1.700 files (`w2sys.bin`, `wdv.sys`) and any sound sets from the manager's web page ("Your files"). - By hand: unzip `Welle-0.2.0-VST2-Plugins.zip`, copy the folder into `VST2 Plugins` at the root of a drive, put `w2sys.bin` and `wdv.sys` in `Content/roms` and your sou</summary></entry>
+</feed>
