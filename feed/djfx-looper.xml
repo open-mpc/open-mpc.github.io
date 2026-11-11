@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>DJFX Looper Native: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/djfx-looper</id>
+<updated>2026-11-02T00:00:00Z</updated>
+<entry><title>DJFX Looper Native 1.1.3</title><id>tag:mpc-vst-catalog,2026:djfx-looper@1.1.3</id><updated>2026-11-02T00:00:00Z</updated><link href="https://github.com/macdigi/djfx-looper/releases/download/v1.1.3/DJFX-Looper-Native-1.1.3-mpc-armv7.zip"/><author><name>Rare Data</name></author><summary>DJFX Looper Native 1.1.3 is a free, scope-free MPC OS audio insert with three native Q-Link knobs, FX ON, the authentic Rare Data logo and an on-device Help page. Length: 230–12 ms. Speed: −100 through zero to +100. Loop: OFF through halfway; ON above halfway. Length shapes the rolling sound with Loop off; FX ON controls dry bypass. Verified on Akai Force 3.10.0.49 (ARMv7): sound, controls, steady display, Help, test-copy save/reload, and the package’s own install/uninstall/reinstall. The same a</summary></entry>
+</feed>
