@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated": "2026-11-11T11:02:35Z",
+ "generated": "2026-11-11T11:12:48Z",
  "bar": {
   "stable-release": "publish a stable (non-beta) release",
   "screenshot": "add a screenshot of the plugin screen to the registry entry",
@@ -6506,7 +6506,7 @@
      "notes": "\nPlays a drum break in time with the song: 16th slices retriggered on the song grid, with pitch, grit and variations.\n\nA native MPC OS plugin (instrument) with its own MPC screen skin, loaded by MPC's built-in plugin host.\n\n## Requirements\n\n- A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61).\n  The installer refuses anything else. Newer models are untested.\n- **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit.\n- Tested on MPC OS with a Force. Installing plugins this way is unofficial: back up first, use at your own risk.\n\n## Install (scripted)\n\n1. Unzip, then copy the whole folder to the device, e.g. `scp -r Breaks-0.9.6 root@<device-ip>:/tmp/`\n2. Run it: `ssh root@<device-ip> sh /tmp/Breaks-0.9.6/install.sh`\n\nThe installer checks the device, **stops MPC** (save your project first), copies `portable/quirkey - VST - Breaks/` (the plugin, its skin\nand its data, as one folder) into `/sdcard/Synths`, backs up `MPC.settings`, adds the plugin to MPC's plugin list from the\nfolder's `plugin-meta.xml` and starts MPC again. Running it again upgrades in place, keeping your own files.\nAn older install of this plugin (the previous layout, with the `.so` in `/sdcard/vst`) is replaced, not duplicated.\n`-y` skips the confirmation prompt; `-t <folder>` installs into another Synths folder (for example on a card).\n\nYour own files go in `breaks/` inside the plugin folder (`/sdcard/Synths/quirkey - VST - Breaks/`); the installer keeps them when you upgrade and uninstall, and moves them there from the old `/sdcard/vst` location if you had installed the plugin that way.\n\nThen add **Breaks** to a track from the plugin browser (Instrument plugins). Its screen appears in the plugin view,\nand the Q-Links follow the page.\n\n## CPU\n\nMeasured on a Gen1 device (MPC Live/One/X/Force class, Cortex-A17) with `tools/bench.sh` from [mpc-vst-plugins](https://github.com/open-mpc/mpc-vst-plugins): worst p99 **8.7%** of one audio block, worst block 15.6%, verdict **PASS**. As a rule of thumb, several instances run comfortably when p99 is under 15%.\n\nTested on an MPC One+ (Gen1), MPC OS 3.10.\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 142,
+     "downloads": 146,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -6533,7 +6533,7 @@
    "latest_beta": null,
    "updated": "2026-11-06",
    "added": "2026-11-06",
-   "downloads": 142
+   "downloads": 146
   },
   {
    "id": "cadenza",
@@ -14790,7 +14790,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 804,
+     "downloads": 807,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -14817,7 +14817,7 @@
    "latest_beta": null,
    "updated": "2026-10-13",
    "added": "2026-10-13",
-   "downloads": 804
+   "downloads": 807
   },
   {
    "id": "drloguexxl",
@@ -29020,7 +29020,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 523,
+     "downloads": 524,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -29087,7 +29087,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 324,
+     "downloads": 325,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -29154,7 +29154,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 522,
+     "downloads": 523,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -29176,7 +29176,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1860
+   "downloads": 1864
   },
   {
    "id": "meta4mpcxxl",
@@ -41109,7 +41109,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/jacob-sabella - VST - NAM/nam_vst.so calls network (bind, listen, recv, send, socket); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 216,
+     "downloads": 218,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -41710,7 +41710,7 @@
    "latest_beta": null,
    "updated": "2026-11-04",
    "added": "2026-09-29",
-   "downloads": 4276
+   "downloads": 4278
   },
   {
    "id": "op1fx-nitro",
@@ -46243,7 +46243,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 149,
+     "downloads": 151,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -46266,7 +46266,7 @@
    "latest_beta": null,
    "updated": "2026-11-06",
    "added": "2026-11-06",
-   "downloads": 149
+   "downloads": 151
   },
   {
    "id": "percolator",
@@ -49281,7 +49281,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 150,
+     "downloads": 152,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -49456,7 +49456,7 @@
    "latest_beta": null,
    "updated": "2026-11-05",
    "added": "2026-11-05",
-   "downloads": 259
+   "downloads": 261
   },
   {
    "id": "potentialpunch",
@@ -50310,14 +50310,16 @@
    "repo": "sd88me/mpc-vst-profit8",
    "kind": "instrument",
    "license": "MIT",
-   "summary": "Eight-voice, two-layer analog-style synthesizer: stack and split layers, a gated sequencer and arpeggiator, a resonant 2/4-pole filter and a banks browser for your own program and bank SysEx dumps.",
+   "summary": "Eight-voice, two-layer analog-style synthesizer: stack and split layers, a gated sequencer and arpeggiator, a resonant 2/4-pole filter, and a banks browser with favourites for your own program and bank SysEx dumps. 2.0 adds a native MPC screen with large knobs and Q-Link control of every page.",
    "screenshot": "https://raw.githubusercontent.com/sd88me/mpc-vst-profit8/main/docs/img/screenshot-program.png",
    "style": "synth",
    "tags": [
     "analog",
     "poly",
     "layers",
-    "sequencer"
+    "sequencer",
+    "favourites",
+    "q-links"
    ],
    "source_available": false,
    "distribution": "release",
@@ -50469,7 +50471,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 778,
+     "downloads": 780,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -50562,7 +50564,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 515,
+     "downloads": 516,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -50650,7 +50652,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 499,
+     "downloads": 500,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -50743,7 +50745,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 629,
+     "downloads": 630,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -50766,7 +50768,7 @@
    "latest_beta": null,
    "updated": "2026-11-11",
    "added": "2026-10-08",
-   "downloads": 2421
+   "downloads": 2426
   },
   {
    "id": "profit-5",
@@ -53293,7 +53295,7 @@
      "notes": "## Install the effect and Controls together\r\n\r\nUse the [combined MPC One+ ZIP](https://github.com/asearan/Retrolooper-One-MPC-Force/releases/download/mpc-v0.3.9/Retrolooper-Complete-MPC-One-Plus-0.3.9.zip) for the tested modified MPC One+ 3.10.0.49 host with root SSH access. It installs Retrolooper One 0.3.9 and experimental Controls 0.2.13 in one run.\r\n\r\n1. Save your Akai project and unzip the download on your computer.\r\n2. On Mac, open **Install on Mac.command**. From Terminal on Mac or Linux, you can also run `sh install-from-computer.sh` in the extracted folder.\r\n3. Enter your Akai's IP address and SSH password when prompted. When the firmware check passes, type `INSTALL` and press Return. The Akai app restarts after installation.\r\n\r\nFor OpenMPC Plugin Manager, install the standalone effect and optional Controls patch separately.\r\n\r\nRetrolooper One for MPC is a standalone Gen1 ARMv7 Audio insert with host sync, touch and MIDI controls, Q-Links, overdubs and WAV export. The effect retains its existing VST ID for saved projects.\r\n\r\nThe separate [MPC Controls guide](https://github.com/asearan/Retrolooper-One-MPC-Force/blob/mpc-v0.3.9/docs/retrolooper-controls-mpc.md) covers the optional experimental patch for the exact modified MPC One+ 3.10.0.49 host. It adds hardware pads, track follow and timeline bounce at bar 1 with native Undo.\r\n\r\nRequires a community VST2-enabled MPC OS 3.x setup. GPL-3.0-only. Plain source and third-party notices are in this tag.\r\n\r\nStandalone WAV export was confirmed on MPC One+. The exact library passed isolated recording, overdub and playback at 44.1 and 48 kHz. The OpenMPC benchmark initially swept momentary actions as knobs and exceeded the block budget. With the release's parameter table used to separate those actions, the continuous stages measured 4.0% at p99 and 12.7% maximum, with a 15.8% trigger maximum.\r\n",
      "yanked": false,
      "warnings": [],
-     "downloads": 140,
+     "downloads": 141,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -53407,7 +53409,7 @@
    "latest_beta": null,
    "updated": "2026-11-07",
    "added": "2026-11-07",
-   "downloads": 168
+   "downloads": 169
   },
   {
    "id": "rmxxxl",
@@ -61148,7 +61150,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 491,
+     "downloads": 492,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -61215,7 +61217,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 312,
+     "downloads": 313,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -61349,7 +61351,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 444,
+     "downloads": 445,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -61371,7 +61373,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-10",
-   "downloads": 1714
+   "downloads": 1717
   },
   {
    "id": "vibe-fx",
@@ -61455,7 +61457,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 423,
+     "downloads": 425,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -61519,7 +61521,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 857,
+     "downloads": 859,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -61547,7 +61549,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-04",
-   "downloads": 1280
+   "downloads": 1284
   },
   {
    "id": "op1fx-voltage",
@@ -61826,10 +61828,16 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "portable/sd88me - VST - Welle/welle-arm64.so calls network (accept, bind, connect, getaddrinfo, listen, recv, recvfrom, send, sendto, socket); runs programs (execv, execvp, fork, system); loads code at runtime (dlopen): flagged for manual review (the author can explain why)"
      ],
-     "downloads": 3,
+     "downloads": 4,
      "depends": [],
      "conflicts": [],
-     "tested": []
+     "tested": [
+      {
+       "device": "MPC Live III (Gen2)",
+       "firmware": "3.10",
+       "date": "2026-11-06"
+      }
+     ]
     }
    ],
    "maintenance": {
@@ -61837,19 +61845,20 @@
     "open_issues": 0,
     "unanswered": 0
    },
-   "tier": "listed",
-   "verified_on": [],
+   "tier": "verified",
+   "verified_on": [
+    "gen2"
+   ],
    "bar_missing": [
     "cpu-bench",
-    "tested",
-    "tested-gen2"
+    "tested"
    ],
    "featured": false,
    "latest": "0.2.0",
    "latest_beta": null,
    "updated": "2026-11-11",
    "added": "2026-11-11",
-   "downloads": 3
+   "downloads": 4
   },
   {
    "id": "wreck",
@@ -61939,7 +61948,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 94,
+     "downloads": 95,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -62015,7 +62024,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 23,
+     "downloads": 24,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -62085,7 +62094,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 39,
+     "downloads": 40,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -62155,7 +62164,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 28,
+     "downloads": 29,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -62184,7 +62193,7 @@
    "latest_beta": null,
    "updated": "2026-11-08",
    "added": "2026-11-07",
-   "downloads": 184
+   "downloads": 188
   },
   {
    "id": "wurl",
@@ -62267,7 +62276,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 528,
+     "downloads": 529,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -62334,7 +62343,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 336,
+     "downloads": 337,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -62401,7 +62410,7 @@
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it",
       "plugin_list.awk differs from this repo's current copy: review it"
      ],
-     "downloads": 613,
+     "downloads": 614,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -62423,7 +62432,7 @@
    "latest_beta": null,
    "updated": "2026-10-23",
    "added": "2026-10-09",
-   "downloads": 1477
+   "downloads": 1480
   },
   {
    "id": "xenia",
@@ -62556,7 +62565,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 169,
+     "downloads": 170,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -62673,7 +62682,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 108,
+     "downloads": 109,
      "depends": [],
      "conflicts": [],
      "tested": []
@@ -62743,7 +62752,7 @@
       "install.sh differs from this repo's current template (older release tool, or modified): review it",
       "uninstall.sh differs from this repo's current template (older release tool, or modified): review it"
      ],
-     "downloads": 195,
+     "downloads": 196,
      "depends": [],
      "conflicts": [],
      "tested": [
@@ -62772,7 +62781,7 @@
    "latest_beta": null,
    "updated": "2026-11-03",
    "added": "2026-10-27",
-   "downloads": 472
+   "downloads": 475
   },
   {
    "id": "piclidean-mpc",
