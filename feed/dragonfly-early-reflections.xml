@@ -2,5 +2,6 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Dragonfly Early Reflections: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/dragonfly-early-reflections</id>
-<updated>1970-01-01T00:00:00Z</updated>
+<updated>2026-10-29T00:00:00Z</updated>
+<entry><title>Dragonfly Early Reflections 1.3.1</title><id>tag:mpc-vst-catalog,2026:dragonfly-early-reflections@1.3.1</id><updated>2026-10-29T00:00:00Z</updated><link href="https://github.com/gmorb/mpc-vst-dragonfly-early-reflections/releases/download/v1.3.1/Early-Reflections-1.3.1-mpc-armv7.zip"/><author><name>gmorb</name></author><summary>The plugin's MPC name is now the full **Early Reflections** (was the abbreviated `Early Refl`), so the insert slot, the plugin browser and the page folder all read the full name. The catalog zips follow: `Early-Reflections-&lt;version&gt;-mpc-armv7.zip` and `-mpc-aarch64.zip`. Unchanged: the plugin id `dragonfly-early-reflections`, the VST uid `44664572`, every parameter, the page layout and the DSP. Hall, Room and Plate are untouched. Hosts that matched a saved project's insert by the plugin's file n</summary></entry>
 </feed>
