@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>πMorpH: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/pimorph</id>
+<updated>2026-11-12T00:00:00Z</updated>
+<entry><title>πMorpH 0.1.0</title><id>tag:mpc-vst-catalog,2026:pimorph@0.1.0</id><updated>2026-11-12T00:00:00Z</updated><link href="https://github.com/timomacquis/piMorpH-MPC/releases/download/v0.1.0/piMorpH-0.1.0-mpc-armv7.zip"/><author><name>Timo</name></author><summary># πMorpH 0.1.0 First public Force Gen1 / ARMv7 release. - Eight-voice XY wavetable synthesis with a per-voice path and orbit. - Independent amplitude/filter envelopes, MS-style HP/LP filters, eleven LFO shapes and eight modulation routes. - Precise cached graphical previews, compact panels over a dimmed current screen, yellow opening selectors and 36 px panel choices. - 294 Adventure Kid wavetable sounds plus INIT in the native PRESET menu. - French and English manuals with native Force screensh</summary></entry>
+</feed>
