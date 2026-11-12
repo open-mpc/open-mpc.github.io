@@ -415,25 +415,44 @@ details.more > dl.meta { margin-top: 4px; }
 <h1>Install the Plugin Manager</h1>
 <p class="lede">Put the OpenMPC Plugin Manager on your MPC once, then browse the catalog and install plugins on the MPC or from your phone.</p>
 <p>The <strong>OpenMPC Plugin Manager</strong> is a plugin that runs on your MPC. Once it is on a track you can browse the catalog and install, update and remove plugins, on the MPC's screen or from a web page on your phone or computer.</p>
-<p>You install it once. Answer two questions below for your steps, or open the full instructions under them. It needs MPC OS 3.x: on MPC OS 2.x, see <a href="#mpc-os-2-x">MPC OS 2.x</a>. On MPC OS 3.10 it is in beta: see <a href="#mpc-os-3-10-beta">MPC OS 3.10 (beta)</a>.</p>
+<p>You install it once. Answer two questions below for your steps, or open the full instructions under them. It needs MPC OS 3.x: on MPC OS 2.x, see <a href="#mpc-os-2-x">MPC OS 2.x</a>.</p>
 <div id="guide" class="guide" hidden></div>
 
-<details class="fold sec" id="mpc-os-3-9-1-or-earlier"><summary><h2>MPC OS 3.9.1 or earlier</h2></summary>
-<p>This is the recommended way, on every MPC and the Force: a <strong>Plugin Manager USB stick</strong>. You confirm one prompt and the MPC restarts with the Plugin Manager installed.</p>
-<ol><li><strong>Make the stick.</strong> In Chrome or Edge on a computer, answer the questions above and press <strong>Choose the drive and write</strong>: this page writes the stick for you. Or use the <a href="#the-desktop-installer-app">desktop installer app</a>: open <strong>Plugin manager stick</strong> and press <strong>Write stick…</strong>. Use an empty, freshly formatted USB stick.</li><li><strong>Install.</strong> Save your project. Put the stick in the MPC and choose <strong>Open</strong> on the prompt. The MPC restarts with the Plugin Manager installed; you can then unplug the stick.</li><li><strong>Open it.</strong> Create a new Plugin track, tap its plugin slot and choose <strong>OpenMPC Plugin Manager G2</strong> from the plugin list.</li><li><strong>Install plugins.</strong> Browse and install on the MPC's screen, or open the address on its status line on your phone or computer (same Wi-Fi). Pick plugins and press <strong>Apply</strong>: the MPC restarts once.</li></ol>
+<details class="fold sec" id="mpc-os-3-10-1-or-later"><summary><h2>MPC OS 3.10.1 or later</h2></summary>
+<h3 id="1-turn-on-external-plugin-support">1. Turn on External Plugin Support</h3>
+<ol><li>On the MPC: <strong>Menu → Preferences → Enhancements</strong>.</li><li>Tick <strong>Enable Enhancements</strong> and <strong>External Plugin Support</strong>, and accept the warning.</li><li>Wait a few seconds, then restart the MPC.</li></ol>
+<figure class="shot"><img src="img/310-enhancements.png" alt="Preferences, Enhancements on an MPC: Enable Enhancements and External Plugin Support ticked" loading="lazy"></figure>
+<h3 id="2-download-the-plugin-manager">2. Download the Plugin Manager</h3>
+<p>Open <a href="https://github.com/open-mpc/mpc-vst-plugins/releases/tag/plugin-manager-g2-v1.0.0">the Plugin Manager release</a> and download the zip for your MPC from <strong>Assets</strong>:</p>
+<div class="tablewrap"><table><thead><tr><th>Your MPC</th><th>Download</th></tr></thead><tbody><tr><td><strong>First generation</strong>: MPC Live, Live II, One, X, Key 61, Key 37</td><td><code>OpenMPC-Plugin-Manager-1.0.0-Gen1.zip</code></td></tr><tr><td><strong>Second generation</strong>: MPC Live III, One G2, Key G2, XL</td><td><code>OpenMPC-Plugin-Manager-1.0.0-Gen2.zip</code></td></tr></tbody></table></div>
+<p>Unzip it. You get one folder, <strong><code>OpenMPC - VST - Plugin Manager G2</code></strong>.</p>
+<h3 id="3-copy-it-to-the-mpc">3. Copy it to the MPC</h3>
+<p>Put the folder inside a folder called <strong><code>VST2 Plugins</code></strong> (exact name; create it if needed). Pick one way:</p>
+<details class="fold" id="a-over-wi-fi-developer-mode"><summary>A. Over Wi-Fi (Developer mode)</summary><ol><li>Turn on <strong>Developer mode</strong> on the MPC and note its IP address.</li><li>In an SFTP app (FileZilla, Cyberduck, WinSCP or a phone app), connect to that address as <strong><code>root</code></strong>, no password.</li><li>Copy the folder into <strong><code>VST2 Plugins</code></strong> on the internal drive: <strong><code>/nvme/VST2 Plugins/</code></strong> on a second-generation MPC, <strong><code>/sdcard/VST2 Plugins/</code></strong> on a first-generation one.</li><li>Restart the MPC. You can turn Developer mode off again.</li></ol></details>
+<details class="fold" id="b-with-a-usb-cable-controller-mode"><summary>B. With a USB cable (Controller Mode)</summary><p><strong>MPC Live III and MPC XL:</strong> both internal drives show on your computer, as <strong>MPC User</strong> (the MPC's internal drive) and <strong>MPC Content</strong>. On Windows they appear only once Akai's MPC USB driver is installed (from akaipro.com).</p>
+<ol><li>Connect the MPC to your computer with a USB cable.</li><li><strong>Menu</strong>, then tap the computer icon (top right) to switch to <strong>Controller Mode</strong>.</li><li>Copy the folder into <code>VST2 Plugins</code> on the <strong>MPC User</strong> drive (create it if needed).</li><li>Eject it on the computer, tap <strong>Standalone</strong> on the MPC and confirm. If the Plugin Manager isn't in the plugin browser yet, restart the MPC: the internal drive is read at start-up.</li></ol>
+<p><strong>Other MPCs and the Force:</strong> the internal drive doesn't show on a computer, only an SD card or USB drive in the MPC.</p>
+<ol><li>Put an SD card or USB drive in the MPC and connect the MPC to your computer.</li><li><strong>Menu</strong>, then tap the computer icon (top right) to switch to <strong>Controller Mode</strong> (<strong>Computer Mode</strong> on the Force).</li><li>Copy the folder into <code>VST2 Plugins</code> on that card or drive.</li><li>Eject it on the computer, tap <strong>Standalone</strong> on the MPC and confirm. Leave the card or drive in.</li></ol></details>
+<details class="fold" id="c-with-a-usb-stick-or-sd-card"><summary>C. With a USB stick or SD card</summary><ol><li>Copy the folder into <code>VST2 Plugins</code> on the stick or card.</li><li>Plug it into the MPC. No restart needed: it shows up within a few seconds. Leave it in: the plugin runs from the stick, and if you unplug it while a track uses it, the plugin stops and its screen goes black until you plug it back in.</li></ol>
+<p>Or let the <a href="#the-desktop-installer-app">desktop installer app</a> write the stick: <strong>MPC OS 3.10.1 → Write the Plugin Manager</strong>.</p></details>
+<h3 id="4-open-the-plugin-manager">4. Open the Plugin Manager</h3>
+<ol><li>Add a track and choose <strong>External VST Plugins → OpenMPC - Plugin Manager G2</strong>.</li><li>Browse and install on the MPC's screen, or open the address on its status line on your phone or computer (same Wi-Fi).</li></ol>
+<figure class="shot"><img src="img/310-manager-address-line.png" alt="The Plugin Manager&#x27;s status line on the MPC, with the web address under the plugin count" loading="lazy"></figure>
+<ol><li>Pick plugins, press <strong>Apply</strong>. The MPC restarts once.</li></ol>
+<figure class="shot"><img src="img/310-web-page-phone.webp" alt="The Plugin Manager&#x27;s web page on a phone: Discover, Installed and Updates tabs over the catalog cards" loading="lazy"></figure>
 <blockquote><p>The web page has no password: anyone on your Wi-Fi can use it while the Plugin Manager is on a track. Remove it from the track when you are done.</p></blockquote>
-</details><details class="fold sec" id="mpc-os-3-10-beta"><summary><h2>MPC OS 3.10 (beta)</h2></summary>
-<p>The Plugin Manager runs on MPC OS 3.10, but installing it there is still in <strong>beta</strong>. For now, the recommended way is:</p>
-<ol><li>Install <strong>MPC OS 3.9.1</strong> on the MPC (Akai's update, from akaipro.com). Your projects and samples stay where they are.</li><li>Install the Plugin Manager with the stick: see <a href="#mpc-os-3-9-1-or-earlier">MPC OS 3.9.1 or earlier</a>.</li><li>Update the MPC to <strong>3.10</strong> again. The Plugin Manager and the plugins it installed stay installed.</li></ol>
-<p>To stay on 3.10, try the <a href="#the-desktop-installer-app">desktop installer app</a>'s <strong>Plugin manager stick</strong> (it also works on 3.10, in beta). Tell us in the community how it went.</p>
+<p>Already had plugins before 3.10.1? MPC now only lists plugins in <code>VST2 Plugins</code>. In the Plugin Manager, press <strong>Move</strong> to bring them over; your projects keep working.</p>
+</details><details class="fold sec" id="mpc-os-3-9-1-or-earlier"><summary><h2>MPC OS 3.9.1 or earlier</h2></summary>
+<p>The easiest way is a Plugin Manager USB stick, made by the desktop installer app.</p>
+<ol><li><a href="#the-desktop-installer-app">Download and start the desktop installer app</a>.</li><li>Choose <strong>3.9.1 or earlier</strong> and follow its questions to <strong>Plugin Manager stick (one prompt)</strong>. Pick an empty USB stick and press <strong>Write stick…</strong>.</li><li>Save your project. Put the stick in the MPC and choose <strong>Open</strong> on the prompt. The MPC restarts with the Plugin Manager installed.</li><li>Add a track and choose the <strong>OpenMPC Plugin Manager</strong>. Browse and install on the MPC's screen, or open the address on its status line on your phone or computer.</li></ol>
 </details><details class="fold sec" id="mpc-os-2-x"><summary><h2>MPC OS 2.x</h2></summary>
-<p>Only first-generation MPCs run MPC OS 2.x. The Plugin Manager and its USB stick are for <strong>MPC OS 3.x</strong>, and the stick refuses a 2.x MPC. On 2.x you install plugins over SSH (root SSH access to the MPC):</p>
-<ol><li>In the <a href="index.html">catalog</a>, pick plugins whose card says <strong>MPC OS: 2.x and 3.x</strong>. Plugins made only for 3.x don't show their screen on 2.x.</li><li>Install them with the <a href="#the-desktop-installer-app">desktop installer app</a> over Wi-Fi: <strong>Connect</strong> with the MPC's IP address and pick plugins. It warns you before installing a plugin made only for 3.x. Or install each one <a href="#by-hand-with-ssh-and-scp-download-copy-run">by hand with ssh and scp</a> or <a href="#fully-by-hand-without-the-installer-script">fully by hand</a>.</li></ol>
+<p>The Plugin Manager and its USB stick are for <strong>MPC OS 3.x</strong>, and the stick refuses a 2.x MPC. On 2.x you install plugins over SSH (root SSH access to the MPC):</p>
+<ol><li>In the <a href="index.html">catalog</a>, pick plugins whose card says <strong>MPC OS: 2.x and 3.x</strong>. Plugins made only for 3.x don't show their screen on 2.x.</li><li>Install them with the <a href="#the-desktop-installer-app">desktop installer app</a> over Wi-Fi: choose <strong>2.x</strong>, then <strong>Connect</strong> with the MPC's IP address and pick plugins. It warns you before installing a plugin made only for 3.x. No SSH yet? The installer app can make a stick that turns it on, from your own firmware file: answer <strong>I don't have SSH yet</strong> (not yet tested on MPC OS 2.x). Or install each one <a href="#by-hand-with-ssh-and-scp-download-copy-run">by hand with ssh and scp</a> or <a href="#fully-by-hand-without-the-installer-script">fully by hand</a>.</li></ol>
 <p>Or update the MPC to MPC OS 3.x, then use the steps above.</p>
 </details><details class="fold sec" id="the-desktop-installer-app"><summary><h2>The desktop installer app</h2></summary>
 <p>A small app for Windows, Mac and Linux. It can:</p>
-<ul><li>make a Plugin Manager USB stick;</li><li>install the Plugin Manager and other plugins straight onto the MPC over Wi-Fi (with root SSH);</li><li>on 3.9.1 or earlier: remove plugins, register plugin folders, clean up settings backups and apply device patches.</li></ul>
-<p><strong>Download:</strong> open <a href="https://github.com/open-mpc/mpc-vst-plugins/releases/tag/desktop-v1.1.2">the installer release (1.1.2)</a> and get the file for your computer from <strong>Assets</strong>:</p>
+<ul><li>make a Plugin Manager USB stick (every MPC OS);</li><li>install the Plugin Manager and other plugins straight onto the MPC over Wi-Fi (3.10.1: with Developer mode; 3.9.1 or earlier: with root SSH);</li><li>on 3.9.1 or earlier: remove plugins, register plugin folders, clean up settings backups and apply device patches.</li></ul>
+<p><strong>Download:</strong> open <a href="https://github.com/open-mpc/mpc-vst-plugins/releases/tag/desktop-v1.1.2">the installer release</a> and get the file for your computer from <strong>Assets</strong>:</p>
 <div class="tablewrap"><table><thead><tr><th>Your computer</th><th>File ending in</th></tr></thead><tbody><tr><td><strong>Windows</strong></td><td><code>-windows.zip</code></td></tr><tr><td><strong>Mac</strong> (Apple chip, 2020 on)</td><td><code>-mac-apple-silicon.tar.gz</code></td></tr><tr><td><strong>Mac</strong> (Intel)</td><td><code>-mac-intel.tar.gz</code></td></tr><tr><td><strong>Linux</strong></td><td><code>-linux.tar.gz</code></td></tr></tbody></table></div>
 <p><strong>Start it:</strong> unpack it and double-click <code>mpc-installer</code>. It opens a page in your browser and asks a few questions about your MPC.</p>
 <p>The first time, your computer warns that the app is not signed:</p>
@@ -453,7 +472,7 @@ details.more > dl.meta { margin-top: 4px; }
 <p>To get plugins back:</p>
 <ul><li><strong>Register the plugin folders</strong> in the app (step 5, "Register plugin folders"). If the plugin's folder is still on the device or its card, this adds its line back to the list without reinstalling anything. This is the quickest fix, and the right one when a card was out when MPC started.</li><li><strong>Install the plugin again</strong> (the current release) with the app. It adds its own line back and leaves every other plugin's line alone. This is the safest fix.</li><li><strong>Or restore a backup of the settings file.</strong> The app and the installers leave one next to the original each time they change it, named <code>MPC.settings.bak-&lt;plugin&gt;-&lt;date&gt;</code> (or <code>bak-remove-…</code>, <code>bak-sync-…</code>). List them newest first with <code>ls -t /media/az01-internal/Settings/*/MPC.settings.bak-*</code>, then stop MPC, copy the one you want over <code>MPC.settings</code>, and start MPC. A backup also brings back the preferences you had at that time.</li></ul>
 <p>Before you paste a command you found online into the device's shell, copy the settings file to your computer: <code>scp "root@&lt;device-ip&gt;:/media/az01-internal/Settings/*/MPC.settings" .</code> Any command that rebuilds, restores or resets that file replaces your whole plugin list.</p></details>
-<details class="fold" id="something-else-went-wrong"><summary>Something else went wrong</summary><ul><li><strong>The app cannot connect.</strong> Check the IP address (it can change), that the device is on and on the same network, and that SSH is enabled. If you use a password, check it; otherwise the app only tries an SSH key in <code>~/.ssh</code> that has no passphrase.</li><li><strong>The app says it cannot install on this device.</strong> It only installs to a 32-bit ARM MPC OS device where you are logged in as root.</li><li><strong>MPC shows default settings after the restart.</strong> The edited settings file was not accepted. Restore the backup the installer made, next to <code>MPC.settings</code> (see above).</li><li><strong>The plugin is not in the list.</strong> MPC reads its plugin list at startup. Check that the app's log ended with "Done", then see "If a plugin disappears after a restart" above.</li><li><strong>My drive is "noexec" and the app will not install there.</strong> Linux lets each drive be mounted with or without permission to run programs. MPC mounts external drives (SSD, SD card, USB stick) without it, and a plugin is a program, so MPC lists it but cannot load it. This is a device rule, not an app bug. Pick one: 1. <strong>Install on the internal drive</strong> (simplest, nothing on the device changes). In the app choose the internal drive under <strong>Install to</strong>; if it has no <code>Synths</code> folder yet the app creates it. If you only see the external drive, reconnect, or create a <code>Synths</code> folder at the top of the internal drive by hand. 2. <strong>Keep the plugins on the external drive</strong> with the drive exec patch (step 7, Advanced): it makes only that drive's <code>Synths</code> folder executable. It runs on 32-bit (Gen1) devices, takes one drive at a time, and needs the drive named under <code>/media</code>. After it is applied, run the script's <code>verify</code> (<code>sh drive-exec-patch.sh verify</code>): it checks that MPC itself, not just the shell, sees the executable folder, and that your plugins are in that folder. Then, in the app, run "Register plugin folders" (step 5) and restart MPC. If it still shows only "Load Plugin": the usual causes are plugins installed in a different folder than the patched one (the patch covers <code>&lt;drive&gt;/Synths</code> only), MPC started before the drive was ready (restart MPC with the drive in), or a second drive (the patch handles one).</li><li><strong>The plugin is in the list but only "Load Plugin" shows.</strong> MPC could not load the library. Two usual causes: the plugin sits on a drive mounted <code>noexec</code> (an MPC/Force's SSD is; check with <code>mount | grep noexec</code>, and install to the internal drive or an SD card instead, or, if you are comfortable with SSH, the optional <strong>drive exec patch</strong> listed in the app's "Advanced: device patches" step, which makes one folder of the drive executable: it is untested on a device so far, read its guide first, it adds a small service to the device), or it is a build that needs a newer glibc than your MPC OS has (a copy installed by hand, or a version older than the catalog's current one). Install the newest version from the app. If it still fails, send the <code>journalctl -u acvs</code> lines (or <code>journalctl -u inmusic-mpc</code> where there is no acvs) from the moment you add the plugin to a track, plus the output of <code>ls -l /lib/libc.so.6</code>.</li><li><strong>The page is empty on MPC OS 2.x.</strong> The plugin is made for MPC OS 3.x (the app warns about this before installing it on a 2.x device): its skin is in the newer format, which MPC OS 2.x does not draw. It still plays from the Q-Links. Look for a release marked <em>MPC OS 2.x tested</em>, or ask the plugin's developer for one.</li><li><strong>The plugin loads but has no screen.</strong> The skin goes in a <code>/sdcard/Synths</code> folder, and MPC must have that folder in its content locations. The installer warns if it does not.</li><li><strong>Silence, or default sounds.</strong> Some plugins need files you provide, such as ROMs or banks. Check the plugin's own page.</li></ul>
+<details class="fold" id="something-else-went-wrong"><summary>Something else went wrong</summary><ul><li><strong>The app cannot connect.</strong> Check the IP address (it can change), that the device is on and on the same network, and that SSH is enabled. If you use a password, check it; otherwise the app only tries an SSH key in <code>~/.ssh</code> that has no passphrase.</li><li><strong>The app says it cannot install on this device.</strong> It only installs to a 32-bit ARM MPC OS device where you are logged in as root.</li><li><strong>MPC shows default settings after the restart.</strong> The edited settings file was not accepted. Restore the backup the installer made, next to <code>MPC.settings</code> (see above).</li><li><strong>The plugin is not in the list.</strong> MPC reads its plugin list at startup. Check that the app's log ended with "Done", then see "If a plugin disappears after a restart" above.</li><li><strong>My drive is "noexec" and the app will not install there.</strong> Linux lets each drive be mounted with or without permission to run programs. MPC mounts external drives (SSD, SD card, USB stick) without it, and a plugin is a program, so MPC lists it but cannot load it. This is a device rule, not an app bug. Pick one: 1. <strong>Install on the internal drive</strong> (simplest, nothing on the device changes). In the app choose the internal drive under <strong>Install to</strong>; if it has no <code>Synths</code> folder yet the app creates it. If you only see the external drive, reconnect, or create a <code>Synths</code> folder at the top of the internal drive by hand. 2. <strong>Keep the plugins on the external drive</strong> with the Auto exec patch (step 7, Advanced): it makes the <code>Synths</code> folder of every noexec drive executable, with no setup. It runs on 32-bit (Gen1) devices. After it is applied, run "Register plugin folders" (step 5) and restart MPC. If it still shows only "Load Plugin": the plugins may be in a different folder than <code>&lt;drive&gt;/Synths</code>, or MPC started before the drive was ready (restart MPC with the drive in).</li><li><strong>The plugin is in the list but only "Load Plugin" shows.</strong> MPC could not load the library. Two usual causes: the plugin sits on a drive mounted <code>noexec</code> (an MPC/Force's SSD is; check with <code>mount | grep noexec</code>, and install to the internal drive or an SD card instead, or, if you are comfortable with SSH, the optional <strong>drive exec patch</strong> listed in the app's "Advanced: device patches" step, which makes one folder of the drive executable: it is untested on a device so far, read its guide first, it adds a small service to the device), or it is a build that needs a newer glibc than your MPC OS has (a copy installed by hand, or a version older than the catalog's current one). Install the newest version from the app. If it still fails, send the <code>journalctl -u acvs</code> lines (or <code>journalctl -u inmusic-mpc</code> where there is no acvs) from the moment you add the plugin to a track, plus the output of <code>ls -l /lib/libc.so.6</code>.</li><li><strong>The page is empty on MPC OS 2.x.</strong> The plugin is made for MPC OS 3.x (the app warns about this before installing it on a 2.x device): its skin is in the newer format, which MPC OS 2.x does not draw. It still plays from the Q-Links. Look for a release marked <em>MPC OS 2.x tested</em>, or ask the plugin's developer for one.</li><li><strong>The plugin loads but has no screen.</strong> The skin goes in a <code>/sdcard/Synths</code> folder, and MPC must have that folder in its content locations. The installer warns if it does not.</li><li><strong>Silence, or default sounds.</strong> Some plugins need files you provide, such as ROMs or banks. Check the plugin's own page.</li></ul>
 <p>Ask in the community with the plugin's name, version, your device model and the installer's output (the log in the app).</p></details>
 </details><details class="fold sec" id="other-ways-to-install-mpc-os-3-9-1-or-earlier"><summary><h2>Other ways to install (MPC OS 3.9.1 or earlier)</h2></summary>
 <p>For people who prefer a terminal. You do not need any of these if you use the Plugin Manager or the app. They are here for people who prefer a terminal, or who cannot run the app. Each one installs the same release zips, with the same installer, so they can be mixed.</p>
@@ -490,6 +509,7 @@ addEventListener("hashchange", openFold); openFold();
 <script>
 /* Write a zip the user downloaded onto a USB stick, SD card or MPC drive, in the browser (Chrome/Edge: the File System Access API).
    The desktop installer's stick writers in a web page: nothing is uploaded, the zip is read and written on this computer.
+   - folderZip(): an OpenMPC "just the folder" zip (one top folder with plugin.json) into <drive>/VST2 Plugins/<folder>/.
    - stickZip(): a prebuilt stick (pinned by SHA-256, it runs as root on the MPC) onto an empty drive, like the installer.
    Used by guide.js; also loaded by tools/test_drivewrite.mjs under Node. */
 var DriveWrite = (function () {
@@ -542,6 +562,16 @@ var DriveWrite = (function () {
     });
   }
 
+  /* The one plugin folder in a folder zip, or an error saying what is wrong. */
+  function pluginFolder(entries) {
+    var tops = {};
+    entries.forEach(function (x) { tops[parts(x.name)[0]] = 1; });
+    var t = Object.keys(tops);
+    if (t.length !== 1) throw new Error("This zip doesn't hold one plugin folder. Download the Gen1 or Gen2 zip from the Plugin Manager release.");
+    if (!entries.some(function (x) { return x.name === t[0] + "/plugin.json"; })) throw new Error("This zip's folder has no plugin.json, so MPC OS 3.10.1 won't load it.");
+    return t[0];
+  }
+
   function dirIn(root, ps) {
     return ps.reduce(function (pr, x) { return pr.then(function (d) { return d.getDirectoryHandle(x, { create: true }); }); }, Promise.resolve(root));
   }
@@ -572,7 +602,7 @@ var DriveWrite = (function () {
   }
   function pick() { return window.showDirectoryPicker({ id: "mpc-drive", mode: "readwrite" }); }
 
-  /* buf, checked against a SHA-256 when one is given */
+  /* file: the downloaded folder zip; root: a directory handle (the drive). Resolves to the folder name. */
   function checked(buf, sha) {
     if (!sha) return Promise.resolve(buf);
     return sha256(buf).then(function (h) { if (h !== sha) throw new Error("The download didn't match its checksum. Reload the page and try again."); return buf; });
@@ -591,6 +621,14 @@ var DriveWrite = (function () {
       return pump();
     });
   }
+  function folderZip(file, root, progress, sha) {
+    return file.arrayBuffer().then(function (b) { return checked(b, sha); }).then(function (buf) {
+      var es = readZip(buf), folder = pluginFolder(es);
+      return dirIn(root, ["VST2 Plugins"]).then(function (v) {
+        return v.removeEntry(folder, { recursive: true }).catch(function () {}).then(function () { return writeAll(v, es, [], progress); });
+      }).then(function () { return folder; });
+    });
+  }
   /* file: the stick zip; pin: {sha256, need:[paths]}; root must be empty. */
   function stickZip(file, root, pin, progress) {
     return file.arrayBuffer().then(function (buf) {
@@ -606,7 +644,7 @@ var DriveWrite = (function () {
       });
     });
   }
-  return { supported: supported, pick: pick, download: download, readZip: readZip, stickZip: stickZip, checked: checked, sha256: sha256 };
+  return { supported: supported, pick: pick, download: download, readZip: readZip, pluginFolder: pluginFolder, folderZip: folderZip, stickZip: stickZip, sha256: sha256 };
 })();
 if (typeof module !== "undefined") module.exports = DriveWrite;
 
@@ -616,6 +654,7 @@ if (typeof module !== "undefined") module.exports = DriveWrite;
   var root = document.getElementById("guide");
   if (!root) return;
   var REL = "https://github.com/open-mpc/mpc-vst-plugins/releases";
+  var PM = REL + "/download/plugin-manager-g2-v1.0.0/OpenMPC-Plugin-Manager-1.0.0-";
   var HERE = "on your computer", MPC = "on the MPC";
   var GROUPS = [["Gen1", 1, ["MPC Live / Live II", "MPC One / One+", "MPC X / X SE", "MPC Key 61 / Key 37", "Akai Force"]],
                 ["Gen2", 2, ["MPC Live III", "MPC One G2", "MPC Key G2", "MPC XL"]]];
@@ -650,17 +689,17 @@ if (typeof module !== "undefined") module.exports = DriveWrite;
   function nav(c) {
     var n = el("div", "gnav");
     if (hist.length) { var b = el("button", "gback", "Back"); b.type = "button"; b.onclick = function () { S = JSON.parse(hist.pop()); draw(); }; n.appendChild(b); }
-    if (S.model) n.appendChild(el("span", "gfor", S.model + (S.os ? " · MPC OS " + (S.os === "310" ? "3.10" : S.os === "2x" ? "2.x" : "3.0 to 3.9.1") : "")));
+    if (S.model) n.appendChild(el("span", "gfor", S.model + (S.os ? " · MPC OS " + (S.os === "new" ? "3.10.1 or later" : S.os === "2x" ? "2.x" : "3.0 to 3.9.1") : "")));
     c.appendChild(n);
   }
   function installer(c, why) {
     var b = el("div", "gdl"), k = computer();
-    b.appendChild(link("Download the desktop installer app", REL + "/tag/desktop-v1.1.2", "gbtn")   /* not /latest: that is whichever release came last */);
+    b.appendChild(link("Download the desktop installer app", REL + "/latest", "gbtn"));
     var p = el("p", "gsub", why + " " + (k ? "For " + k[0] + ", get the file ending in " + k[1] + ". " : "") + "Unpack it and double-click mpc-installer. ");
     p.appendChild(link("How to start it", "#the-desktop-installer-app")); b.appendChild(p); c.appendChild(b);
   }
 
-  var EASY = {"url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/g2-stick-v0.9.0/Plugin-Manager-G2-Stick-0.9.0.zip", "sha256": "645a92e1beae3ebd0b9d9033ac8825607bdad5a81cc3075a1175d826f34dd7da", "version": "0.9.0", "need": ["autorun/autorun.json", "autorun/autorun.check", "autorun/open.sh", "autorun/runtime/run.sh", "autorun/runtime/payload.sha256", ".mpc-g2-stick"]};
+  var EASY = {"url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/g2-stick-v1.0.0/Plugin-Manager-G2-Stick-1.0.0.zip", "sha256": "77bd7840588cbd1de13ef98bdc792593459b22316d60df227c282bba4d461bb8", "version": "1.0.0", "need": ["autorun/autorun.json", "autorun/autorun.check", "autorun/open.sh", "autorun/runtime/run.sh", "autorun/runtime/payload.sha256", ".mpc-g2-stick"]};
   var DL = null;   /* dl/downloads.json: the files this site publishes (tools/site_downloads.py); none on a local preview */
   /* The write box: with a file on this site, one button (choose the drive; the page downloads and writes). Otherwise, or as a
      fallback, choose a zip you downloaded, then the drive. run(file, root, progress) resolves to the message to show. */
@@ -721,25 +760,48 @@ if (typeof module !== "undefined") module.exports = DriveWrite;
     } else if (!S.os) {
       c = card(2, 3, "Which MPC OS is on it?", "On the MPC: Menu > Preferences > Info shows the version.");
       var o = el("div", "gopts");
-      o.appendChild(opt("3.0 to 3.9.1", "Recommended", function () { S.os = "old"; }));
-      o.appendChild(opt("3.10", "Beta support", function () { S.os = "310"; }));
-      if (S.gen !== 2) o.appendChild(opt("2.x", "", function () { S.os = "2x"; }));   /* Gen2 MPCs shipped with 3.x */
+      o.appendChild(opt("3.10.1 or later", "Preferences has an Enhancements page", function () { S.os = "new"; }));
+      o.appendChild(opt("3.0 to 3.9.1", "", function () { S.os = "old"; }));
+      o.appendChild(opt("2.x", "", function () { S.os = "2x"; }));
       c.appendChild(o);
     } else if (S.os === "2x") {
       c = card(3, 3, "MPC OS 2.x: install over SSH", "The Plugin Manager and its stick need MPC OS 3.x. On 2.x you install plugins over SSH (root SSH access to the MPC).");
       c.appendChild(plan([["In the catalog, pick plugins whose card says MPC OS: 2.x and 3.x", HERE, "Plugins made only for 3.x don't show their screen on 2.x."],
-        ["Install them with the desktop installer app over Wi-Fi: Connect with the MPC's IP address and pick plugins", HERE, "It warns you before installing a plugin made only for 3.x. MPC restarts once."]]));
+        ["Install them with the desktop installer app over Wi-Fi: choose 2.x, then Connect with the MPC's IP address and pick plugins", HERE, "It warns you before installing a plugin made only for 3.x. MPC restarts once."]]));
       installer(c, "The desktop installer app installs over SSH.");
       var x2 = el("p", "gsub", "Or update the MPC to MPC OS 3.x first, or install by hand: ");
       x2.appendChild(link("MPC OS 2.x", "#mpc-os-2-x")); c.appendChild(x2);
-    } else if (S.os === "310") {
-      c = card(3, 3, "MPC OS 3.10: beta support", "The Plugin Manager works on 3.10, but installing it there is still in beta. For now, the recommended way is to install it on MPC OS 3.9.1 first, then update the MPC to 3.10: the Plugin Manager and your plugins stay installed.");
-      c.appendChild(plan([["Install MPC OS 3.9.1 on the MPC (Akai's update, from akaipro.com)", MPC, "Your projects and samples stay where they are."],
-        ["Install the Plugin Manager with the 3.9.1 stick (next step)", MPC, "MPC restarts with the Plugin Manager."],
-        ["Update the MPC to 3.10 again", MPC, "The Plugin Manager and the plugins it installed are still there."]]));
-      var t = el("div", "gopts"); t.appendChild(opt("Show the 3.9.1 steps", "Recommended", function () { S.os = "old"; })); c.appendChild(t);
-      var b3 = el("details", "gothers"); b3.appendChild(el("summary", null, "Stay on 3.10 (beta)"));
-      installer(b3, "The desktop installer app's Plugin manager stick also works on 3.10 (beta)."); c.appendChild(b3);
+    } else if (S.os === "new") {
+      var g = S.gen === 2 ? "Gen2" : "Gen1";
+      c = card(3, 3, "Put the Plugin Manager on your MPC", "Once it is on a track, you install everything else from its screen, or from your phone or computer.");
+      c.appendChild(plan([["Menu > Preferences > Enhancements: tick Enable Enhancements and External Plugin Support, accept the warning, wait a few seconds, then restart", MPC, "MPC now looks for plugins in folders called VST2 Plugins."],
+        [["Download ", link("OpenMPC-Plugin-Manager-1.0.0-" + g + ".zip", PM + g + ".zip"), " and unzip it", " (or let this page write it for you, below)"], HERE, "You get one folder, OpenMPC - VST - Plugin Manager G2."],
+        ["Copy that whole folder into a VST2 Plugins folder on the MPC. Pick a way below", HERE, "MPC lists it in its plugin browser. On a stick or card that is as soon as you plug it in."],
+        ["Press Menu, add a new Plugin track, tap its plugin slot and browse to External VST Plugins > OpenMPC - Plugin Manager G2", MPC, "Its screen lists the catalog. Install from there, or open the web address on its status line on your phone or computer (same Wi-Fi)."]]));
+      var pdl = DL && DL["pm-gen" + S.gen];
+      writer(c, "Write it to a USB stick from this page (Chrome or Edge)", pdl, "Plugin Manager zip",
+        "Plug in a USB stick or SD card, or connect the MPC in Controller Mode, then choose that drive. This page puts the folder in VST2 Plugins on it.",
+        function (file, root, prog) { return DriveWrite.folderZip(file, root, prog, file.fromSite ? pdl.sha256 : null).then(function (folder) {
+          return "Done: VST2 Plugins/" + folder + " is on " + root.name + ". Plug it into the MPC (no restart needed; it shows up within a few seconds), or after Controller Mode tap Standalone. Then do step 4."; }); });
+      c.appendChild(el("p", "gsub", "Or copy it yourself:"));
+      [["Over Wi-Fi", "Developer mode on", [["Turn on Developer mode and note the MPC's IP address", MPC, "Your computer can now open the MPC's files over Wi-Fi."],
+          ["Connect with a file app (WinSCP, Cyberduck, FileZilla) as root, no password", HERE],
+          [["Copy the folder into ", el("code", null, S.gen === 2 ? "/nvme/VST2 Plugins/" : "/sdcard/VST2 Plugins/"), ", then restart the MPC"], HERE, "After the restart, MPC lists the Plugin Manager in its plugin browser."]], "#a-over-wi-fi-developer-mode"],
+       ["With a USB cable", "Controller Mode", /Live III|XL/.test(S.model) ? [   /* only these mount their internal drives (Akai's support articles) */
+          ["Connect the MPC to your computer with a USB cable", MPC],
+          ["Menu, the computer icon: Controller Mode", MPC, "Two drives appear on your computer: MPC User (the MPC's internal drive) and MPC Content. On Windows they appear only once Akai's MPC USB driver is installed (from akaipro.com)."],
+          ["Copy the folder into VST2 Plugins on the MPC User drive, eject it, then tap Standalone on the MPC and confirm", HERE, "If the Plugin Manager isn't in the plugin browser yet, restart the MPC: the internal drive is read at start-up."]]
+        : [["Put an SD card or USB drive in the MPC and connect the MPC to your computer", MPC, "This MPC's internal drive doesn't show on a computer, only a card or drive in it."],
+          ["Menu, the computer icon: Controller Mode", MPC, "The card or drive appears on your computer like a USB stick."],
+          ["Copy the folder into VST2 Plugins on it, eject it, then tap Standalone on the MPC and confirm", HERE, "MPC finds the Plugin Manager on it. Leave the card or drive in."]], "#b-with-a-usb-cable-controller-mode"],
+       ["With a USB stick or SD card", "", [["Make a folder called VST2 Plugins on the stick or card and copy the folder into it", HERE],
+          ["Plug it into the MPC", MPC, "No restart needed: the Plugin Manager shows up in the plugin browser within a few seconds. Leave it in: the plugin runs from there. Don't unplug it while a track uses the Plugin Manager: the plugin stops and its screen goes black until you plug it back in."]], "#c-with-a-usb-stick-or-sd-card"]].forEach(function (w) {
+        var d = el("details", "gway"), s = el("summary"); s.appendChild(el("b", null, w[0])); if (w[1]) s.appendChild(el("small", null, " (" + w[1] + ")"));
+        d.appendChild(s); d.appendChild(plan(w[2]));
+        var m = el("p", "gsub"); m.appendChild(link("More detail", w[3])); d.appendChild(m); c.appendChild(d);
+      });
+      var a = el("details", "gothers"); a.appendChild(el("summary", null, "Rather use the desktop app?"));
+      installer(a, "It can write the stick for you, or install over Wi-Fi with Developer mode."); c.appendChild(a);
     } else {
       c = card(3, 3, "Plugin Manager stick", "A stick that installs the Plugin Manager: you confirm one prompt and MPC restarts with it.");
       if (EASY) {
@@ -752,7 +814,7 @@ if (typeof module !== "undefined") module.exports = DriveWrite;
         installer(o2, "The desktop installer app makes the same stick."); c.appendChild(o2);
       }
       else installer(c, "On 3.9.1 or earlier the desktop installer app makes the stick.");
-      if (!EASY) c.appendChild(plan([["Start the app, open Plugin manager stick and write it to an empty USB stick", HERE],
+      if (!EASY) c.appendChild(plan([["Start the app, choose 3.9.1 or earlier and follow it to Plugin Manager stick. Write it to an empty USB stick", HERE],
         ["Save your project, plug the stick into the MPC and choose Open on the prompt", MPC, "The stick installs the Plugin Manager and MPC restarts by itself. You can then unplug the stick."],
         ["Create a new Plugin track, tap its plugin slot and choose OpenMPC Plugin Manager G2 from the plugin list", MPC, "Its screen lists the catalog. Install from there, or open the web address on its status line on your phone or computer (same Wi-Fi)."]]));
       var adv = el("p", "gsub", "With root SSH the same app also installs over Wi-Fi, removes plugins, and manages backups and patches: ");

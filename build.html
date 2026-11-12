@@ -417,7 +417,7 @@ details.more > dl.meta { margin-top: 4px; }
 <p>This page is for <strong>building</strong>: a plugin marked "Build it yourself" in the catalog, or a plugin of your own. If you only want to put a plugin from the catalog on your device, you do not need any of it: see <a href="install.html">Install</a>.</p>
 <p>You do not need to be a programmer. Building happens on your computer, never on the device, which only receives the finished plugin. For anything you install, the linked official pages have the current steps.</p>
 <h2 id="what-you-need-to-build">What you need to build</h2>
-<ul><li><strong>A Linux-style shell:</strong> Terminal on macOS, Ubuntu on Linux, or Ubuntu inside WSL on Windows.</li><li><strong>Git</strong> and <strong>Python 3.</strong></li><li><strong>Docker.</strong> The builds run inside it, so nothing else has to be installed by hand.</li><li>Several GB of free disk space (Docker downloads build images the first time) and a few minutes.</li><li>To put the result on a device: the <a href="install.html">installer app</a> and root SSH access to your device.</li></ul>
+<ul><li><strong>A Linux-style shell:</strong> Terminal on macOS, Ubuntu on Linux, or Ubuntu inside WSL on Windows.</li><li><strong>Git</strong> and <strong>Python 3.</strong></li><li><strong>Docker.</strong> The builds run inside it, so nothing else has to be installed by hand.</li><li>Several GB of free disk space (Docker downloads build images the first time) and a few minutes.</li><li>To put the result on a device: the <a href="install.html#the-desktop-installer-app">installer app</a> and root SSH access to your device.</li></ul>
 <h2 id="get-your-computer-ready">Get your computer ready</h2>
 <p>A check follows each step.</p>
 <h3 id="1-open-a-terminal">1. Open a terminal</h3>
@@ -471,7 +471,7 @@ details.more > dl.meta { margin-top: 4px; }
 <p>To update later, pull the latest source (<code>git pull --recurse-submodules</code>) and run the build command again.</p>
 <p>The exact command, and any extra tools it needs, are on the plugin's card and in its README. Step-by-step versions for the two Elektron ports: <a href="https://github.com/sd88me/mpc-vst-monomodule#install">Monomodule</a> and <a href="https://github.com/sd88me/mpc-vst-machinedrum#building">Machinemodule</a>.</p>
 <h2 id="when-something-fails">When something fails</h2>
-<div class="tablewrap"><table><thead><tr><th>You see</th><th>Usually means</th></tr></thead><tbody><tr><td><code>docker: permission denied</code></td><td>Your user is not in the <code>docker</code> group yet. Run the <code>usermod</code> command above, then log out and back in.</td></tr><tr><td><code>Cannot connect to the Docker daemon</code></td><td>Docker is not running. Start Docker Desktop, or on Linux <code>sudo systemctl start docker</code>.</td></tr><tr><td><code>ssh: connect to host ... timed out</code>, or <code>Permission denied</code> from <code>ssh</code></td><td>See "Check that you can reach your device" on the <a href="install.html">Install</a> page.</td></tr><tr><td>A build stops with an error about its self-check</td><td>Your OS file or your tools differ from what the plugin was built against, and the build refuses to make an unverified plugin. Check the file name and version on the plugin's card.</td></tr></tbody></table></div>
+<div class="tablewrap"><table><thead><tr><th>You see</th><th>Usually means</th></tr></thead><tbody><tr><td><code>docker: permission denied</code></td><td>Your user is not in the <code>docker</code> group yet. Run the <code>usermod</code> command above, then log out and back in.</td></tr><tr><td><code>Cannot connect to the Docker daemon</code></td><td>Docker is not running. Start Docker Desktop, or on Linux <code>sudo systemctl start docker</code>.</td></tr><tr><td><code>ssh: connect to host ... timed out</code>, or <code>Permission denied</code> from <code>ssh</code></td><td>Check the IP address and that root SSH is on; see "Something else went wrong" on the <a href="install.html#troubleshooting-mpc-os-3-9-1-or-earlier">Install</a> page.</td></tr><tr><td>A build stops with an error about its self-check</td><td>Your OS file or your tools differ from what the plugin was built against, and the build refuses to make an unverified plugin. Check the file name and version on the plugin's card.</td></tr></tbody></table></div>
 <h2 id="where-to-read-more">Where to read more</h2>
 <ul><li><a href="https://github.com/open-mpc/mpc-vst-plugins/blob/main/docs/PORTING.md">Porting checklist</a></li><li><a href="https://github.com/open-mpc/mpc-vst-plugins/blob/main/docs/NOTES.md">What has been verified on real hardware</a></li><li><a href="https://github.com/open-mpc/mpc-vst-plugins/blob/main/docs/SKIN_STUDIO.md">Skin Studio</a></li><li><a href="https://github.com/open-mpc/mpc-vst-plugins/blob/main/docs/BENCH.md">CPU check</a></li></ul>
 </main>
@@ -488,6 +488,7 @@ addEventListener("hashchange", openFold); openFold();
 <script>
 /* Write a zip the user downloaded onto a USB stick, SD card or MPC drive, in the browser (Chrome/Edge: the File System Access API).
    The desktop installer's stick writers in a web page: nothing is uploaded, the zip is read and written on this computer.
+   - folderZip(): an OpenMPC "just the folder" zip (one top folder with plugin.json) into <drive>/VST2 Plugins/<folder>/.
    - stickZip(): a prebuilt stick (pinned by SHA-256, it runs as root on the MPC) onto an empty drive, like the installer.
    Used by guide.js; also loaded by tools/test_drivewrite.mjs under Node. */
 var DriveWrite = (function () {
@@ -540,6 +541,16 @@ var DriveWrite = (function () {
     });
   }
 
+  /* The one plugin folder in a folder zip, or an error saying what is wrong. */
+  function pluginFolder(entries) {
+    var tops = {};
+    entries.forEach(function (x) { tops[parts(x.name)[0]] = 1; });
+    var t = Object.keys(tops);
+    if (t.length !== 1) throw new Error("This zip doesn't hold one plugin folder. Download the Gen1 or Gen2 zip from the Plugin Manager release.");
+    if (!entries.some(function (x) { return x.name === t[0] + "/plugin.json"; })) throw new Error("This zip's folder has no plugin.json, so MPC OS 3.10.1 won't load it.");
+    return t[0];
+  }
+
   function dirIn(root, ps) {
     return ps.reduce(function (pr, x) { return pr.then(function (d) { return d.getDirectoryHandle(x, { create: true }); }); }, Promise.resolve(root));
   }
@@ -570,7 +581,7 @@ var DriveWrite = (function () {
   }
   function pick() { return window.showDirectoryPicker({ id: "mpc-drive", mode: "readwrite" }); }
 
-  /* buf, checked against a SHA-256 when one is given */
+  /* file: the downloaded folder zip; root: a directory handle (the drive). Resolves to the folder name. */
   function checked(buf, sha) {
     if (!sha) return Promise.resolve(buf);
     return sha256(buf).then(function (h) { if (h !== sha) throw new Error("The download didn't match its checksum. Reload the page and try again."); return buf; });
@@ -589,6 +600,14 @@ var DriveWrite = (function () {
       return pump();
     });
   }
+  function folderZip(file, root, progress, sha) {
+    return file.arrayBuffer().then(function (b) { return checked(b, sha); }).then(function (buf) {
+      var es = readZip(buf), folder = pluginFolder(es);
+      return dirIn(root, ["VST2 Plugins"]).then(function (v) {
+        return v.removeEntry(folder, { recursive: true }).catch(function () {}).then(function () { return writeAll(v, es, [], progress); });
+      }).then(function () { return folder; });
+    });
+  }
   /* file: the stick zip; pin: {sha256, need:[paths]}; root must be empty. */
   function stickZip(file, root, pin, progress) {
     return file.arrayBuffer().then(function (buf) {
@@ -604,7 +623,7 @@ var DriveWrite = (function () {
       });
     });
   }
-  return { supported: supported, pick: pick, download: download, readZip: readZip, stickZip: stickZip, checked: checked, sha256: sha256 };
+  return { supported: supported, pick: pick, download: download, readZip: readZip, pluginFolder: pluginFolder, folderZip: folderZip, stickZip: stickZip, sha256: sha256 };
 })();
 if (typeof module !== "undefined") module.exports = DriveWrite;
 
@@ -614,6 +633,7 @@ if (typeof module !== "undefined") module.exports = DriveWrite;
   var root = document.getElementById("guide");
   if (!root) return;
   var REL = "https://github.com/open-mpc/mpc-vst-plugins/releases";
+  var PM = REL + "/download/plugin-manager-g2-v1.0.0/OpenMPC-Plugin-Manager-1.0.0-";
   var HERE = "on your computer", MPC = "on the MPC";
   var GROUPS = [["Gen1", 1, ["MPC Live / Live II", "MPC One / One+", "MPC X / X SE", "MPC Key 61 / Key 37", "Akai Force"]],
                 ["Gen2", 2, ["MPC Live III", "MPC One G2", "MPC Key G2", "MPC XL"]]];
@@ -648,17 +668,17 @@ if (typeof module !== "undefined") module.exports = DriveWrite;
   function nav(c) {
     var n = el("div", "gnav");
     if (hist.length) { var b = el("button", "gback", "Back"); b.type = "button"; b.onclick = function () { S = JSON.parse(hist.pop()); draw(); }; n.appendChild(b); }
-    if (S.model) n.appendChild(el("span", "gfor", S.model + (S.os ? " · MPC OS " + (S.os === "310" ? "3.10" : S.os === "2x" ? "2.x" : "3.0 to 3.9.1") : "")));
+    if (S.model) n.appendChild(el("span", "gfor", S.model + (S.os ? " · MPC OS " + (S.os === "new" ? "3.10.1 or later" : S.os === "2x" ? "2.x" : "3.0 to 3.9.1") : "")));
     c.appendChild(n);
   }
   function installer(c, why) {
     var b = el("div", "gdl"), k = computer();
-    b.appendChild(link("Download the desktop installer app", REL + "/tag/desktop-v1.1.2", "gbtn")   /* not /latest: that is whichever release came last */);
+    b.appendChild(link("Download the desktop installer app", REL + "/latest", "gbtn"));
     var p = el("p", "gsub", why + " " + (k ? "For " + k[0] + ", get the file ending in " + k[1] + ". " : "") + "Unpack it and double-click mpc-installer. ");
     p.appendChild(link("How to start it", "#the-desktop-installer-app")); b.appendChild(p); c.appendChild(b);
   }
 
-  var EASY = {"url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/g2-stick-v0.9.0/Plugin-Manager-G2-Stick-0.9.0.zip", "sha256": "645a92e1beae3ebd0b9d9033ac8825607bdad5a81cc3075a1175d826f34dd7da", "version": "0.9.0", "need": ["autorun/autorun.json", "autorun/autorun.check", "autorun/open.sh", "autorun/runtime/run.sh", "autorun/runtime/payload.sha256", ".mpc-g2-stick"]};
+  var EASY = {"url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/g2-stick-v1.0.0/Plugin-Manager-G2-Stick-1.0.0.zip", "sha256": "77bd7840588cbd1de13ef98bdc792593459b22316d60df227c282bba4d461bb8", "version": "1.0.0", "need": ["autorun/autorun.json", "autorun/autorun.check", "autorun/open.sh", "autorun/runtime/run.sh", "autorun/runtime/payload.sha256", ".mpc-g2-stick"]};
   var DL = null;   /* dl/downloads.json: the files this site publishes (tools/site_downloads.py); none on a local preview */
   /* The write box: with a file on this site, one button (choose the drive; the page downloads and writes). Otherwise, or as a
      fallback, choose a zip you downloaded, then the drive. run(file, root, progress) resolves to the message to show. */
@@ -719,25 +739,48 @@ if (typeof module !== "undefined") module.exports = DriveWrite;
     } else if (!S.os) {
       c = card(2, 3, "Which MPC OS is on it?", "On the MPC: Menu > Preferences > Info shows the version.");
       var o = el("div", "gopts");
-      o.appendChild(opt("3.0 to 3.9.1", "Recommended", function () { S.os = "old"; }));
-      o.appendChild(opt("3.10", "Beta support", function () { S.os = "310"; }));
-      if (S.gen !== 2) o.appendChild(opt("2.x", "", function () { S.os = "2x"; }));   /* Gen2 MPCs shipped with 3.x */
+      o.appendChild(opt("3.10.1 or later", "Preferences has an Enhancements page", function () { S.os = "new"; }));
+      o.appendChild(opt("3.0 to 3.9.1", "", function () { S.os = "old"; }));
+      o.appendChild(opt("2.x", "", function () { S.os = "2x"; }));
       c.appendChild(o);
     } else if (S.os === "2x") {
       c = card(3, 3, "MPC OS 2.x: install over SSH", "The Plugin Manager and its stick need MPC OS 3.x. On 2.x you install plugins over SSH (root SSH access to the MPC).");
       c.appendChild(plan([["In the catalog, pick plugins whose card says MPC OS: 2.x and 3.x", HERE, "Plugins made only for 3.x don't show their screen on 2.x."],
-        ["Install them with the desktop installer app over Wi-Fi: Connect with the MPC's IP address and pick plugins", HERE, "It warns you before installing a plugin made only for 3.x. MPC restarts once."]]));
+        ["Install them with the desktop installer app over Wi-Fi: choose 2.x, then Connect with the MPC's IP address and pick plugins", HERE, "It warns you before installing a plugin made only for 3.x. MPC restarts once."]]));
       installer(c, "The desktop installer app installs over SSH.");
       var x2 = el("p", "gsub", "Or update the MPC to MPC OS 3.x first, or install by hand: ");
       x2.appendChild(link("MPC OS 2.x", "#mpc-os-2-x")); c.appendChild(x2);
-    } else if (S.os === "310") {
-      c = card(3, 3, "MPC OS 3.10: beta support", "The Plugin Manager works on 3.10, but installing it there is still in beta. For now, the recommended way is to install it on MPC OS 3.9.1 first, then update the MPC to 3.10: the Plugin Manager and your plugins stay installed.");
-      c.appendChild(plan([["Install MPC OS 3.9.1 on the MPC (Akai's update, from akaipro.com)", MPC, "Your projects and samples stay where they are."],
-        ["Install the Plugin Manager with the 3.9.1 stick (next step)", MPC, "MPC restarts with the Plugin Manager."],
-        ["Update the MPC to 3.10 again", MPC, "The Plugin Manager and the plugins it installed are still there."]]));
-      var t = el("div", "gopts"); t.appendChild(opt("Show the 3.9.1 steps", "Recommended", function () { S.os = "old"; })); c.appendChild(t);
-      var b3 = el("details", "gothers"); b3.appendChild(el("summary", null, "Stay on 3.10 (beta)"));
-      installer(b3, "The desktop installer app's Plugin manager stick also works on 3.10 (beta)."); c.appendChild(b3);
+    } else if (S.os === "new") {
+      var g = S.gen === 2 ? "Gen2" : "Gen1";
+      c = card(3, 3, "Put the Plugin Manager on your MPC", "Once it is on a track, you install everything else from its screen, or from your phone or computer.");
+      c.appendChild(plan([["Menu > Preferences > Enhancements: tick Enable Enhancements and External Plugin Support, accept the warning, wait a few seconds, then restart", MPC, "MPC now looks for plugins in folders called VST2 Plugins."],
+        [["Download ", link("OpenMPC-Plugin-Manager-1.0.0-" + g + ".zip", PM + g + ".zip"), " and unzip it", " (or let this page write it for you, below)"], HERE, "You get one folder, OpenMPC - VST - Plugin Manager G2."],
+        ["Copy that whole folder into a VST2 Plugins folder on the MPC. Pick a way below", HERE, "MPC lists it in its plugin browser. On a stick or card that is as soon as you plug it in."],
+        ["Press Menu, add a new Plugin track, tap its plugin slot and browse to External VST Plugins > OpenMPC - Plugin Manager G2", MPC, "Its screen lists the catalog. Install from there, or open the web address on its status line on your phone or computer (same Wi-Fi)."]]));
+      var pdl = DL && DL["pm-gen" + S.gen];
+      writer(c, "Write it to a USB stick from this page (Chrome or Edge)", pdl, "Plugin Manager zip",
+        "Plug in a USB stick or SD card, or connect the MPC in Controller Mode, then choose that drive. This page puts the folder in VST2 Plugins on it.",
+        function (file, root, prog) { return DriveWrite.folderZip(file, root, prog, file.fromSite ? pdl.sha256 : null).then(function (folder) {
+          return "Done: VST2 Plugins/" + folder + " is on " + root.name + ". Plug it into the MPC (no restart needed; it shows up within a few seconds), or after Controller Mode tap Standalone. Then do step 4."; }); });
+      c.appendChild(el("p", "gsub", "Or copy it yourself:"));
+      [["Over Wi-Fi", "Developer mode on", [["Turn on Developer mode and note the MPC's IP address", MPC, "Your computer can now open the MPC's files over Wi-Fi."],
+          ["Connect with a file app (WinSCP, Cyberduck, FileZilla) as root, no password", HERE],
+          [["Copy the folder into ", el("code", null, S.gen === 2 ? "/nvme/VST2 Plugins/" : "/sdcard/VST2 Plugins/"), ", then restart the MPC"], HERE, "After the restart, MPC lists the Plugin Manager in its plugin browser."]], "#a-over-wi-fi-developer-mode"],
+       ["With a USB cable", "Controller Mode", /Live III|XL/.test(S.model) ? [   /* only these mount their internal drives (Akai's support articles) */
+          ["Connect the MPC to your computer with a USB cable", MPC],
+          ["Menu, the computer icon: Controller Mode", MPC, "Two drives appear on your computer: MPC User (the MPC's internal drive) and MPC Content. On Windows they appear only once Akai's MPC USB driver is installed (from akaipro.com)."],
+          ["Copy the folder into VST2 Plugins on the MPC User drive, eject it, then tap Standalone on the MPC and confirm", HERE, "If the Plugin Manager isn't in the plugin browser yet, restart the MPC: the internal drive is read at start-up."]]
+        : [["Put an SD card or USB drive in the MPC and connect the MPC to your computer", MPC, "This MPC's internal drive doesn't show on a computer, only a card or drive in it."],
+          ["Menu, the computer icon: Controller Mode", MPC, "The card or drive appears on your computer like a USB stick."],
+          ["Copy the folder into VST2 Plugins on it, eject it, then tap Standalone on the MPC and confirm", HERE, "MPC finds the Plugin Manager on it. Leave the card or drive in."]], "#b-with-a-usb-cable-controller-mode"],
+       ["With a USB stick or SD card", "", [["Make a folder called VST2 Plugins on the stick or card and copy the folder into it", HERE],
+          ["Plug it into the MPC", MPC, "No restart needed: the Plugin Manager shows up in the plugin browser within a few seconds. Leave it in: the plugin runs from there. Don't unplug it while a track uses the Plugin Manager: the plugin stops and its screen goes black until you plug it back in."]], "#c-with-a-usb-stick-or-sd-card"]].forEach(function (w) {
+        var d = el("details", "gway"), s = el("summary"); s.appendChild(el("b", null, w[0])); if (w[1]) s.appendChild(el("small", null, " (" + w[1] + ")"));
+        d.appendChild(s); d.appendChild(plan(w[2]));
+        var m = el("p", "gsub"); m.appendChild(link("More detail", w[3])); d.appendChild(m); c.appendChild(d);
+      });
+      var a = el("details", "gothers"); a.appendChild(el("summary", null, "Rather use the desktop app?"));
+      installer(a, "It can write the stick for you, or install over Wi-Fi with Developer mode."); c.appendChild(a);
     } else {
       c = card(3, 3, "Plugin Manager stick", "A stick that installs the Plugin Manager: you confirm one prompt and MPC restarts with it.");
       if (EASY) {
@@ -750,7 +793,7 @@ if (typeof module !== "undefined") module.exports = DriveWrite;
         installer(o2, "The desktop installer app makes the same stick."); c.appendChild(o2);
       }
       else installer(c, "On 3.9.1 or earlier the desktop installer app makes the stick.");
-      if (!EASY) c.appendChild(plan([["Start the app, open Plugin manager stick and write it to an empty USB stick", HERE],
+      if (!EASY) c.appendChild(plan([["Start the app, choose 3.9.1 or earlier and follow it to Plugin Manager stick. Write it to an empty USB stick", HERE],
         ["Save your project, plug the stick into the MPC and choose Open on the prompt", MPC, "The stick installs the Plugin Manager and MPC restarts by itself. You can then unplug the stick."],
         ["Create a new Plugin track, tap its plugin slot and choose OpenMPC Plugin Manager G2 from the plugin list", MPC, "Its screen lists the catalog. Install from there, or open the web address on its status line on your phone or computer (same Wi-Fi)."]]));
       var adv = el("p", "gsub", "With root SSH the same app also installs over Wi-Fi, removes plugins, and manages backups and patches: ");

@@ -1,4 +1,18 @@
 {
+ "pm-gen1": {
+  "need": [],
+  "path": "dl/OpenMPC-Plugin-Manager-1.0.0-Gen1.zip",
+  "sha256": "b309cab8c94325b07ca51609f8e461c4d1f65a697b345c6c841c4759bb5d22f6",
+  "url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/plugin-manager-g2-v1.0.0/OpenMPC-Plugin-Manager-1.0.0-Gen1.zip",
+  "version": "1.0.0"
+ },
+ "pm-gen2": {
+  "need": [],
+  "path": "dl/OpenMPC-Plugin-Manager-1.0.0-Gen2.zip",
+  "sha256": "f60506a1f41a3ec8f7890d11738529ca38bcd514d5b5e5c2e38761cdc867db0e",
+  "url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/plugin-manager-g2-v1.0.0/OpenMPC-Plugin-Manager-1.0.0-Gen2.zip",
+  "version": "1.0.0"
+ },
  "pm-stick": {
   "need": [
    "autorun/autorun.json",
@@ -8,9 +22,9 @@
    "autorun/runtime/payload.sha256",
    ".mpc-g2-stick"
   ],
-  "path": "dl/Plugin-Manager-G2-Stick-0.9.0.zip",
-  "sha256": "645a92e1beae3ebd0b9d9033ac8825607bdad5a81cc3075a1175d826f34dd7da",
-  "url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/g2-stick-v0.9.0/Plugin-Manager-G2-Stick-0.9.0.zip",
-  "version": "0.9.0"
+  "path": "dl/Plugin-Manager-G2-Stick-1.0.0.zip",
+  "sha256": "77bd7840588cbd1de13ef98bdc792593459b22316d60df227c282bba4d461bb8",
+  "url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/g2-stick-v1.0.0/Plugin-Manager-G2-Stick-1.0.0.zip",
+  "version": "1.0.0"
  }
 }
