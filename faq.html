@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Questions and answers - Open MPC - Plugin Catalog</title>
-<meta name="description" content="Plugins after updating to MPC OS 3.10.1, Gen1 or Gen2, how plugins are checked, Works for me and reporting issues, the Plugin Manager&#x27;s web page and more.">
+<meta name="description" content="Installing and trying plugins, plugins after updating to MPC OS 3.10.1, Gen1 or Gen2, how plugins are checked, Works for me and reporting issues, the Plugin Manager&#x27;s web page and more.">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Titillium+Web:wght@400;600;700&display=swap">
 <style>
 /* Layout: sticky bar, masthead with a line-drawn MPC (screen, Q-Link encoders, jog wheel, buttons, 16 pads), filters, card grid.
@@ -403,6 +403,7 @@ details.more > dl.meta { margin-top: 4px; }
 .plat button[aria-pressed=true] { color: #fff; background: var(--accent); }
 .plat .n { font: 500 12px var(--text); letter-spacing: 0; margin-left: 6px; opacity: .8; }
 @media (max-width: 520px) { .plat { width: 100%; } .plat button { flex: 1; padding: 12px 10px; } }
+.dl-note { color: var(--muted); font-size: 13px; margin: 6px 0 0; }
 
 </style>
 </head>
@@ -413,8 +414,10 @@ details.more > dl.meta { margin-top: 4px; }
 </div></div>
 <main class="wrap doc">
 <h1>Questions and answers</h1>
-<p class="lede">Plugins after updating to MPC OS 3.10.1, Gen1 or Gen2, how plugins are checked, Works for me and reporting issues, the Plugin Manager's web page and more.</p>
+<p class="lede">Installing and trying plugins, plugins after updating to MPC OS 3.10.1, Gen1 or Gen2, how plugins are checked, Works for me and reporting issues, the Plugin Manager's web page and more.</p>
 <p>Start with <a href="install.html">Install the Plugin Manager</a>. Still stuck? Ask in the community with your MPC model, MPC OS version and what you see.</p>
+<details class="fold" id="how-do-i-install-and-try-a-plugin"><summary>How do I install and try a plugin?</summary><p>Put the <strong>Plugin Manager</strong> on your MPC once: the <a href="install.html">Install page</a> gives your steps (about five minutes; on MPC OS 3.10.1 nothing needs SSH or root). Then, on the MPC's screen or its web page on your phone, pick plugins and press <strong>Apply</strong>. MPC restarts once and they're under <strong>External VST Plugins</strong>, grouped by maker. Don't like one? <strong>Remove</strong> it the same way; your projects and your own files are kept.</p>
+<p>Prefer copying by hand? See "Can I just copy plugin folders from GitHub onto the MPC?" below.</p></details>
 <details class="fold" id="i-updated-to-3-10-1-and-my-plugins-are-gone-from-the-browser"><summary>I updated to 3.10.1 and my plugins are gone from the browser.</summary><p>They're still on the drive and your projects still load them. 3.10.1 only lists plugins in <code>VST2 Plugins</code>. Turn on External Plugin Support, then open Plugin Manager 1.0 and press Move (on its screen or its web page), then APPLY. MPC restarts once.</p>
 <p>That includes an older Plugin Manager: it won't show either, and versions before 1.0 can't move plugins. Put Plugin Manager 1.0 on first from the <a href="install.html">Install page</a> (pick your MPC and 3.10.1; it can write it to a USB stick for you), then press Move.</p></details>
 <details class="fold" id="do-i-need-to-reinstall-or-re-add-my-roms"><summary>Do I need to reinstall or re-add my ROMs?</summary><p>No. The move copies each plugin folder with everything in it (ROMs, cartridges, presets).</p></details>
@@ -722,7 +725,7 @@ if (typeof module !== "undefined") module.exports = DriveWrite;
       c.appendChild(plan([["Menu > Preferences > Enhancements: tick Enable Enhancements and External Plugin Support, accept the warning, wait a few seconds, then restart", MPC, "MPC now looks for plugins in folders called VST2 Plugins."],
         [["Download ", link("OpenMPC-Plugin-Manager-1.0.0-" + g + ".zip", PM + g + ".zip"), " and unzip it", " (or let this page write it for you, below)"], HERE, "You get one folder, OpenMPC - VST - Plugin Manager G2."],
         ["Copy that whole folder into a VST2 Plugins folder on the MPC. Pick a way below", HERE, "MPC lists it in its plugin browser. On a stick or card that is as soon as you plug it in."],
-        ["Press Menu, add a new Plugin track, tap its plugin slot and browse to External VST Plugins > OpenMPC - Plugin Manager G2", MPC, "Its screen lists the catalog. Install from there, or open the web address on its status line on your phone or computer (same Wi-Fi)."]]));
+        ["Press Menu, add a new Plugin track, tap its plugin slot and browse to External VST Plugins > OpenMPC > Plugin Manager G2", MPC, "Its screen lists the catalog. Install from there, or open the web address on its status line on your phone or computer (same Wi-Fi)."]]));
       var pdl = DL && DL["pm-gen" + S.gen];
       writer(c, "Write it to a USB stick from this page (Chrome or Edge)", pdl, "Plugin Manager zip",
         "Plug in a USB stick or SD card, or connect the MPC in Controller Mode, then choose that drive. This page puts the folder in VST2 Plugins on it.",

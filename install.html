@@ -403,6 +403,7 @@ details.more > dl.meta { margin-top: 4px; }
 .plat button[aria-pressed=true] { color: #fff; background: var(--accent); }
 .plat .n { font: 500 12px var(--text); letter-spacing: 0; margin-left: 6px; opacity: .8; }
 @media (max-width: 520px) { .plat { width: 100%; } .plat button { flex: 1; padding: 12px 10px; } }
+.dl-note { color: var(--muted); font-size: 13px; margin: 6px 0 0; }
 
 </style>
 </head>
@@ -415,7 +416,8 @@ details.more > dl.meta { margin-top: 4px; }
 <h1>Install the Plugin Manager</h1>
 <p class="lede">Put the OpenMPC Plugin Manager on your MPC once, then browse the catalog and install plugins on the MPC or from your phone.</p>
 <p>The <strong>OpenMPC Plugin Manager</strong> is a plugin that runs on your MPC. Once it is on a track you can browse the catalog and install, update and remove plugins, on the MPC's screen or from a web page on your phone or computer.</p>
-<p>You install it once. Answer two questions below for your steps, or open the full instructions under them. It needs MPC OS 3.x: on MPC OS 2.x, see <a href="#mpc-os-2-x">MPC OS 2.x</a>.</p>
+<p><strong>To try plugins:</strong> put the Plugin Manager on your MPC once (about five minutes), then install, try and remove any plugin in the catalog from it. Removing a plugin keeps your projects and your own files.</p>
+<p>Answer two questions below for your steps, or open the full instructions under them. It needs MPC OS 3.x: on MPC OS 2.x, see <a href="#mpc-os-2-x">MPC OS 2.x</a>.</p>
 <div id="guide" class="guide" hidden></div>
 
 <details class="fold sec" id="mpc-os-3-10-1-or-later"><summary><h2>MPC OS 3.10.1 or later</h2></summary>
@@ -424,7 +426,7 @@ details.more > dl.meta { margin-top: 4px; }
 <figure class="shot"><img src="img/310-enhancements.png" alt="Preferences, Enhancements on an MPC: Enable Enhancements and External Plugin Support ticked" loading="lazy"></figure>
 <h3 id="2-download-the-plugin-manager">2. Download the Plugin Manager</h3>
 <p>Open <a href="https://github.com/open-mpc/mpc-vst-plugins/releases/tag/plugin-manager-g2-v1.0.0">the Plugin Manager release</a> and download the zip for your MPC from <strong>Assets</strong>:</p>
-<div class="tablewrap"><table><thead><tr><th>Your MPC</th><th>Download</th></tr></thead><tbody><tr><td><strong>First generation</strong>: MPC Live, Live II, One, X, Key 61, Key 37</td><td><code>OpenMPC-Plugin-Manager-1.0.0-Gen1.zip</code></td></tr><tr><td><strong>Second generation</strong>: MPC Live III, One G2, Key G2, XL</td><td><code>OpenMPC-Plugin-Manager-1.0.0-Gen2.zip</code></td></tr></tbody></table></div>
+<div class="tablewrap"><table><thead><tr><th>Your MPC</th><th>Download</th></tr></thead><tbody><tr><td><strong>First generation</strong>: MPC Live, Live II, One, X, Key 61, Key 37, and the Force</td><td><code>OpenMPC-Plugin-Manager-1.0.0-Gen1.zip</code></td></tr><tr><td><strong>Second generation</strong>: MPC Live III, One G2, Key G2, XL</td><td><code>OpenMPC-Plugin-Manager-1.0.0-Gen2.zip</code></td></tr></tbody></table></div>
 <p>Unzip it. You get one folder, <strong><code>OpenMPC - VST - Plugin Manager G2</code></strong>.</p>
 <h3 id="3-copy-it-to-the-mpc">3. Copy it to the MPC</h3>
 <p>Put the folder inside a folder called <strong><code>VST2 Plugins</code></strong> (exact name; create it if needed). Pick one way:</p>
@@ -436,9 +438,9 @@ details.more > dl.meta { margin-top: 4px; }
 <details class="fold" id="c-with-a-usb-stick-or-sd-card"><summary>C. With a USB stick or SD card</summary><ol><li>Copy the folder into <code>VST2 Plugins</code> on the stick or card.</li><li>Plug it into the MPC. No restart needed: it shows up within a few seconds. Leave it in: the plugin runs from the stick, and if you unplug it while a track uses it, the plugin stops and its screen goes black until you plug it back in.</li></ol>
 <p>Or let the <a href="#the-desktop-installer-app">desktop installer app</a> write the stick: <strong>MPC OS 3.10.1 → Write the Plugin Manager</strong>.</p></details>
 <h3 id="4-open-the-plugin-manager">4. Open the Plugin Manager</h3>
-<ol><li>Add a track and choose <strong>External VST Plugins → OpenMPC - Plugin Manager G2</strong>.</li><li>Browse and install on the MPC's screen, or open the address on its status line on your phone or computer (same Wi-Fi).</li></ol>
+<ol><li>Add a Plugin track and choose <strong>External VST Plugins → OpenMPC → Plugin Manager G2</strong>.</li><li>Browse and install on the MPC's screen, or open the address on its status line on your phone or computer (same Wi-Fi).</li></ol>
 <figure class="shot"><img src="img/310-manager-address-line.png" alt="The Plugin Manager&#x27;s status line on the MPC, with the web address under the plugin count" loading="lazy"></figure>
-<ol><li>Pick plugins, press <strong>Apply</strong>. The MPC restarts once.</li></ol>
+<ol><li>Pick plugins, press <strong>Apply</strong>. The MPC restarts once. The new plugins are under <strong>External VST Plugins</strong>, grouped by maker.</li><li><strong>Plugins that need your own ROM</strong> (marked <em>Needs your own ROM</em> in the catalog): upload the ROM on the Plugin Manager's web page, under the plugin.</li><li><strong>Don't like one?</strong> Select it in <strong>Installed</strong>, press <strong>Remove</strong>, then <strong>Apply</strong>.</li></ol>
 <figure class="shot"><img src="img/310-web-page-phone.webp" alt="The Plugin Manager&#x27;s web page on a phone: Discover, Installed and Updates tabs over the catalog cards" loading="lazy"></figure>
 <blockquote><p>The web page has no password: anyone on your Wi-Fi can use it while the Plugin Manager is on a track. Remove it from the track when you are done.</p></blockquote>
 <p>Already had plugins before 3.10.1? MPC now only lists plugins in <code>VST2 Plugins</code>. In the Plugin Manager, press <strong>Move</strong> to bring them over; your projects keep working.</p>
@@ -452,7 +454,7 @@ details.more > dl.meta { margin-top: 4px; }
 </details><details class="fold sec" id="the-desktop-installer-app"><summary><h2>The desktop installer app</h2></summary>
 <p>A small app for Windows, Mac and Linux. It can:</p>
 <ul><li>make a Plugin Manager USB stick (every MPC OS);</li><li>install the Plugin Manager and other plugins straight onto the MPC over Wi-Fi (3.10.1: with Developer mode; 3.9.1 or earlier: with root SSH);</li><li>on 3.9.1 or earlier: remove plugins, register plugin folders, clean up settings backups and apply device patches.</li></ul>
-<p><strong>Download:</strong> open <a href="https://github.com/open-mpc/mpc-vst-plugins/releases/tag/desktop-v1.1.2">the installer release</a> and get the file for your computer from <strong>Assets</strong>:</p>
+<p><strong>Download:</strong> open <a href="https://github.com/open-mpc/mpc-vst-plugins/releases/tag/desktop-v2.0.0">the installer release</a> and get the file for your computer from <strong>Assets</strong>:</p>
 <div class="tablewrap"><table><thead><tr><th>Your computer</th><th>File ending in</th></tr></thead><tbody><tr><td><strong>Windows</strong></td><td><code>-windows.zip</code></td></tr><tr><td><strong>Mac</strong> (Apple chip, 2020 on)</td><td><code>-mac-apple-silicon.tar.gz</code></td></tr><tr><td><strong>Mac</strong> (Intel)</td><td><code>-mac-intel.tar.gz</code></td></tr><tr><td><strong>Linux</strong></td><td><code>-linux.tar.gz</code></td></tr></tbody></table></div>
 <p><strong>Start it:</strong> unpack it and double-click <code>mpc-installer</code>. It opens a page in your browser and asks a few questions about your MPC.</p>
 <p>The first time, your computer warns that the app is not signed:</p>
@@ -777,7 +779,7 @@ if (typeof module !== "undefined") module.exports = DriveWrite;
       c.appendChild(plan([["Menu > Preferences > Enhancements: tick Enable Enhancements and External Plugin Support, accept the warning, wait a few seconds, then restart", MPC, "MPC now looks for plugins in folders called VST2 Plugins."],
         [["Download ", link("OpenMPC-Plugin-Manager-1.0.0-" + g + ".zip", PM + g + ".zip"), " and unzip it", " (or let this page write it for you, below)"], HERE, "You get one folder, OpenMPC - VST - Plugin Manager G2."],
         ["Copy that whole folder into a VST2 Plugins folder on the MPC. Pick a way below", HERE, "MPC lists it in its plugin browser. On a stick or card that is as soon as you plug it in."],
-        ["Press Menu, add a new Plugin track, tap its plugin slot and browse to External VST Plugins > OpenMPC - Plugin Manager G2", MPC, "Its screen lists the catalog. Install from there, or open the web address on its status line on your phone or computer (same Wi-Fi)."]]));
+        ["Press Menu, add a new Plugin track, tap its plugin slot and browse to External VST Plugins > OpenMPC > Plugin Manager G2", MPC, "Its screen lists the catalog. Install from there, or open the web address on its status line on your phone or computer (same Wi-Fi)."]]));
       var pdl = DL && DL["pm-gen" + S.gen];
       writer(c, "Write it to a USB stick from this page (Chrome or Edge)", pdl, "Plugin Manager zip",
         "Plug in a USB stick or SD card, or connect the MPC in Controller Mode, then choose that drive. This page puts the folder in VST2 Plugins on it.",
