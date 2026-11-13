@@ -1,17 +1,17 @@
 {
  "pm-gen1": {
   "need": [],
-  "path": "dl/OpenMPC-Plugin-Manager-1.1.0-Gen1.zip",
-  "sha256": "becb4b31d75c3117c785d75715dd73ece5731fe07698b9e56bb312e56c286267",
-  "url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/plugin-manager-g2-v1.1.0/OpenMPC-Plugin-Manager-1.1.0-Gen1.zip",
-  "version": "1.1.0"
+  "path": "dl/OpenMPC-Plugin-Manager-1.1.1-Gen1.zip",
+  "sha256": "89224bcf5bd1404452d2ca395b2f51a7c4e1afeed25b2c075fc2a58b02b00b2f",
+  "url": "https://github.com/open-mpc/plugin-manager/releases/download/plugin-manager-g2-v1.1.1/OpenMPC-Plugin-Manager-1.1.1-Gen1.zip",
+  "version": "1.1.1"
  },
  "pm-gen2": {
   "need": [],
-  "path": "dl/OpenMPC-Plugin-Manager-1.1.0-Gen2.zip",
-  "sha256": "8fad6a25a6b69cd247b80d0e7908a5d5117c98f2b334ca899673010b46e97e69",
-  "url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/plugin-manager-g2-v1.1.0/OpenMPC-Plugin-Manager-1.1.0-Gen2.zip",
-  "version": "1.1.0"
+  "path": "dl/OpenMPC-Plugin-Manager-1.1.1-Gen2.zip",
+  "sha256": "38cb6c4d9ae8355f072972c7bee6c023a8be101cbad42b37fb46dd4fda49d01e",
+  "url": "https://github.com/open-mpc/plugin-manager/releases/download/plugin-manager-g2-v1.1.1/OpenMPC-Plugin-Manager-1.1.1-Gen2.zip",
+  "version": "1.1.1"
  },
  "pm-stick": {
   "need": [
@@ -22,9 +22,9 @@
    "autorun/runtime/payload.sha256",
    ".mpc-g2-stick"
   ],
-  "path": "dl/Plugin-Manager-G2-Stick-1.1.0.zip",
-  "sha256": "99b6610ec6422629ac4c191550f5dbc00a4e3ea34116235fccf0ef4d4d3d78b4",
-  "url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/g2-stick-v1.1.0/Plugin-Manager-G2-Stick-1.1.0.zip",
-  "version": "1.1.0"
+  "path": "dl/Plugin-Manager-G2-Stick-1.1.1.zip",
+  "sha256": "70f2d248d9bf8ba398b4228654317cc6b184349689e19076a173cc7028ef4231",
+  "url": "https://github.com/open-mpc/mpc-vst-plugins/releases/download/g2-stick-v1.1.1/Plugin-Manager-G2-Stick-1.1.1.zip",
+  "version": "1.1.1"
  }
 }
