@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>JC303: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/jc303-mpc</id>
+<updated>2026-11-13T00:00:00Z</updated>
+<entry><title>JC303 0.2.3</title><id>tag:mpc-vst-catalog,2026:jc303-mpc@0.2.3</id><updated>2026-11-13T00:00:00Z</updated><link href="https://github.com/303inmyheart/OpenMPC-JC303/releases/download/jc303-mpc-v0.2.3/JC303-MPC-0.2.3-mpc-aarch64.zip"/><author><name>303inmyheart</name></author><summary># JC303 MPC 0.2.3 — Gen2 Native 303-style acid synth for **Gen2 MPCs (aarch64), MPC OS 3.10.1+**. Hardware testing has been performed on **MPC Live III only**. This release adds Gen2 package metadata, current catalog templates/checks, neutral visible drive-model names and native overlay model selection. The normal page frames remain present; the model list opens on a native overlay above the page. Candidate 5 removes a full-screen touch-consuming Image so that outside taps can reach native dismi</summary></entry>
+</feed>
