@@ -2,5 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>ALPHA: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/alpha</id>
-<updated>1970-01-01T00:00:00Z</updated>
+<updated>2026-11-11T00:00:00Z</updated>
+<entry><title>ALPHA 1.2.1</title><id>tag:mpc-vst-catalog,2026:alpha@1.2.1</id><updated>2026-11-11T00:00:00Z</updated><link href="https://github.com/sunskiefer/ALPHA/releases/download/v1.2.1/ALPHA-1.2.1-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>ALPHA 1.2.1: bug fix On the gated MIDI modes (Mono-Gated, Poly-Gated) the ATTACK and RELEASE knobs showed on every page, for example in the middle of the User Presets page. They now show only on the MIDI page. Tested on an Akai Force, MPC OS 3.9.1 (2026-11-11). What ALPHA is A granular vocal transformer effect for the Akai Force / MPC OS 3.x. Put it on an input or an insert and sing or play a voice through it. Pitch and formant move separately, with a harmonic shifter, alternator, smear, detune,</summary></entry>
+<entry><title>ALPHA 1.2.0</title><id>tag:mpc-vst-catalog,2026:alpha@1.2.0</id><updated>2026-11-11T00:00:00Z</updated><link href="https://github.com/sunskiefer/ALPHA/releases/download/v1.2.0/ALPHA-1.2.0-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>TUNE on the Pitch page (22 scales, key, speed, amount), ALIGN on the Global page, 60 TUNE presets (492 factory presets in all), and a new white skin. Off by default: TUNE and ALIGN. Installs with install.sh (MPC.settings is backed up). Full list in CHANGELOG.md. SHA-256: 7838758a028e4e5dffcdefa3026dc39749c696fd9b9774fdb28894b8a5b4926b</summary></entry>
 </feed>
