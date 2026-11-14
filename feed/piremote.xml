@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>πRemote: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/piremote</id>
+<updated>2026-11-13T00:00:00Z</updated>
+<entry><title>πRemote 0.1.0</title><id>tag:mpc-vst-catalog,2026:piremote@0.1.0</id><updated>2026-11-13T00:00:00Z</updated><link href="https://github.com/timomacquis/piRemote-Force/releases/download/v0.1.0/piRemote-0.1.0-mpc-armv7.zip"/><author><name>Timo</name></author><summary># πRemote 0.1.0 A compact Windows transport and navigation companion for the official Akai Remote Screen. - Independent Force addin. - PLAY, STOP, REC and CONTINUE; hardware view shortcuts, SHIFT/EDIT, track selectors and plugin editing. - Windows panel with high-DPI rendering, remembered IP, one CONNECT/DISCONNECT button and Pin. - Automatic startup after a full Force reboot, verified on the tested installation. - Local command service reached through a dedicated SSH tunnel; no video capture, p</summary></entry>
+</feed>
