@@ -16,11 +16,11 @@
         "windows"
       ],
       "needs": [
-        "Root SSH on the device (Hakai)"
+        "Root SSH on the device: Developer Mode on MPC OS 3.10.1+, or Hakai on 3.9.x"
       ],
       "tested": {
         "device": "MPC X",
-        "os": "MPC OS 3.9.1"
+        "os": "MPC OS 3.10.1 (Developer Mode) and 3.9.1 (Hakai)"
       },
       "downloads": [
         {
@@ -68,8 +68,8 @@
       "screenshot": "https://raw.githubusercontent.com/PotentialBreakfast/mpc-tools/v1.5.2/docs/images/mpc-tools-files.png",
       "license": "MIT",
       "repo": "PotentialBreakfast/mpc-tools",
-      "release": "https://github.com/PotentialBreakfast/mpc-tools/releases/tag/v1.5.7",
-      "version": "1.5.7",
+      "release": "https://github.com/PotentialBreakfast/mpc-tools/releases/tag/v1.5.9",
+      "version": "1.5.9",
       "platforms": [
         "macos",
         "windows"
@@ -98,14 +98,14 @@
         {
           "platform": "macos",
           "label": "macOS (zip, Apple Silicon + Intel)",
-          "url": "https://github.com/PotentialBreakfast/mpc-tools/releases/download/v1.5.7/MPC-TOOLS-1.5.7-mac.zip",
-          "sha256": "50d2c6ed3b1a6dbba26ff4f22c7918aae4cb7129bbf1d88dee23d1fc3ca8e42c"
+          "url": "https://github.com/PotentialBreakfast/mpc-tools/releases/download/v1.5.9/MPC-TOOLS-1.5.9-mac.zip",
+          "sha256": "a743447730a02681bf0c68a90d15579615aa3194b48d666f4aa1b01f10d90c9c"
         },
         {
           "platform": "windows",
           "label": "Windows (x64)",
-          "url": "https://github.com/PotentialBreakfast/mpc-tools/releases/download/v1.5.7/MPC-TOOLS-1.5.7-windows-x64.exe",
-          "sha256": "73e02654b64d1dc8aefa58e69269e065d4fe0f1d5824080324d64110a35e5c34"
+          "url": "https://github.com/PotentialBreakfast/mpc-tools/releases/download/v1.5.9/MPC-TOOLS-1.5.9-windows-x64.exe",
+          "sha256": "4caac19f5bcfdda1fd04768c73ef3de84de9ad3121345e0a3a91d35c02b81b57"
         }
       ]
     }
