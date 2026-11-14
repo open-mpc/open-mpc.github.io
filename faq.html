@@ -125,6 +125,22 @@ body.modal-open { overflow: hidden; }
 .btn-l { font: 600 14px/1 var(--display); letter-spacing: .1em; text-transform: uppercase; text-decoration: none;
   padding: 11px 15px; border-radius: var(--radius); border: 1px solid var(--line); color: var(--fg); background: var(--panel-2); }
 .btn-l.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-fg); }
+.btn-l small { display: block; margin-top: 5px; font: 500 11px/1.2 var(--body, system-ui, sans-serif); letter-spacing: .02em; text-transform: none; opacity: .85; }
+.tag.compat { opacity: .4; border-style: dashed; font-weight: 500; }
+.tag.compat.on { opacity: 1; border-style: solid; font-weight: 700; color: var(--lcd-fg); background: var(--lcd-bg); border-color: var(--lcd-bg); }
+.verbox { display: flex; flex-direction: column; align-items: flex-end; gap: 6px; flex: none; }
+.compatrow { display: flex; gap: 4px; justify-content: flex-end; flex-wrap: wrap; }
+.compatrow .tag { padding: 4px 6px; font-size: 10px; }
+.dlmenu { position: relative; display: flex; }
+.dlmenu > summary { list-style: none; cursor: pointer; flex: 1; display: flex; align-items: center; }
+.dlmenu > summary::-webkit-details-marker { display: none; }
+.dlmenu > summary::after { content: " \25BE"; }
+.dlpop { position: absolute; z-index: 20; top: calc(100% + 4px); left: 0; min-width: 260px; display: flex; flex-direction: column; padding: 4px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: 0 6px 20px rgba(0,0,0,.25); }
+.dlpop a { padding: 9px 10px; border-radius: var(--radius); color: var(--fg); text-decoration: none; font-size: 14px; }
+.dlpop a:hover, .dlpop a:focus-visible { background: var(--panel-2); }
+.dlpop a b { display: block; font-weight: 600; }
+.dlpop a small { display: block; margin-top: 2px; color: var(--muted); font-size: 12px; }
 .empty { color: var(--muted); padding: 24px 0; }
 footer { margin-top: 36px; color: var(--muted); font-size: 12px; border-top: 1px solid var(--line); padding-top: 16px; }
 @media (max-width: 640px) { .mast { grid-template-columns: minmax(0, 1fr); } .mpc { max-width: 380px; } }
@@ -435,7 +451,7 @@ details.more > dl.meta { margin-top: 4px; }
 <details class="fold" id="i-switched-external-plugin-support-on-off-and-it-didn-t-stick"><summary>I switched External Plugin Support on/off and it didn't stick.</summary><p>Wait a few seconds after changing it before restarting MPC: the setting is saved a moment later.</p></details>
 <h2 id="copying-plugins-yourself">Copying plugins yourself</h2>
 <details class="fold" id="can-i-just-copy-plugin-folders-from-github-onto-the-mpc"><summary>Can I just copy plugin folders from GitHub onto the MPC?</summary><p>Yes, on MPC OS 3.10.1, with three things right:</p>
-<ul><li><strong>Into <code>VST2 Plugins</code>, not <code>Synths</code>.</strong> MPC lists only a folder named exactly <code>VST2 Plugins</code> at the root of a drive (internal, SD card or USB), with External Plugin Support on.</li><li><strong>Copy the plugin folder, not the whole download.</strong> In a release zip it is the <code>&lt;Manufacturer&gt; - VST - &lt;Name&gt;</code> folder inside <code>portable/</code>. A card's <strong>Download (3.10.1 format)</strong> zip is just that folder.</li><li><strong>The folder needs a <code>plugin.json</code>.</strong> Releases made with the current release workflow have one; many older ones don't, and MPC won't list them when copied by hand. Renaming the download's <code>mpc-plugin.json</code> to <code>plugin.json</code> doesn't work: that file is the catalog's install manifest, not the file MPC reads, so the plugin still won't show.</li></ul>
+<ul><li><strong>Into <code>VST2 Plugins</code>, not <code>Synths</code>.</strong> MPC lists only a folder named exactly <code>VST2 Plugins</code> at the root of a drive (internal, SD card or USB), with External Plugin Support on.</li><li><strong>Copy the plugin folder, not the whole download.</strong> In a release zip it is the <code>&lt;Manufacturer&gt; - VST - &lt;Name&gt;</code> folder inside <code>portable/</code>. On a card, open the <strong>Download</strong> menu and pick <strong>MPC OS 3.10.1 or later</strong>: that zip is just that folder.</li><li><strong>The folder needs a <code>plugin.json</code>.</strong> Releases made with the current release workflow have one; many older ones don't, and MPC won't list them when copied by hand. Renaming the download's <code>mpc-plugin.json</code> to <code>plugin.json</code> doesn't work: that file is the catalog's install manifest, not the file MPC reads, so the plugin still won't show.</li></ul>
 <p>The Plugin Manager 1.0 avoids all three: it installs any plugin in the catalog (it writes the <code>plugin.json</code> itself) and puts ROMs where the plugin looks for them.</p></details>
 <details class="fold" id="my-new-plugin-doesn-t-show-after-i-copied-it"><summary>My new plugin doesn't show after I copied it.</summary><p>On a USB stick or SD card it shows as soon as you plug it in. Copied to the MPC's internal drive, it shows after you restart MPC. Also check the folder is named <code>&lt;Manufacturer&gt; - VST - &lt;Name&gt;</code> and sits directly in <code>VST2 Plugins</code>, not in a subfolder.</p></details>
 <details class="fold" id="can-i-keep-plugins-on-a-usb-stick-or-sd-card"><summary>Can I keep plugins on a USB stick or SD card?</summary><p>Yes, any drive's <code>VST2 Plugins</code> folder works, and a plugged-in stick shows straight away. Leave it in: if you unplug it while a track uses one of its plugins, that plugin stops and its screen goes black until you plug the stick back in. The Plugin Manager's drive menu (tap the storage readout) chooses where new ones go.</p></details>
