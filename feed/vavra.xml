@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Vavra: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/vavra</id>
+<updated>2026-11-15T00:00:00Z</updated>
+<entry><title>Vavra 0.1.0</title><id>tag:mpc-vst-catalog,2026:vavra@0.1.0</id><updated>2026-11-15T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-vavra/releases/download/v0.1.0/Vavra-0.1.0-mpc-aarch64.zip"/><author><name>sd88me</name></author><summary>First release of **Vavra for MPC**: gearmulator's Waldorf microQ emulation as a plugin instrument for MPC Gen2 standalones (MPC OS 3.10+). - The original microQ OS 2.23 on emulated hardware, ~45% of one core on an MPC Live III - 300 ROM sounds (banks A-C) plus your own sound-set files (`VST/vavra/banks/`) - Favourites in MPC's PRESET menu; the microQ's LCD live on MAIN - 15 editor pages incl. the modulation matrix, both effects and the 16-step arp pattern - Arpeggiator and clocked LFOs follow MP</summary></entry>
+</feed>
