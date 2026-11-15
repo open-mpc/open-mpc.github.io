@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Ju-08: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/ju-08</id>
+<updated>2026-11-14T00:00:00Z</updated>
+<entry><title>Ju-08 1.0.0</title><id>tag:mpc-vst-catalog,2026:ju-08@1.0.0</id><updated>2026-11-14T00:00:00Z</updated><link href="https://github.com/eldontyrellcorp/mpc-plugin-ju08/releases/download/v1.0.0/Ju-08-1.0.0-mpc-armv7.zip"/><author><name>Stephane Schmitz</name></author><summary>First release</summary></entry>
+</feed>

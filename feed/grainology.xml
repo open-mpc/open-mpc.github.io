@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Grainology: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/grainology</id>
+<updated>2026-11-14T00:00:00Z</updated>
+<entry><title>Grainology 1.0.1</title><id>tag:mpc-vst-catalog,2026:grainology@1.0.1</id><updated>2026-11-14T00:00:00Z</updated><link href="https://github.com/eldontyrellcorp/mpc-plugin-grainology/releases/download/v1.0.1/Grainology-1.0.1-mpc-armv7.zip"/><author><name>Stephane Schmitz</name></author><summary>Changed licence type</summary></entry>
+</feed>
