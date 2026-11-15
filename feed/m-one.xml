@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>M-One: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/m-one</id>
+<updated>2026-11-15T00:00:00Z</updated>
+<entry><title>M-One 1.3.0</title><id>tag:mpc-vst-catalog,2026:m-one@1.3.0</id><updated>2026-11-15T00:00:00Z</updated><link href="https://github.com/fullbann/mpc-vst-m-one/releases/download/v1.3.0/M-One-1.3.0-mpc-armv7.zip"/><author><name>Fullban</name></author><summary>Korg M1-style workstation for MPC OS 3.10.1+ (Akai Force, MPC One/Live/X/Key, MPC XL, Live III). **Bring your own Korg M1 ROMs** - none are included. **Install** 1. Preferences &gt; Enhancements (Beta): turn on Enable Enhancements and External Plugin Support. 2. Unzip, copy `Fullban - VST - M-One` into `VST2 Plugins` at the top of a drive (internal, SD card or USB). 3. Put your ROM files in `Fullban - VST - M-One/Content/ROMs` (list in the README). Without them M-One is silent and shows NO M1 ROMS.</summary></entry>
+</feed>
