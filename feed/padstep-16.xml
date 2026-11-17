@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>PadStep 16: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/padstep-16</id>
+<updated>2026-11-15T00:00:00Z</updated>
+<entry><title>PadStep 16 0.6.0</title><id>tag:mpc-vst-catalog,2026:padstep-16@0.6.0</id><updated>2026-11-15T00:00:00Z</updated><link href="https://github.com/frere12/padstep-16-mpc/releases/download/v0.6.0/PadStep-16-0.6.0-mpc-armv7.zip"/><author><name>Benoit</name></author><summary>16-step mono MIDI step sequencer played from the MPC pads: per-step tie, slide, ratchet and chance, velocity shapes, 16 slots and song-locked chains.</summary></entry>
+</feed>
