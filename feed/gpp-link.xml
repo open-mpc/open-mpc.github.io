@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>GPP Link: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/gpp-link</id>
+<updated>2026-11-16T00:00:00Z</updated>
+<entry><title>GPP Link 1.0.0</title><id>tag:mpc-vst-catalog,2026:gpp-link@1.0.0</id><updated>2026-11-16T00:00:00Z</updated><link href="https://github.com/zay2001-beatsbylonza/GPP-Link/releases/download/v1.0.0/GPP-Link-1.0.0-mpc-armv7.zip"/><author><name>BeatsbyLonza</name></author><summary>GPP Link 1.0.0 — first release Send beats over Wi-Fi between your MPC (or Force), the Beats folder on your computer, and Get Producers Paid. What's in it - Cassette deck: preview any beat from your computer on the MPC, with turning reels and a scrolling waveform (you can resample it, too) - SEND TO MPC, SEND TO FOLDER, SEND TO GET PRODUCERS PAID and SEND STEMS TO GET PRODUCERS PAID - Phone page: browse your Beats folder, Cue or Send beats to any MPC - Beats always land on MPC User, even when the</summary></entry>
+</feed>
