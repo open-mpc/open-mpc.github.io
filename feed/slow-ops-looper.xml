@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Slow Ops Looper: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/slow-ops-looper</id>
+<updated>2026-11-13T00:00:00Z</updated>
+<entry><title>Slow Ops Looper 1.1.0</title><id>tag:mpc-vst-catalog,2026:slow-ops-looper@1.1.0</id><updated>2026-11-13T00:00:00Z</updated><link href="https://github.com/drj-io/SlowOps.MPC.Looper/releases/download/v1.1.0/Looper-1.1.0-mpc-armv7.zip"/><author><name>Slow Ops Music</name></author><summary>Looper by Slow Ops is a three-bank stereo looper for Akai MPC standalone. It captures 1, 2, 4 or 8 bars from a track in time with the MPC. You can overdub, start and stop banks on the beat, and use the built-in metronome. ![The LOOPS page on an MPC XL with two banks playing](https://github.com/drj-io/SlowOps.MPC.Looper/releases/download/v1.1.0/looper-loops-page.png) ## Upgrading from 1.0: restart the MPC The plugin is now called **Looper**. In 1.0 the MPC cut its name down to "Slow .ooper". 1. D</summary></entry>
+</feed>
