@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Scratchivision Digital Vinyl System: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/scratchivision</id>
+<updated>2026-11-14T00:00:00Z</updated>
+<entry><title>Scratchivision Digital Vinyl System 1.0.0</title><id>tag:mpc-vst-catalog,2026:scratchivision@1.0.0</id><updated>2026-11-14T00:00:00Z</updated><link href="https://github.com/drj-io/SlowOps.Scratchivision/releases/download/v1.0.0/Scratchivision-1.0.0-mpc-armv7.zip"/><author><name>Slow Ops Music</name></author><summary>&lt;p align="center"&gt;&lt;img src="https://github.com/drj-io/SlowOps.Scratchivision/blob/v1.0.0/images/logo.png?raw=true" alt="Scratchivision" width="600"&gt;&lt;/p&gt; Scratch samples on your MPC with a turntable. Scratchivision decodes Serato-style control vinyl (or MWM Phase) from the track input and plays your sample at the record's speed and direction. No laptop needed. ## What's in 1.0.0 - **Timecode decoding**: Serato CV02 side A at 33 or 45, and MWM Phase. A SWAP button fixes crossed L/R wiring. - **Liv</summary></entry>
+</feed>
