@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Reverbicon 224: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/reverbicon-224</id>
+<updated>2026-11-17T00:00:00Z</updated>
+<entry><title>Reverbicon 224 1.0.0</title><id>tag:mpc-vst-catalog,2026:reverbicon-224@1.0.0</id><updated>2026-11-17T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-reverbicon224/releases/download/v1.0.0/Reverbicon-224-1.0.0-mpc-armv7.zip"/><author><name>sd88me</name></author><summary># Reverbicon 224 1.0.0 The first release: the Lexicon 224's own v4.4 firmware running on an emulated 8080, DSP and converters, as a native MPC effect. ## What it is - **The real firmware, not a model of its sound.** The 224's control computer runs the v4.4 ROMs and programs the DSP row by row; audio goes through models of its gain-ranging converters and its input and output boards. The emulator is checked against reflecticon-224, bit-exact where it can be. - **The 224's front panel, worked for y</summary></entry>
+</feed>
