@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Warpline: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/warpline</id>
+<updated>2026-11-17T00:00:00Z</updated>
+<entry><title>Warpline 1.0.0</title><id>tag:mpc-vst-catalog,2026:warpline@1.0.0</id><updated>2026-11-17T00:00:00Z</updated><link href="https://github.com/CLVRK3/warpline-mpc/releases/download/v1.0.0/Warpline-1.0.0-mpc-armv7.zip"/><author><name>CLVRKE</name></author><summary>First release of Warpline: a wavetable synth for standalone MPC, built on the open-source engine of Vital (by Matt Tytel) and running as a native plugin. - Plays `.vital` patches: wavetables, LFO shapes, modulation matrix, macros, effects and tunings stored in the patch. - 300 factory patches in 14 types (made with the engine from CC0 wavetables), with a type filter and a full-screen browser. - 84 controls on six custom touchscreen pages that follow the 16 Q-Links, velocity sensitivity, Live Vie</summary></entry>
+</feed>

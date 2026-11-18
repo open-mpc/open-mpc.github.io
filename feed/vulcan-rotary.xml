@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Vulcan Rotary: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/vulcan-rotary</id>
+<updated>2026-11-17T00:00:00Z</updated>
+<entry><title>Vulcan Rotary 1.0.0</title><id>tag:mpc-vst-catalog,2026:vulcan-rotary@1.0.0</id><updated>2026-11-17T00:00:00Z</updated><link href="https://github.com/Luminous-Works/mpc-vst-vulcan-rotary/releases/download/v1.0.0/Vulcan-Rotary-1.0.0-mpc-armv7.zip"/><author><name>Lumina Aerospace LLC</name></author><summary># Vulcan Rotary 1.0.0 A six-barrel rotary gate and stutter. The barrels spool up from rest and the rate is in real gun rounds per minute (2,500 / 4,000 / 6,000 / 7,200). Modes: Free, Input (your signal is the power supply) and Fire (automatable trigger). 13 programs. **Not yet tested on a real MPC** (checked with Akai's `host_sim` and Open MPC's catalog check). Reports welcome: device, MPC OS version, what happened. Two zips: `*-mpc-armv7.zip` for Gen1 (Live, Live II, One, X, Key 61/37, Force) a</summary></entry>
+</feed>
