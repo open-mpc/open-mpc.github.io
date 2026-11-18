@@ -2,5 +2,6 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>STUDIO424: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/studio424</id>
-<updated>1970-01-01T00:00:00Z</updated>
+<updated>2026-11-16T00:00:00Z</updated>
+<entry><title>STUDIO424 1.0.0</title><id>tag:mpc-vst-catalog,2026:studio424@1.0.0</id><updated>2026-11-16T00:00:00Z</updated><link href="https://github.com/open-mpc/mpc-vst-plugins/releases/download/sdk-converted/studio424-1.0.0-756184946-mpc-armv7.zip"/><author><name>Lightlike</name></author><summary>First release of STUDIO424, an early-90s cassette four-track mixer channel in a pedal, for MPC standalone. **What it does** - Trim into a gently saturating preamp: clean at the defaults, thicker and grittier as you push it. - Two-band shelving EQ: High at 10 kHz and Low at 100 Hz, ±10 dB each. - Channel level into a driveable mix bus, then a Master fader. Run Channel hot and Master low for bus glue. - Six built-in presets: Flat, Warm Bus, Hot Trim, Vocal Forward, Fat Drums and Thin Lo-Fi. The kn</summary></entry>
 </feed>
