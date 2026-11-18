@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>FAST G BITCRUSHER – VICTORY EDITION: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/fastg-bitcrusher</id>
+<updated>2026-11-17T00:00:00Z</updated>
+<entry><title>FAST G BITCRUSHER – VICTORY EDITION 1.0.0 (beta)</title><id>tag:mpc-vst-catalog,2026:fastg-bitcrusher@1.0.0</id><updated>2026-11-17T00:00:00Z</updated><link href="https://github.com/fastgbeats-cmd/FASTG-BITCRUSHER/releases/download/v1.0.0/FAST-G-BITCRUSHER-1.0.0-mpc-armv7.zip"/><author><name>FAST G STUDIOS</name></author><summary>Free vintage bitcrusher plugin for Akai MPC 3.10.1. Community testing release. Bug reports and feedback welcome.</summary></entry>
+</feed>
