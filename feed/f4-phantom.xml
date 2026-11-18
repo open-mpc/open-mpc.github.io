@@ -2,5 +2,6 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>F4 Phantom: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/f4-phantom</id>
-<updated>1970-01-01T00:00:00Z</updated>
+<updated>2026-11-18T00:00:00Z</updated>
+<entry><title>F4 Phantom 1.2.0</title><id>tag:mpc-vst-catalog,2026:f4-phantom@1.2.0</id><updated>2026-11-18T00:00:00Z</updated><link href="https://github.com/open-mpc/mpc-vst-plugins/releases/download/sdk-converted/f4-phantom-1.2.0-763286342-mpc-armv7.zip"/><author><name>Lumina Aerospace LLC</name></author><summary>## F4 Phantom 1.2.0 A real delay, a real reverb, a new skin, and 194 factory sounds in 30 genres. **One download works on every MPC.** The release zip carries both the 32-bit and the 64-bit build, so there is no way to install the wrong one. (The earlier release shipped separate 32-bit and 64-bit zips; they are gone.) ### What is new - **Delay** — a tempo-syncable delay with a fractional read (the echo arrives exactly on the sample, even at a half-sample offset), a filtered and saturated feedbac</summary></entry>
 </feed>
