@@ -2,6 +2,5 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>F4 Phantom: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/f4-phantom</id>
-<updated>2026-11-17T00:00:00Z</updated>
-<entry><title>F4 Phantom 1.1.0</title><id>tag:mpc-vst-catalog,2026:f4-phantom@1.1.0</id><updated>2026-11-17T00:00:00Z</updated><link href="https://github.com/Luminous-Works/mpc-vst-f4-phantom/releases/download/v1.1.0/F4-Phantom-1.1.0-mpc-armv7.zip"/><author><name>Lumina Aerospace LLC</name></author><summary># F4 Phantom 1.1.0 An 8-voice subtractive synthesizer: two oscillators plus a sub, SVF filter, analog drift, stereo chorus and a six-barrel rotary gate (VULCAN). 14 programs. **Not yet tested on a real MPC** (checked with Akai's `host_sim` and Open MPC's catalog check). Reports welcome: device, MPC OS version, what happened. Two zips: `*-mpc-armv7.zip` for Gen1 (Live, Live II, One, X, Key 61/37, Force) and `*-mpc-aarch64.zip` for Gen2 (Live III, One G2, Key G2, XL). ## Requirements - A first-gen</summary></entry>
+<updated>1970-01-01T00:00:00Z</updated>
 </feed>
