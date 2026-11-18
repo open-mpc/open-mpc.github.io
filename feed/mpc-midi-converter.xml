@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>MPC MIDI Converter: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/mpc-midi-converter</id>
+<updated>2026-11-18T00:00:00Z</updated>
+<entry><title>MPC MIDI Converter 1.0.0</title><id>tag:mpc-vst-catalog,2026:mpc-midi-converter@1.0.0</id><updated>2026-11-18T00:00:00Z</updated><link href="https://github.com/3dthc/MPC-MIDI-Converter/releases/download/v1.0.0/MPC-MIDI-Converter-1.0.0-mpc-armv7.zip"/><author><name>3dthc</name></author><summary>First release of MPC MIDI Converter: turns MIDI files into MPC patterns right on the MPC, with no computer. ## What's in it - File browser for the MPC's drives (SD card, internal drive, USB): tap to highlight, tap again to open a folder or convert a file - **Convert File**, and **Convert Folder** for a whole pack, including folders inside it (4 levels deep), keeping the pack's folder structure - Patterns are saved in a **MIDI Converts** folder at the top of the drive the MIDI files are on; the s</summary></entry>
+</feed>
