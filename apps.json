@@ -68,8 +68,8 @@
       "screenshot": "https://raw.githubusercontent.com/PotentialBreakfast/mpc-tools/v1.5.2/docs/images/mpc-tools-files.png",
       "license": "MIT",
       "repo": "PotentialBreakfast/mpc-tools",
-      "release": "https://github.com/PotentialBreakfast/mpc-tools/releases/tag/v1.6.0",
-      "version": "1.6.0",
+      "release": "https://github.com/PotentialBreakfast/mpc-tools/releases/tag/v1.7.0",
+      "version": "1.7.0",
       "platforms": [
         "macos",
         "windows"
@@ -98,14 +98,14 @@
         {
           "platform": "macos",
           "label": "macOS (zip, Apple Silicon + Intel)",
-          "url": "https://github.com/PotentialBreakfast/mpc-tools/releases/download/v1.6.0/MPC-TOOLS-1.6.0-mac.zip",
-          "sha256": "450862933004e310d90c71a607fc563f512dac24c6e622fef18862cc286ed339"
+          "url": "https://github.com/PotentialBreakfast/mpc-tools/releases/download/v1.7.0/MPC-TOOLS-1.7.0-mac.zip",
+          "sha256": "42fad88f7ed19bbba0d768374a88c595cefdc230f49ea87196b7785e6fd0575a"
         },
         {
           "platform": "windows",
           "label": "Windows (x64)",
-          "url": "https://github.com/PotentialBreakfast/mpc-tools/releases/download/v1.6.0/MPC-TOOLS-1.6.0-windows-x64.exe",
-          "sha256": "c05a5fb49b9caa71783231ff38858e97a4dda85b8456d15f64d07a93e4fce8cc"
+          "url": "https://github.com/PotentialBreakfast/mpc-tools/releases/download/v1.7.0/MPC-TOOLS-1.7.0-windows-x64.exe",
+          "sha256": "b92ee6b038bcd84740f9afcaa5f97837770c4d924dbdbc4464547f351ba8d8f5"
         }
       ]
     }

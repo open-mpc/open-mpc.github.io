@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Z950: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/z950</id>
+<updated>2026-11-18T00:00:00Z</updated>
+<entry><title>Z950 1.0.1</title><id>tag:mpc-vst-catalog,2026:z950@1.0.1</id><updated>2026-11-18T00:00:00Z</updated><link href="https://github.com/keebz/Z950/releases/download/v1.0.1/Z950-1.0.1-mpc-armv7.zip"/><author><name>Keebz</name></author><summary># Keebz Z950 v1.0.1 Z950 is an insert effect for Akai MPC standalone hardware. It is a live S-series style time stretch and pitch shift (CYCLIC and INTELL modes, after the Akai S1000), an S900/S950 style low-pass filter, 8/12/16/24-bit and sample-rate reduction, a CD-deck Cue / Jog scrub, a turntable-style Speed control and a Punch In / Punch Out looper. The touch screen is styled after an Akai S950 front panel. ## Disclaimer &gt; **Z950 is experimental software, provided "AS IS", without warranty </summary></entry>
+</feed>
