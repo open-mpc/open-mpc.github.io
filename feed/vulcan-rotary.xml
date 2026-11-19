@@ -2,5 +2,6 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Vulcan Rotary: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/vulcan-rotary</id>
-<updated>1970-01-01T00:00:00Z</updated>
+<updated>2026-11-19T00:00:00Z</updated>
+<entry><title>Vulcan Rotary 1.0.1</title><id>tag:mpc-vst-catalog,2026:vulcan-rotary@1.0.1</id><updated>2026-11-19T00:00:00Z</updated><link href="https://github.com/Luminous-Works/mpc-vst-vulcan-rotary/releases/download/v1.0.1/Vulcan-Rotary-1.0.1-mpc-armv7.zip"/><author><name>Lumina Aerospace LLC</name></author><summary># Vulcan Rotary 1.0.1 Fixes #1: the 1.0.0 packages shipped `plugin_list.awk` with Windows (CRLF) line endings, so the installer's awk failed on the device and the plugin never registered. - `plugin_list.awk` is now LF. Verified with `catalog_check.py` from open-mpc/mpc-vst-plugins (OK, 0 warnings, both architectures). - Plugin binaries and skins are byte-for-byte the same as 1.0.0. Only the awk line endings, version strings and `SHA256SUMS` changed. Two zips: `*-mpc-armv7.zip` for Gen1 (Live, Li</summary></entry>
 </feed>
