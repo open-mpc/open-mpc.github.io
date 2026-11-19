@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Donut Theory: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/donut-theory</id>
+<updated>2026-11-19T00:00:00Z</updated>
+<entry><title>Donut Theory 1.14.2</title><id>tag:mpc-vst-catalog,2026:donut-theory@1.14.2</id><updated>2026-11-19T00:00:00Z</updated><link href="https://github.com/Sunghyun23/kimswork/releases/download/donut-theory/v1.14.2/donut-theory-1.14.2-mpc-armv7.zip"/><author><name>kim</name></author><summary># Donut Theory 1.14.2 - Aligned front selectors to one or two knob columns, with consistent heights and spacing. - FREE/SYNC now sits directly above its Rate control on the performance and MOD pages. Motion Sync no longer occupies the section title. - Standardized the footer VOICE, Dice Target and input selector widths. - Added consistent list text/arrow padding and a compact TIME layout that leaves room for numeric units. - Original artwork, fonts, knob geometry, sound engine, 391 parameter def</summary></entry>
+</feed>
