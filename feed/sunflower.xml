@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Sunflower: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/sunflower</id>
+<updated>2026-11-17T00:00:00Z</updated>
+<entry><title>Sunflower 1.0.0</title><id>tag:mpc-vst-catalog,2026:sunflower@1.0.0</id><updated>2026-11-17T00:00:00Z</updated><link href="https://github.com/open-mpc/mpc-vst-plugins/releases/download/sdk-converted/sunflower-1.0.0-771530594-mpc-armv7.zip"/><author><name>Lumina Aerospace LLC</name></author><summary>First release of Sunflower, a Fibonacci sequencer for the Akai MPC and Force (MPC OS 3.10.1+, external plugins enabled). Unzip, then copy the folder "Lumina Aerospace LLC - VST - Sunflower" into "VST2 Plugins" on the MPC drive (INSTALL.txt is inside). Includes 32-bit ARM and 64-bit AArch64 builds. Status: builds clean for both processors and passes the MPC Plugin SDK host simulator; the live playhead was checked in a real-time host harness. It has NOT yet been tried on a real MPC. Reports of wha</summary></entry>
+</feed>
