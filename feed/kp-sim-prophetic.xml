@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Prophetic: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/kp-sim-prophetic</id>
+<updated>2026-11-19T00:00:00Z</updated>
+<entry><title>Prophetic 0.1.0</title><id>tag:mpc-vst-catalog,2026:kp-sim-prophetic@0.1.0</id><updated>2026-11-19T00:00:00Z</updated><link href="https://github.com/ratbuddy/prophetic/tree/v0.1.0"/><author><name>ratbuddy</name></author><summary>The Korg Prophecy's synthesis, built on your computer from your own Prophecy v2.0 ROMs: their DSP programs and sound-engine firmware, translated to C++. 128 programs, every parameter, Performance Editor, arpeggiator, 1-8 voices. Gen2; tested on an MPC Live III.</summary></entry>
+</feed>
