@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>8X8: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/tr-8x8</id>
+<updated>2026-11-21T00:00:00Z</updated>
+<entry><title>8X8 1.0.1</title><id>tag:mpc-vst-catalog,2026:tr-8x8@1.0.1</id><updated>2026-11-21T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-TR-MPC/releases/download/8x8-vst-v1.0.1/8X8-1.0.1-mpc-aarch64.zip"/><author><name>sd88me</name></author><summary>Circuit-solved TR-808 (Lemus) with 8W8's panel, drive, distortion and effects, for MPC Gen2. ## Requirements - A Gen2 MPC OS standalone device (64-bit ARM, aarch64: MPC Live III and the other 64-bit models) on MPC OS 3.x. The installer refuses anything else (the 32-bit Force, MPC Live / Live II, One, X and Key 61 need the `-mpc-armv7.zip` build). - **Root shell access** (SSH) to the device. Stock MPC OS doesn't offer this; you need a modded unit. - Gen2 devices keep plugins in the internal drive</summary></entry>
+</feed>
