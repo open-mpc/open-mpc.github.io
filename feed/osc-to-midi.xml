@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>OSC to MIDI: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/osc-to-midi</id>
+<updated>2026-11-18T00:00:00Z</updated>
+<entry><title>OSC to MIDI 2.5.0</title><id>tag:mpc-vst-catalog,2026:osc-to-midi@2.5.0</id><updated>2026-11-18T00:00:00Z</updated><link href="https://github.com/open-mpc/mpc-vst-plugins/releases/download/sdk-converted/osc-to-midi-2.5.0-767613110-mpc-armv7.zip"/><author><name>Gio Music</name></author><summary>OSC to MIDI for Akai MPC (Gio Music). Turns OSC over Wi-Fi into MIDI notes and CCs. Install: unzip, copy the "Gio Music - VST - OSC to MIDI" folder into "VST2 Plugins" on your MPC drive, restart. Needs MPC OS 3.10.1+ with External Plugin Support enabled. Tested on MPC Live III.</summary></entry>
+</feed>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>MPC Looper: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/mpc-looper</id>
+<updated>2026-11-21T00:00:00Z</updated>
+<entry><title>MPC Looper 0.6.1</title><id>tag:mpc-vst-catalog,2026:mpc-looper@0.6.1</id><updated>2026-11-21T00:00:00Z</updated><link href="https://github.com/sttm/mpc-looper/releases/download/v0.6.1/MPC-Looper-0.6.1-mpc-armv7.zip"/><author><name>sttm</name></author><summary>MPC Looper is an experimental stereo VST2 insert for MPC Standalone: four independent disk-backed loops with pedal-style REC / OVERDUB / PLAY. - ARMv7 hard-float (Gen1) and AArch64 (Gen2), MPC OS **3.10.1+** with External Plugin Support. - Four loops, default recording length **4 bars**, maximum **32 bars**; overdub, undo/redo, individual and grouped transport. - Host tempo sync, optional Warp; PHASE or next-measure launch, MULTI/SINGLE playback, IMMEDIATE (default) / BEAT / MEASURE stop per loo</summary></entry>
+</feed>
