@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>MJX MPC Twister: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/mjx-mpc-twister</id>
+<updated>2026-11-19T00:00:00Z</updated>
+<entry><title>MJX MPC Twister 1.0.1</title><id>tag:mpc-vst-catalog,2026:mjx-mpc-twister@1.0.1</id><updated>2026-11-19T00:00:00Z</updated><link href="https://github.com/mjasikowski/mjx-mpc-twister/releases/download/v1.0.1/MJX-MPC-Twister-1.0.1-mpc-aarch64.zip"/><author><name>Michał Jasikowski</name></author><summary>Turn your MIDI Fighter Twister into a hands-on controller for the MPC Live III. - Turn the 16 knobs to adjust the MPC's Q-Links without switching banks. - Press knobs 1–12 to jump between tracks. Use the bottom row for Add Track, Track Edit, Delete Track confirmation, and Clip Matrix. - The light rings show your Q-Link values, and the light under the selected track's knob follows its color. - Plug or unplug the Twister without opening MIDI settings. With Open MPC Add-In Restore installed, Twiste</summary></entry>
+</feed>
