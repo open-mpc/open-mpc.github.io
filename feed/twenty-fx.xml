@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Twenty FX: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/twenty-fx</id>
+<updated>2026-11-20T00:00:00Z</updated>
+<entry><title>Twenty FX 1.0.0</title><id>tag:mpc-vst-catalog,2026:twenty-fx@1.0.0</id><updated>2026-11-20T00:00:00Z</updated><link href="https://github.com/stampman3000-jpg/twenty/releases/download/v1.0.0/Twenty-FX-1.0.0-mpc-armv7.zip"/><author><name>Stampman3000</name></author><summary>Twenty and Twenty FX 1.0.0 for MPC OS 3.x. Twenty is the instrument. Twenty FX is the same engine as an insert. The synthesis DSP is Audio Tools' AT20V, unchanged. The armv7 zip is Gen1. The aarch64 zip is Gen2. The plain mpc.zip files are the Akai SDK folders.</summary></entry>
+</feed>

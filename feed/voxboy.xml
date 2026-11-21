@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Voxboy: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/voxboy</id>
+<updated>2026-11-20T00:00:00Z</updated>
+<entry><title>Voxboy 1.0.0</title><id>tag:mpc-vst-catalog,2026:voxboy@1.0.0</id><updated>2026-11-20T00:00:00Z</updated><link href="https://github.com/stampman3000-jpg/voxman/releases/download/v1.0.0/Voxboy-1.0.0-mpc-armv7.zip"/><author><name>Stampman3000</name></author><summary>Voxman and Voxboy 1.0.0 for MPC OS 3.x. Voxman is the vocoder. Voxboy is the carrier send: put it on the synth or bass track and match the bus. The armv7 zip is Gen1. The aarch64 zip is Gen2. The plain mpc.zip files are the Akai SDK folders.</summary></entry>
+</feed>
