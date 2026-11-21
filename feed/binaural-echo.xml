@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Binaural Echo: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/binaural-echo</id>
+<updated>2026-11-19T00:00:00Z</updated>
+<entry><title>Binaural Echo 1.0.0</title><id>tag:mpc-vst-catalog,2026:binaural-echo@1.0.0</id><updated>2026-11-19T00:00:00Z</updated><link href="https://github.com/open-mpc/mpc-vst-plugins/releases/download/sdk-converted/binaural-echo-1.0.0-769711994-mpc-armv7.zip"/><author><name>Lightlike</name></author><summary>A 3D headphone panner. Place any track around your head with Q-Links for azimuth, elevation and distance, or let it orbit, swing or fly by on its own, free or tempo-synced. Echoes travel round the head as they repeat. Head-model, ambisonic and lightweight modes, with air absorption and a small room. **Features** - Azimuth, elevation, distance and mix on the first four Q-Links, with 3D wireframe tiles that follow the sound - Three render modes: Head (a parametric head model), Field (first-order a</summary></entry>
+</feed>
