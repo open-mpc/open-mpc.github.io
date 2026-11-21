@@ -2,6 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>OP3000: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/op3000</id>
-<updated>2026-11-20T00:00:00Z</updated>
+<updated>2026-11-21T00:00:00Z</updated>
+<entry><title>OP3000 1.0.1</title><id>tag:mpc-vst-catalog,2026:op3000@1.0.1</id><updated>2026-11-21T00:00:00Z</updated><link href="https://github.com/stampman3000-jpg/op3000/releases/download/v1.0.1/OP3000-1.0.1-mpc-armv7.zip"/><author><name>Stampman3000</name></author><summary>Delay Mix is now Delay Send. Echoes that have already started keep ringing after you turn the send down. On the third page, the old delay-tone fader is a second send. Delay tone is on a Q-Link. The folder name and the plugin id are the same, so replace the Stampman3000 - VST - OP3000 folder and restart.</summary></entry>
 <entry><title>OP3000 1.0.0</title><id>tag:mpc-vst-catalog,2026:op3000@1.0.0</id><updated>2026-11-20T00:00:00Z</updated><link href="https://github.com/stampman3000-jpg/op3000/releases/download/v1.0.0/OP3000-1.0.0-mpc-armv7.zip"/><author><name>Stampman3000</name></author><summary>OP3000 1.0.0 for MPC OS 3.x. The armv7 zip is Gen1. The aarch64 zip is Gen2. op3000-1.0.0-mpc.zip is the Akai SDK folder.</summary></entry>
 </feed>
