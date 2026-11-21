@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Downrush: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/downrush</id>
+<updated>2026-11-20T00:00:00Z</updated>
+<entry><title>Downrush 0.1.0</title><id>tag:mpc-vst-catalog,2026:downrush@0.1.0</id><updated>2026-11-20T00:00:00Z</updated><link href="https://github.com/jamiefaye/mpc-deluge/releases/download/v0.1.0/Downrush-0.1.0-mpc-armv7.zip"/><author><name>Jamie Fenton</name></author><summary>Downrush is a polyphonic synth for standalone Akai MPCs and the Force. It runs the synth engine of the open-source Deluge community firmware (v1.3.0) and plays Deluge SYNTH preset files with the firmware's own signal processing: subtractive, FM and ring mod, sample oscillators, a 24-cable mod matrix, arpeggiator, the firmware's effects and reverb. **This is a preview.** The list of parameters may still change, and a project saved with it may not reload correctly in a later version. A plugin runs</summary></entry>
+</feed>
