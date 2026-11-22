@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Argevox Gerät: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/argevox-geraet</id>
+<updated>2026-11-16T00:00:00Z</updated>
+<entry><title>Argevox Gerät 0.2.1 (beta)</title><id>tag:mpc-vst-catalog,2026:argevox-geraet@0.2.1</id><updated>2026-11-16T00:00:00Z</updated><link href="https://github.com/ymn27nhnwd-hue/argevox-geraet/releases/download/v0.2.1/Argevox-Ger-t-0.2.1-mpc-armv7.zip"/><author><name>Argerax</name></author><summary>Vocoder de 20 bandas de Argerax para MPC standalone. Incluye umbral de voz, de-esser y faders táctiles por banda. **Probado por el autor:** v0.2.1 en MPC One+ con MPC OS 3.10.1, instalado manualmente. - `argevox-ger-t-0.2.1-mpc.zip`: instalación manual en `VST2 Plugins`, MPC OS 3.10.1 o posterior. - `*-mpc-armv7.zip` y `*-mpc-aarch64.zip`: paquetes de OpenMPC validados en local. La instalación desde el Plugin Manager, MPC OS 3.9.1 y el hardware Gen2 quedan por probar. [Manual de usuario](https:/</summary></entry>
+</feed>

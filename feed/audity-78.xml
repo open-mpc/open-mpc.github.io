@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Audity '78: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/audity-78</id>
+<updated>2026-11-21T00:00:00Z</updated>
+<entry><title>Audity '78 0.1.0</title><id>tag:mpc-vst-catalog,2026:audity-78@0.1.0</id><updated>2026-11-21T00:00:00Z</updated><link href="https://github.com/Luminous-Works/mpc-vst-audity-78/releases/download/v0.1.0/Audity-78-0.1.0-mpc-armv7.zip"/><author><name>Lumina Aerospace LLC</name></author><summary>## Audity '78 0.1.0 (first release) Wavetable synthesizer for the Akai MPC, after the 1978 Audity prototype. Two morphing wavetable oscillators with cross-mod FM and sync, a 12 dB high-pass and a 24 dB SSM2040-style low-pass, two transient generators, a five-shape LFO, stereo chorus, delay and reverb. 16 factory programs, 12 synthesised wavetables, six touch-screen pages. **Status: please read.** This build passes the MPC Plugin SDK host simulator (19 checks, 0 failures) and the catalogue's `cat</summary></entry>
+</feed>
