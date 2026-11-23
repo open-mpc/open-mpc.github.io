@@ -3,5 +3,6 @@
 <title>TouchEQ 8: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/toucheq-8</id>
 <updated>2026-11-20T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>TouchEQ 8 0.1.3</title><id>tag:mpc-vst-catalog,2026:toucheq-8@0.1.3</id><updated>2026-11-20T00:00:00Z</updated><link href="https://github.com/GreasyCratez/TouchEQ-8/releases/download/v0.1.3/TouchEQ-8-0.1.3-mpc-armv7.zip"/><author><name>GreasyCratez</name></author><summary>**First release: please test and report back.** 8-band parametric EQ for standalone MPCs with a live curve and spectrum analyser. Pick a band (1-8) and drag its point on the graph; every band is one row of four Q-Links (Freq, Gain, Q, Type). ### Which file | File | For | |---|---| | `TouchEQ-8-0.1.3-mpc-sdk.zip` | **Copy by hand.** Unzip, put the folder `GreasyCratez - VST - TouchEQ 8` in `VST2 Plugins` at the root of an MPC drive, restart. One folder for every model. | | `TouchEQ-8-0.1.3-mpc-ar</summary></entry>
 </feed>

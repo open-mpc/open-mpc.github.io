@@ -3,5 +3,6 @@
 <title>LX-800: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/lx-800</id>
 <updated>2026-11-18T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>LX-800 1.1.0</title><id>tag:mpc-vst-catalog,2026:lx-800@1.1.0</id><updated>2026-11-18T00:00:00Z</updated><link href="https://github.com/open-mpc/mpc-vst-plugins/releases/download/sdk-converted/lx-800-1.1.0-765462063-mpc-armv7.zip"/><author><name>Lightlike</name></author><summary>An 8-voice paraphonic synth in the spirit of early-80s budget polysynths: divide-down staircase oscillators, one shared resonant 24/12 dB filter with its own envelope, six-stage rate envelopes, delayed LFO, stereo chorus and a chord step sequencer synced to the MPC. 63 presets and a programmer-chart screen with live LED readouts. **Features** - 8 voices with one oscillator each, or 4 voices with two (interval 0–12 semitones, detune to −20 cents). - Oscillators built from octave-stacked square wa</summary></entry>
 </feed>

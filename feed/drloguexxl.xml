@@ -3,6 +3,7 @@
 <title>DrLogueXXL: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/drloguexxl</id>
 <updated>2026-10-23T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>DrLogueXXL 0.2.1</title><id>tag:mpc-vst-catalog,2026:drloguexxl@0.2.1</id><updated>2026-10-23T00:00:00Z</updated><link href="https://github.com/sunskiefer/DrLogueXXL/releases/download/v0.2.1/DrLogueXXL-0.2.1-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>Hybrid drum machine modelled on the KORG drumlogue (not affiliated with KORG): analogue-style kick, snare and toms, six sample parts with 192 synthesised sounds and your own WAVs, a MULTI part with VPM, noise and six open logue SDK units, delay, reverb and master effects, choke groups, a mixer and four macros, on a panel in the machine's look.</summary></entry>
 <entry><title>DrLogueXXL 0.2.0</title><id>tag:mpc-vst-catalog,2026:drloguexxl@0.2.0</id><updated>2026-10-23T00:00:00Z</updated><link href="https://github.com/sunskiefer/DrLogueXXL/releases/download/v0.2.0/DrLogueXXL-0.2.0-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>Hybrid drum machine modelled on the KORG drumlogue (not affiliated with KORG): analogue-style kick, snare and toms, six sample parts with 192 synthesised sounds and your own WAVs, a MULTI part with VPM, noise and six open logue SDK units, delay, reverb and master effects, choke groups, a mixer and four macros, on a panel in the machine's look.</summary></entry>
 </feed>

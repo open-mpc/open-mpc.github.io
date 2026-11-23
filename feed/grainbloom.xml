@@ -3,5 +3,6 @@
 <title>Grainbloom: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/grainbloom</id>
 <updated>2026-11-15T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>Grainbloom 1.0.0</title><id>tag:mpc-vst-catalog,2026:grainbloom@1.0.0</id><updated>2026-11-15T00:00:00Z</updated><link href="https://github.com/open-mpc/mpc-vst-plugins/releases/download/sdk-converted/grainbloom-1.0.0-752444086-mpc-armv7.zip"/><author><name>Lightlike</name></author><summary>First release of Grainbloom, a granular texture and micro-loop effect for MPC standalone. **What it does** - Seven modes: Collage, Cloud, Stutter, Shimmer, Shatter, Arpeggio and Cascade. - Grain, Scatter, Space and Mix macros on an animated BLOOM page, with every setting on the CONTROLS page. - Tempo sync, freeze, feedback, filters and a dense plate/hall reverb (Room, Hall, Plate, Dark). - 17 built-in presets. **Requirements** - MPC OS 3.10.1 or later. - Preferences → Enhancements (Beta): turn o</summary></entry>
 </feed>

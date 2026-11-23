@@ -3,6 +3,7 @@
 <title>Monomodule One + FX: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/monomodule</id>
 <updated>2026-11-04T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>Monomodule One + FX 1.0.4</title><id>tag:mpc-vst-catalog,2026:monomodule@1.0.4</id><updated>2026-11-04T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-monomodule/tree/v1.0.4"/><author><name>sd88me</name></author><summary>The Elektron Monomachine's synth engine (15 machines) as an instrument, plus its 7 effect machines as an audio effect, each with a touchscreen skin and Q-Links.</summary></entry>
 <entry><title>Monomodule One + FX 1.0.3</title><id>tag:mpc-vst-catalog,2026:monomodule@1.0.3</id><updated>2026-11-03T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-monomodule/tree/v1.0.3"/><author><name>sd88me</name></author><summary>The Elektron Monomachine's synth engine (15 machines) as an instrument, plus its 7 effect machines as an audio effect, each with a touchscreen skin and Q-Links.</summary></entry>
 <entry><title>Monomodule One + FX 1.0.2</title><id>tag:mpc-vst-catalog,2026:monomodule@1.0.2</id><updated>2026-11-01T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-monomodule/tree/v1.0.2"/><author><name>sd88me</name></author><summary>The Elektron Monomachine's synth engine (15 machines) as an instrument, plus its 7 effect machines as an audio effect, each with a touchscreen skin and Q-Links.</summary></entry>

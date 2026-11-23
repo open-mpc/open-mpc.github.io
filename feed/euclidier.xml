@@ -3,5 +3,6 @@
 <title>Euclid: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/euclidier</id>
 <updated>2026-11-11T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>Euclid 2.0.0</title><id>tag:mpc-vst-catalog,2026:euclidier@2.0.0</id><updated>2026-11-11T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-euclid/releases/download/euclid-v2.0.0/Euclid-2.0.0-mpc-armv7.zip"/><author><name>sd88me</name></author><summary># Euclid 2.0.0 Euclidier is now **Euclid**. Same plugin id, so saved projects still find it. ## New - **ALL view** on the LANES tab: FILL, VELOCITY, HUMANIZE and GATE change all eight lanes together, relative to each lane's own value. The circle shows the longest pattern. - **Tap to draw steps** on the circle and on the lane rows. A hand-made pattern is kept and saved with the project until STEPS, FILL or SHIFT change, or you randomise. - **DRUM MODE ALL** gives lanes 1-8 the notes 36-43. - **MI</summary></entry>
 </feed>

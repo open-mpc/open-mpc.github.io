@@ -3,5 +3,6 @@
 <title>OsTirusMPC Audio Send: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/ostirusmpc-audio-send</id>
 <updated>2026-11-15T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>OsTirusMPC Audio Send 1.0.1</title><id>tag:mpc-vst-catalog,2026:ostirusmpc-audio-send@1.0.1</id><updated>2026-11-15T00:00:00Z</updated><link href="https://github.com/dnkkit/OsTirusMPC/releases/download/v1.0.0/OsTirusMPC-Audio-Send-1.0.1-mpc-aarch64.zip"/><author><name>Pryonix</name></author><summary>First public release of OsTirusMPC by Pryonix, based on OsTIrus / Gearmulator by The Usual Suspects and DSP56300. ### Download - **OsTirusMPC-1.0-MPC-ARM64.zip**: ready-to-copy plugin, guides and licences. - **OsTirusMPC-1.0-Source.zip**: complete editable wrapper, engine source/dependencies, skins, licences and test sources. - **OsTirusMPC-1.0-SHA256SUMS.txt**: checksums for both archives. ### Installation MPC standalone ARM64, MPC OS 3.10.1 or later. Enable Enhancements and External Plugin Sup</summary></entry>
 </feed>

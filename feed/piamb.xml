@@ -3,5 +3,6 @@
 <title>πAMB: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/piamb</id>
 <updated>2026-11-17T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>πAMB 0.1.0</title><id>tag:mpc-vst-catalog,2026:piamb@0.1.0</id><updated>2026-11-17T00:00:00Z</updated><link href="https://github.com/open-mpc/mpc-vst-plugins/releases/download/sdk-converted/piamb-0.1.0-762558519-mpc-armv7.zip"/><author><name>Timo</name></author><summary># πAMB 0.1.0 — First release A generative ambient garden for Akai Force / MPC: port of **[AMB-1](https://github.com/charlesvestal/fm1-amb)** by **Charles Vestal** (M-VAVE FM-1), after *Music for Airports*. - **Engine**: AMB-1 unchanged — pad (Rhodes or Voices), bells on four tape loops of unequal length, gliding bass, soft Euclidean pulse, one scale and one slowly drifting chord, tape echo and Dattorro plate reverb. - **Eight pieces** as native presets: Garden, Departures, Voices, Afternoon, Nig</summary></entry>
 </feed>

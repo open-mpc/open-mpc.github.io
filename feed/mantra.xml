@@ -3,5 +3,6 @@
 <title>MANTRA: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/mantra</id>
 <updated>2026-11-14T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>MANTRA 0.2.0</title><id>tag:mpc-vst-catalog,2026:mantra@0.2.0</id><updated>2026-11-14T00:00:00Z</updated><link href="https://github.com/sunskiefer/MANTRA/releases/download/v0.2.0/MANTRA-0.2.0-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>MANTRA 0.2.0 for Akai Force / MPC OS (ARMv7). Rhythmic multi-effect: two layers of six effects, eight step modulators locked to the song, 24-slot matrix, preset manager. **Testing status: offline only (2026-11-14). Not yet run on a real Force.** - Flat dark panel, flat coloured tiles, top-lit knobs turning in place, Meta4MPCXXL text sizes - Faders, key buttons, per-page randomiser - Preset manager: 419 factory presets in 10 styles, unlimited user presets (SAVE / SAVE NEW / DELETE) - Every factor</summary></entry>
 </feed>

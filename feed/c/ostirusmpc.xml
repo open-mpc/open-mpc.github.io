@@ -3,5 +3,6 @@
 <title>OsTirusMPC: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/c/ostirusmpc</id>
 <updated>2026-11-15T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>OsTirusMPC: 2 plugins updated</title><id>tag:mpc-vst-catalog,2026:c/ostirusmpc@2026-11-15</id><updated>2026-11-15T00:00:00Z</updated><link href="https://github.com/dnkkit/OsTirusMPC/releases"/><author><name>Pryonix</name></author><summary>OsTirusMPC 1.0.0, OsTirusMPC Audio Send 1.0.1</summary></entry>
 </feed>

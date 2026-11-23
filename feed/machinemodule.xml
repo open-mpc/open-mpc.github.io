@@ -3,6 +3,7 @@
 <title>Machinemodule: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/machinemodule</id>
 <updated>2026-11-11T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>Machinemodule 1.0.5</title><id>tag:mpc-vst-catalog,2026:machinemodule@1.0.5</id><updated>2026-11-11T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-machinedrum/tree/v1.0.5"/><author><name>sd88me</name></author><summary>The Elektron Machinedrum SPS-1 UW sound engine as a native instrument: all 16 tracks from one plugin instance, with its own touchscreen skin and Q-Links.</summary></entry>
 <entry><title>Machinemodule 1.0.4</title><id>tag:mpc-vst-catalog,2026:machinemodule@1.0.4</id><updated>2026-11-11T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-machinedrum/tree/v1.0.4"/><author><name>sd88me</name></author><summary>The Elektron Machinedrum SPS-1 UW sound engine as a native instrument: all 16 tracks from one plugin instance, with its own touchscreen skin and Q-Links.</summary></entry>
 <entry><title>Machinemodule 1.0.3</title><id>tag:mpc-vst-catalog,2026:machinemodule@1.0.3</id><updated>2026-11-04T00:00:00Z</updated><link href="https://github.com/sd88me/mpc-vst-machinedrum/tree/v1.0.3"/><author><name>sd88me</name></author><summary>The Elektron Machinedrum SPS-1 UW sound engine as a native instrument: all 16 tracks from one plugin instance, with its own touchscreen skin and Q-Links.</summary></entry>

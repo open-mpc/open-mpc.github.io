@@ -3,5 +3,6 @@
 <title>Felt Club: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/felt-club</id>
 <updated>2026-11-21T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>Felt Club 0.3.2</title><id>tag:mpc-vst-catalog,2026:felt-club@0.3.2</id><updated>2026-11-21T00:00:00Z</updated><link href="https://github.com/Sunghyun23/kimswork/releases/download/felt-club/v0.3.2/felt-club-0.3.2-mpc-armv7.zip"/><author><name>kim</name></author><summary>Seven independent sample-free physical engines,57 instrument-specific factory sounds, musical Dice, per-control locks and a vintage interface.0.3.2 lowers redundant desktop processing without reducing24voices or modal resolution.77 matched audio fixtures stay within1e-6FS; native/bothARM/SDK/full regression and host19PASS/0WARN/0FAIL. **Known CPU issue:** the owner reports MPC CPU peaks above100% during playing after this optimization. The triggering engine/workload was not isolated. This stable</summary></entry>
 </feed>

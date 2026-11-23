@@ -3,5 +3,6 @@
 <title>Glass Spheres: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/glass-spheres</id>
 <updated>2026-11-14T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>Glass Spheres 1.1.0</title><id>tag:mpc-vst-catalog,2026:glass-spheres@1.1.0</id><updated>2026-11-14T00:00:00Z</updated><link href="https://github.com/padbangers/glass-spheres/releases/download/glass-spheres-v1.1.0/Glass-Spheres-1.1.0-mpc-armv7.zip"/><author><name>Padbangers</name></author><summary>Mutable Instruments Marbles' random generators as an MPC plugin: random gates and voltages to the MPC X's CV/Gate jacks, or played as MIDI notes and CCs, with two envelopes, two LFOs, an 8-slot modulation matrix and a built-in manual. **1.1.0 is built with Akai's official MPC Plugin SDK** and runs on **MPC OS 3.10.1** with Enhancements → External Plugin Support. No modded firmware or root access needed any more. ## What's new - **Modulation on the main page:** a teal dot circles each of the seve</summary></entry>
 </feed>

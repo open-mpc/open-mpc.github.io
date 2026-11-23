@@ -3,6 +3,7 @@
 <title>PhyXXL: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/phyxxl</id>
 <updated>2026-10-25T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>PhyXXL 0.1.6</title><id>tag:mpc-vst-catalog,2026:phyxxl@0.1.6</id><updated>2026-10-25T00:00:00Z</updated><link href="https://github.com/sunskiefer/PhyXXL/releases/download/v0.1.6/PhyXXL-0.1.6-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>PhyXXL for Force / MPC OS by L'Cronx. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer.</summary></entry>
 <entry><title>PhyXXL 0.1.5</title><id>tag:mpc-vst-catalog,2026:phyxxl@0.1.5</id><updated>2026-10-25T00:00:00Z</updated><link href="https://github.com/sunskiefer/PhyXXL/releases/download/v0.1.5/PhyXXL-0.1.5-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>PhyXXL for Force / MPC OS by L'Cronx. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer.</summary></entry>
 <entry><title>PhyXXL 0.1.4</title><id>tag:mpc-vst-catalog,2026:phyxxl@0.1.4</id><updated>2026-10-25T00:00:00Z</updated><link href="https://github.com/sunskiefer/PhyXXL/releases/download/v0.1.4/PhyXXL-0.1.4-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>PhyXXL for Force / MPC OS by L'Cronx. Install: unzip, run install.sh (INSTALL.md inside), or use the MPC plugin installer.</summary></entry>

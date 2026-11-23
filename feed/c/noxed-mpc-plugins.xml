@@ -3,5 +3,6 @@
 <title>NOXED MPC Plugins: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/c/noxed-mpc-plugins</id>
 <updated>2026-11-20T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>NOXED MPC Plugins: 5 plugins updated</title><id>tag:mpc-vst-catalog,2026:c/noxed-mpc-plugins@2026-11-20</id><updated>2026-11-20T00:00:00Z</updated><link href="https://github.com/molgino/noxend-mpc-plugins/releases"/><author><name>NOXED</name></author><summary>Acidline 0.3.0, MPC Overwitch 0.6.0, MPC Overwitch Send 0.6.0, MPC USB Bridge 0.2.3, Prism Wave 0.1.4</summary></entry>
 </feed>

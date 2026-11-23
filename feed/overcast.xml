@@ -3,5 +3,6 @@
 <title>Overcast: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/overcast</id>
 <updated>2026-11-14T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>Overcast 1.1.0</title><id>tag:mpc-vst-catalog,2026:overcast@1.1.0</id><updated>2026-11-14T00:00:00Z</updated><link href="https://github.com/padbangers/overcast/releases/download/overcast-v1.1.0/Overcast-1.1.0-mpc-armv7.zip"/><author><name>Padbangers</name></author><summary>Mutable Instruments Clouds with the Parasites firmware (six modes) plus a modulation page: two envelopes, two LFOs and an 8-slot matrix onto Clouds' CV inputs, and a built-in manual. **1.1.0 is built with Akai's official MPC Plugin SDK** and runs on **MPC OS 3.10.1** with Enhancements → External Plugin Support. No modded firmware or root access needed any more. ## What's new - **Modulation on the main page:** a teal dot circles every knob the matrix moves, at the value Clouds really gets; the sn</summary></entry>
 </feed>

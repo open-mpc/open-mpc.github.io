@@ -3,5 +3,6 @@
 <title>XXL STRIP MASTER: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/xxl-strip-master</id>
 <updated>2026-11-14T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>XXL STRIP MASTER 0.1.1</title><id>tag:mpc-vst-catalog,2026:xxl-strip-master@0.1.1</id><updated>2026-11-14T00:00:00Z</updated><link href="https://github.com/sunskiefer/XXL-Strips/releases/download/xxl-v0.1/XXL-STRIP-MASTER-0.1.1-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary># XXL set 0.1 Four free plugins for Akai Force / MPC OS (ARMv7), all in this one release. | Download | What it is | |---|---| | `XXL-STRIP-0.1.1-mpc-armv7.zip` | **XXL STRIP**: an emulation of a classic large-format British console channel strip (4000 E / G style): drive, filters, four-band EQ in three models, compressor, gate / expander, VU meter. | | `XXL-STRIP-BUS-0.1.1-mpc-armv7.zip` | **XXL STRIP BUS**: an emulation of the classic console stereo bus compressor (G-series style), with a VU me</summary></entry>
 </feed>

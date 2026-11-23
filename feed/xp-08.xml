@@ -3,5 +3,6 @@
 <title>XP-08: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/xp-08</id>
 <updated>2026-11-18T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>XP-08 1.0.0</title><id>tag:mpc-vst-catalog,2026:xp-08@1.0.0</id><updated>2026-11-18T00:00:00Z</updated><link href="https://github.com/eldontyrellcorp/mpc-plugin-xp08/releases/download/v1.0.0/XP-08-1.0.0-mpc-armv7.zip"/><author><name>Stephane Schmitz</name></author><summary>An XP-80-style PCM synth that plays Roland SR-JV80 boards from your own dumps: four board slots, their patches, four tones with pitch, filter and amp envelopes, LFOs, mod matrix, 12/24 dB and ladder filters, all 40 EFX types, chorus, reverb. Needs your own board (and optional JV-1080/JV-880) dumps. Akai MPC Plugin SDK; Gen1 and Gen2.</summary></entry>
 </feed>

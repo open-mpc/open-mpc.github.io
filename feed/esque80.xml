@@ -3,5 +3,6 @@
 <title>ESQUE80: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/esque80</id>
 <updated>2026-11-16T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>ESQUE80 0.9.1</title><id>tag:mpc-vst-catalog,2026:esque80@0.9.1</id><updated>2026-11-16T00:00:00Z</updated><link href="https://github.com/lichthaus/mpc-vst-esque80/releases/download/v0.9.1/ESQUE80-0.9.1-mpc-armv7.zip"/><author><name>Lichthaus</name></author><summary>ESQUE80 is an 8-voice cross-wave synthesizer for Akai MPC standalone hardware: three wavetable oscillators per voice, a 4-pole low-pass filter, four envelopes with live touch-editable displays, three LFOs and a 15-source mod matrix with tap-to-pick routing, on an eleven-page touch panel. ## Changes since 0.9.0 - The data-conversion script has been removed from the project. The README now documents the wave-data file formats (`wave0-3.bin`, `waves.txt`, `.pcb`) for users who have a dump of their </summary></entry>
 </feed>

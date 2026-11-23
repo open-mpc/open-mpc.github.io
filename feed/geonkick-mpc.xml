@@ -3,5 +3,6 @@
 <title>GeonKick: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/geonkick-mpc</id>
 <updated>2026-11-22T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>GeonKick 1.0.0</title><id>tag:mpc-vst-catalog,2026:geonkick-mpc@1.0.0</id><updated>2026-11-22T00:00:00Z</updated><link href="https://github.com/303inmyheart/OpenMPC-Geonkick/releases/download/geonkick-mpc-v1.0.0/Geonkick-MPC-1.0.0-mpc-aarch64.zip"/><author><name>303inmyheart</name></author><summary>First public release of **Geonkick MPC 1.0** for Gen2 MPCs. Hardware tested on **MPC Live III / MPC OS 3.10.1** only. - 16 pad sounds, three layers and nine oscillators per sound; synth waves, noise, FM and WAV import. - 2–16 editable amplitude/pitch points over the waveform; final Envelope view correctly follows the selected layer. - 118 native MPC programs, including the original factory presets/kits with retained credits and licences. - Tap-to-preview browser, remembered folder, separate samp</summary></entry>
 </feed>

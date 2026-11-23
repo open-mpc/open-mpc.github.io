@@ -3,5 +3,6 @@
 <title>Airwindows kAlienSpaceship: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/airwindows-kalienspaceship</id>
 <updated>2026-10-03T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
 <entry><title>Airwindows kAlienSpaceship 1.0.0</title><id>tag:mpc-vst-catalog,2026:airwindows-kalienspaceship@1.0.0</id><updated>2026-10-03T00:00:00Z</updated><link href="https://github.com/mmiroshnikov/mpc-airwindows/releases/download/v1.0.0/kAlienSpaceship-1.0.0-mpc-armv7.zip"/><author><name>mmiroshnikov</name></author><summary>21 Airwindows effects for MPC OS / Force (armv7) with cosmic touch skins. One zip per plugin: unpack it on the device and run `sh install.sh -y`.</summary></entry>
 </feed>
