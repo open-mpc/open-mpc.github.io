@@ -2,5 +2,6 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>Acidline: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/noxed-acidline</id>
-<updated>1970-01-01T00:00:00Z</updated>
+<updated>2026-11-20T00:00:00Z</updated>
+<entry><title>Acidline 0.3.0</title><id>tag:mpc-vst-catalog,2026:noxed-acidline@0.3.0</id><updated>2026-11-20T00:00:00Z</updated><link href="https://github.com/molgino/noxend-mpc-plugins/releases/download/v0.3.0/noxed-acidline-0.3.0-mpc-armv7.zip"/><author><name>NOXED</name></author><summary>Open-source plugins for Akai MPC standalone. Installation: unzip, copy the plugin folder into `VST2 Plugins` on an MPC drive. Requires MPC OS 3.10.1+ and Preferences → Enhancements (Beta) → Enable Enhancements and External Plugin Support. Like the project? [Ko-fi: noxend](https://ko-fi.com/noxend) ## MPC Overwitch 0.6.0 / MPC Overwitch Send 0.6.0 / MPC USB Bridge 0.2.3 – drawn choice lists (20 Nov 2026) - MPC's native list overlay opens empty for VST2 plugins (confirmed by the Open MPC project o</summary></entry>
 </feed>
