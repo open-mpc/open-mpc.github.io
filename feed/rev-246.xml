@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>REV-246: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/rev-246</id>
+<updated>2026-11-22T00:00:00Z</updated>
+<entry><title>REV-246 1.0.0</title><id>tag:mpc-vst-catalog,2026:rev-246@1.0.0</id><updated>2026-11-22T00:00:00Z</updated><link href="https://github.com/biloo77-cell/mpc-vst-rev246/releases/download/rev-246-v1.0.0/REV-246-1.0.0-mpc-armv7.zip"/><author><name>ikloX</name></author><summary>REV-246 1.0.0: [REV-246](https://github.com/tehguitarist/REV-246) by tehguitarist, a vintage digital reverb in the spirit of a mid-80s studio unit, as an MPC OS insert effect. - Upstream's engine: programmes S / M / L / E / N, the six levers, 16-bit storage with analogue hiss, XFMR, ducker, width. 70 factory presets in MPC's PRESET menu. - MODE: **TRUE ST** (default: one engine per input side, the dry keeps its channels) or **ORIGINAL L+R &gt; ST** (upstream's mono-in path, half the CPU). - OVL lig</summary></entry>
+</feed>

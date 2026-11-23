@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Nepenthe: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/nepenthe</id>
+<updated>2026-11-22T00:00:00Z</updated>
+<entry><title>Nepenthe 1.0.1</title><id>tag:mpc-vst-catalog,2026:nepenthe@1.0.1</id><updated>2026-11-22T00:00:00Z</updated><link href="https://github.com/biloo77-cell/mpc-vst-nepenthe/releases/download/nepenthe-v1.0.1/Nepenthe-1.0.1-mpc-armv7.zip"/><author><name>ikloX</name></author><summary>Nepenthe 1.0.1: Amalgamated Signals' velvet-noise reverb (https://amalgamatedsignals.com/nepenthe) as an MPC OS insert effect. Upstream's six controls and slider look, six Q-Links: TIME, DELAY, BASS, TREBLE, WIDTH, MIX. The reverb is upstream's code; its inner loops are rewritten in NEON and checked bit-identical to the original. - `Nepenthe-1.0.1-mpc-armv7.zip`: Gen1 (Live, Live II, One, X, Key 61/37, Force). Tested on an MPC Live, MPC OS 3.10.1. CPU: mean 10.0 %, p99 10.8 % of an audio block w</summary></entry>
+</feed>
