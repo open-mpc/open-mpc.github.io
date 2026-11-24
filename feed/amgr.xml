@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>AMGR: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/amgr</id>
+<updated>2026-11-23T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
+<entry><title>AMGR 0.2.5</title><id>tag:mpc-vst-catalog,2026:amgr@0.2.5</id><updated>2026-11-23T00:00:00Z</updated><link href="https://github.com/sunskiefer/AMGR/releases/download/v0.2.5/AMGR-0.2.5-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>Factory presets now vary nearly every sound parameter per preset, with safety clamps so nothing is harmfully loud or silent. Grains travel in both directions and at varying speeds by default. New CPU-safety governor (density scales down under load and recovers), grain-stealing when a layer's grain pool is full, and capped release-stage voices under pressure. Brighter knob art. Tested on an Akai Force (MPC OS 3.9.1). Install: unzip and run install.sh on the device. License: PolyForm Noncommercial</summary></entry>
+</feed>

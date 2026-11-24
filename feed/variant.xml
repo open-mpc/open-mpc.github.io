@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>VARIANT: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/variant</id>
+<updated>2026-11-22T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
+<entry><title>VARIANT 0.1.2</title><id>tag:mpc-vst-catalog,2026:variant@0.1.2</id><updated>2026-11-22T00:00:00Z</updated><link href="https://github.com/sunskiefer/VARIANT/releases/download/v0.1.2/VARIANT-0.1.2-mpc-armv7.zip"/><author><name>L'Cronx</name></author><summary>Dual generative 8-step MIDI sequencer for Akai Force / MPC OS (VST2, ARMv7). Tested on a Force. Licence: PolyForm Noncommercial 1.0.0. See CHANGELOG.md and docs/USER_GUIDE.md.</summary></entry>
+</feed>
