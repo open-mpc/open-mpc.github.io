@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Sculpt: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/sculpt</id>
+<updated>2026-11-23T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
+<entry><title>Sculpt 1.0.0</title><id>tag:mpc-vst-catalog,2026:sculpt@1.0.0</id><updated>2026-11-23T00:00:00Z</updated><link href="https://github.com/open-mpc/mpc-vst-plugins/releases/download/sdk-converted/sculpt-1.0.0-784990125-mpc-armv7.zip"/><author><name>Lightlike</name></author><summary>A sculpting sampler and looper. Stretch, slice, reverse and granulate samples, filter them into harmonic tones, and add grit and warmth. Send them through chorus, echo and big reverbs. Sync to the beat or let them drift like tape. **Features** - Four tracks, each running a loop through Source, Grain, Filter, Color and Space, with a touchscreen page per module and the Q-Links following it. - Source: start, length, rotate, speed and time-keeping pitch; loops lock to the beat in steps, or stretch l</summary></entry>
+</feed>
