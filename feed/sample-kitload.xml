@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>MPC Sample Kit Load: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/sample-kitload</id>
+<updated>2026-11-25T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
+<entry><title>MPC Sample Kit Load 1.0.0</title><id>tag:mpc-vst-catalog,2026:sample-kitload@1.0.0</id><updated>2026-11-25T00:00:00Z</updated><link href="https://github.com/jacob-sabella/mpc-addin-sample-kitload/releases/download/sample-kitload-addin-v1.0.0/MPC-Sample-kit-load-addin-1.0.0-mpc-aarch64.zip"/><author><name>jacob-sabella</name></author><summary># MPC Sample kit load addin 1.0.0 Load Kit on the MPC Sample, bank by bank: put a kit's banks onto the banks you choose and keep the rest of your pads. An addin for MPC OS standalone devices: a library MPC loads at its start (through `LD_PRELOAD`), not a plugin on a track. It is installed to `/data/mpc-addins/sample-kitload/`. ## Requirements - A Gen2 MPC OS standalone device (aarch64: Live III, One G2, Key(s) G2). The installer refuses anything else. - **Root shell access** (SSH) to the device.</summary></entry>
+</feed>
