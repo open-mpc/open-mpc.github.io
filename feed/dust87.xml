@@ -2,6 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 <title>DUST '87: releases</title>
 <id>tag:mpc-vst-catalog,2026:feed/dust87</id>
-<updated>1970-01-01T00:00:00Z</updated>
+<updated>2026-11-26T00:00:00Z</updated>
 <rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
+<entry><title>DUST '87 0.1.0</title><id>tag:mpc-vst-catalog,2026:dust87@0.1.0</id><updated>2026-11-26T00:00:00Z</updated><link href="https://github.com/Luminous-Works/mpc-vst-Dust-87/releases/download/dust87-vst-v0.1.0/DUST-87-0.1.0-mpc-armv7.zip"/><author><name>Lumina Aerospace LLC</name></author><summary>Native MPC SDK drum instrument with 18 procedural percussion voices, lo-fi reduction, and plate-style reverb. ## Requirements - A first-generation MPC OS standalone device (32-bit ARM, like the Force, MPC Live / Live II, One, X and Key 61). The installer refuses anything else. Newer models are untested. - **Root shell access** (SSH) to the device, for the scripted install below. Stock MPC OS doesn't offer this; you need a modded unit. On MPC OS 3.10.1 and later you can skip it entirely: copy the</summary></entry>
 </feed>
