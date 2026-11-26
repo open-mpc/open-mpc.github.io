@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Revvy85: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/revvy85</id>
+<updated>2026-11-26T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
+<entry><title>Revvy85 0.4.0</title><id>tag:mpc-vst-catalog,2026:revvy85@0.4.0</id><updated>2026-11-26T00:00:00Z</updated><link href="https://github.com/lichthaus/mpc-vst-revvy85/releases/download/v0.4.0/Revvy85-0.4.0-mpc-aarch64.zip"/><author><name>Lichthaus</name></author><summary>First public release. Revvy85 emulates the hardware of a 1985 digital reverb (HD6303R host, two YM3804 DSPs, YM3807 modulation chip) and runs **your own dump of its V1.0 program EPROM**. No firmware is included: put `rev7_v1.0.bin` (32 KB) in `Content/roms/` of the plugin folder, or add it in the Open MPC installer's "Your ROMs and files" step. Without it the plugin passes audio through. - MPC Gen2 (64-bit) only; tested on an MPC Key 37, MPC OS 3.10.1.12. - Front-panel skin: live 2 x 16 display,</summary></entry>
+</feed>

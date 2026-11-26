@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Poli-q: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/poli-q</id>
+<updated>2026-11-26T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
+<entry><title>Poli-q 1.1.2</title><id>tag:mpc-vst-catalog,2026:poli-q@1.1.2</id><updated>2026-11-26T00:00:00Z</updated><link href="https://github.com/Adison-Negron/Poli-Plugins/releases/download/poli-q-v1.1.2/Poli-q-1.1.2-mpc-aarch64.zip"/><author><name>Poli</name></author><summary>8-band dynamic EQ: bells, shelves, cuts 6-48 dB/oct, notch, band pass, tilt; live curve, visualizer, Learn (fits the preset to your voice), 43 presets **For:** second-generation MPCs (MPC Live III, One G2, Key G2, XL) on MPC OS 3.10.1 or later. **Tested on:** MPC Live III, MPC OS 3.10.1. **Install:** from the Open MPC catalog or the Plugin Manager, or by hand: unzip, copy the folder inside `portable/` into `VST2 Plugins` at the root of a drive, turn on Preferences &gt; Enhancements &gt; External Plugi</summary></entry>
+</feed>

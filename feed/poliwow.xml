@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Poliwow: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/poliwow</id>
+<updated>2026-11-26T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
+<entry><title>Poliwow 1.3.0</title><id>tag:mpc-vst-catalog,2026:poliwow@1.3.0</id><updated>2026-11-26T00:00:00Z</updated><link href="https://github.com/Adison-Negron/Poli-Plugins/releases/download/poliwow-v1.3.0/Poliwow-1.3.0-mpc-aarch64.zip"/><author><name>Poli</name></author><summary>One-knob build-up effect: turn Wow up for risers, sweeps and tails **For:** second-generation MPCs (MPC Live III, One G2, Key G2, XL) on MPC OS 3.10.1 or later. **Tested on:** MPC Live III, MPC OS 3.10.1. **Install:** from the Open MPC catalog or the Plugin Manager, or by hand: unzip, copy the folder inside `portable/` into `VST2 Plugins` at the root of a drive, turn on Preferences &gt; Enhancements &gt; External Plugin Support and restart the MPC. `Poliwow-1.3.0-mpc-aarch64.zip` SHA-256: `d45bd86d84f</summary></entry>
+</feed>

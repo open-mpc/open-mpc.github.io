@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Poli-Ess: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/poli-ess</id>
+<updated>2026-11-26T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
+<entry><title>Poli-Ess 1.0.6</title><id>tag:mpc-vst-catalog,2026:poli-ess@1.0.6</id><updated>2026-11-26T00:00:00Z</updated><link href="https://github.com/Adison-Negron/Poli-Plugins/releases/download/poli-ess-v1.0.6/Poli-Ess-1.0.6-mpc-aarch64.zip"/><author><name>Poli</name></author><summary>Dynamic Sibilance Suppressor **For:** second-generation MPCs (MPC Live III, One G2, Key G2, XL) on MPC OS 3.10.1 or later. **Tested on:** MPC Live III, MPC OS 3.10.1. **Install:** from the Open MPC catalog or the Plugin Manager, or by hand: unzip, copy the folder inside `portable/` into `VST2 Plugins` at the root of a drive, turn on Preferences &gt; Enhancements &gt; External Plugin Support and restart the MPC. `Poli-Ess-1.0.6-mpc-aarch64.zip` SHA-256: `d58511574ab6d45623646eaeaaf62994d9179392b29e990f</summary></entry>
+</feed>
