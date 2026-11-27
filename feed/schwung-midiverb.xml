@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Midiverb: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/schwung-midiverb</id>
+<updated>2026-11-26T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
+<entry><title>Midiverb 0.3.0</title><id>tag:mpc-vst-catalog,2026:schwung-midiverb@0.3.0</id><updated>2026-11-26T00:00:00Z</updated><link href="https://github.com/michaelmenesescs/mpc-schwung-ports/releases/download/schwung-midiverb-vst-v0.3.0/Midiverb-0.3.0-mpc-armv7.zip"/><author><name>charlesvestal</name></author><summary>Alesis Midiverb / Midifex / Midiverb II emulator (23.4 kHz DASP interpreter). Needs your own ROM dumps. Port of the Schwung module **Midiverb** by charlesvestal to the MPC/Force plugin host, compiled unchanged from `charlesvestal/schwung-midiverb` at `12077e909d93` (`GPL-3.0-only`), linked with the mpc-vst-plugins VST2 wrapper and this repository's Schwung adapter `adapters/schwungfx/`. Gen1 build: armv7, glibc ≤ 2.29. ## Sources - module: https://github.com/charlesvestal/schwung-midiverb/tree/1</summary></entry>
+</feed>

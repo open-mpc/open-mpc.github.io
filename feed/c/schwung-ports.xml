@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Schwung ports: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/c/schwung-ports</id>
+<updated>2026-11-26T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
+<entry><title>Schwung ports: 6 plugins updated</title><id>tag:mpc-vst-catalog,2026:c/schwung-ports@2026-11-26</id><updated>2026-11-26T00:00:00Z</updated><link href="https://github.com/michaelmenesescs/mpc-schwung-ports/releases"/><author><name>michaelmenesescs</name></author><summary>HUSH ONE 0.2.8, Junologue Chorus 0.1.2, Midiverb 0.3.0, PSX Verb 0.5.3, TapeDelay 2.0.1, TAPESCAM 0.5.5</summary></entry>
+</feed>
