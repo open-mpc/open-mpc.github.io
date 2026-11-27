@@ -1,0 +1,37 @@
+{
+ "listings_version": 1,
+ "listings": [
+  {
+   "id": "demo-free-listing",
+   "name": "Demo Free Listing",
+   "author": "Example Audio",
+   "kind": "effect",
+   "source": "closed",
+   "price": "Free",
+   "shop_url": "https://example.com/demo-free-listing",
+   "summary": "Free plugins are welcome in Other sources too. If your plugin is free but closed source, list it here with a link to your page and no support contact is needed. Developers: copy this file into catalog/listings/, change the fields and open a PR. Demo only: example.com link, delete when the first real listing is added.",
+   "tags": [
+    "demo",
+    "example"
+   ]
+  },
+  {
+   "id": "demo-listing",
+   "name": "Demo Listing",
+   "author": "Example Audio",
+   "kind": "instrument",
+   "source": "closed",
+   "price": "$10",
+   "shop_url": "https://example.com/demo-listing",
+   "summary": "Make and sell plugins for MPC? This is the Other sources section: a card that links to your own shop, for paid or closed-source instruments and effects. Add a file to catalog/listings/ with a price, a link and a support contact, and your plugin shows here. Demo only: example.com links, delete when the first real listing is added.",
+   "support": {
+    "contact": "https://example.com/support",
+    "response_days": 7
+   },
+   "tags": [
+    "demo",
+    "example"
+   ]
+  }
+ ]
+}

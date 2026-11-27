@@ -1,4 +1,67 @@
 {
   "schema": 1,
-  "systems": []
+  "systems": [
+    {
+      "id": "demo-alt-os",
+      "device": "mpc",
+      "models": [
+        "MPC One",
+        "MPC Live II"
+      ],
+      "title": "Demo Alt OS",
+      "summary": "A made-up entry that shows where an alternative OS goes: a standalone app that takes the stock MPC app's place at boot, from its card or drive, with a way back to stock. Not a real system and nothing here can be downloaded. Delete it when the first real entry is added.",
+      "author": "Example Audio",
+      "license": "MIT",
+      "repo": "example/demo-alt-os",
+      "version": "0.0.1",
+      "release": "https://example.com/demo-alt-os/releases/0.0.1",
+      "docs": "https://example.com/demo-alt-os/docs",
+      "download": {
+        "url": "https://example.com/demo-alt-os/demo-alt-os-0.0.1.zip",
+        "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+      },
+      "stock_firmware": [
+        {
+          "version": "3.10.1",
+          "binary_hash": "00000000000000000000000000000000"
+        }
+      ],
+      "tested": [
+        {
+          "by": "example-tester",
+          "date": "2026-11-01",
+          "version": "0.0.1",
+          "firmware": "3.10.1",
+          "device": "MPC One",
+          "covered": [
+            "first-boot",
+            "normal-use",
+            "return-to-stock",
+            "uninstall"
+          ]
+        }
+      ],
+      "footprint": {
+        "rootfs_writes": false,
+        "without_media": "stock",
+        "uninstall": "Delete the demo-alt-os folder from the card."
+      },
+      "boot_skip": "Hold the pad shown in the install guide while the device starts to boot the stock app.",
+      "user_data": {
+        "changes_stock_data": false,
+        "writes_outside": []
+      },
+      "content": {
+        "source_complete": true,
+        "third_party_cleared": true,
+        "no_manufacturer_branding": true
+      },
+      "flags": {
+        "root": false,
+        "kernel_modules": false,
+        "usb_gadget": false,
+        "network": []
+      }
+    }
+  ]
 }
