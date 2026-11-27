@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<title>Ondes: releases</title>
+<id>tag:mpc-vst-catalog,2026:feed/ondes</id>
+<updated>2026-11-26T00:00:00Z</updated>
+<rights>Plugin list data from OpenMPC (https://open-mpc.github.io), licensed CC BY 4.0. Reuse terms: catalog/README.md</rights>
+<entry><title>Ondes 0.5.0</title><id>tag:mpc-vst-catalog,2026:ondes@0.5.0</id><updated>2026-11-26T00:00:00Z</updated><link href="https://github.com/krimple/mpc-vst-ondes/releases/download/ondes-v0.5.0/Ondes-0.5.0-mpc-armv7.zip"/><author><name>krimple</name></author><summary>Ondes 0.5.0: an Ondes Martenot-style instrument for MPC OS standalone devices (Gen1, 32-bit ARM), as a native VST2 with its own screen skin. **What's in it** - The eight drawer timbres, combinable: O Sine, 8 Octave, C Hollow, G Square, g Soft Square, N Nasal, S Breath, T All - Intensity key: velocity, aftertouch, mod wheel, expression pedal or breath; curve, dead zone, smoothing; Note + Intensity or Intensity Only - Keyboard and Ribbon modes (ribbon hold for the touch strip), hand vibrato, six t</summary></entry>
+</feed>
